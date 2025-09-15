@@ -1,6 +1,6 @@
 const swatchesData = [
   {
-    id: 1,
+    id:"MP001",
     thumbnail: "swatches/placeholder.webp",
     color: "red",
     plant: "rose",
@@ -12,7 +12,7 @@ const swatchesData = [
     ]
   },
   {
-    id: 2,
+    id:"MP002",
     thumbnail: "swatches/placeholder.webp",
     color: "green",
     plant: "fern",
@@ -24,7 +24,7 @@ const swatchesData = [
     ]
   },
   {
-    id: 3,
+    id: "MP003",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",
@@ -37,7 +37,7 @@ const swatchesData = [
   },
 
    {
-    id: 4,
+    id: "MP004",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",
@@ -49,7 +49,7 @@ const swatchesData = [
     ]
   },
   {
-    id: 4,
+    id: "MP005",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",
@@ -61,7 +61,7 @@ const swatchesData = [
     ]
   },
   {
-    id: 4,
+    id: "MP006",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",
@@ -73,7 +73,7 @@ const swatchesData = [
     ]
   },
   {
-    id: 4,
+    id: "MP007",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",
@@ -85,7 +85,7 @@ const swatchesData = [
     ]
   },
   {
-    id: 4,
+    id: "MP008",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",
@@ -97,7 +97,7 @@ const swatchesData = [
     ]
   },
   {
-    id: 4,
+    id: "MP009",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",
@@ -109,7 +109,7 @@ const swatchesData = [
     ]
   },
   {
-    id: 4,
+    id: "MP010",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",

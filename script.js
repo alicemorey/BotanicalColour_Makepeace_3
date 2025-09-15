@@ -14,9 +14,12 @@ function renderSwatches(data) {
     div.className = "swatch";
     div.dataset.index = index;
 
-    div.innerHTML = `<img src="${swatch.thumbnail}" 
-                      alt="${swatch.plant} swatch" 
-                      loading="lazy">`;
+    div.innerHTML = `
+      <img src="${swatch.thumbnail}" 
+           alt="${swatch.plant} swatch" 
+           loading="lazy">
+      <div class="swatch-title">${swatch.id}</div>
+    `;
 
     grid.appendChild(div);
 

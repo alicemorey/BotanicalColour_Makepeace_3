@@ -3,7 +3,7 @@
     --bg: #4b6573;
     --text: #1f3946;
     --accent: #bc7f5b;
-    --cream: #e0d8cd;
+    --cream: #f6f3ef;
     --cream-transparent: rgba(224, 216, 205, 0.7); /* 70% opacity */
     --yellow: #cdbc59;
     --moss: #6D946F;
@@ -13,6 +13,11 @@
     --orange: #e2bb5e;
     --pinky: #d5a284;
     --pinky-transparent: rgba(213, 162, 132, 0.7); /* 70% opacity */
+    --soft-sage: #A3C6DE;
+    --warm-beige: #E0D8CD;
+    --muted-terracotta: #BC7F5B;
+    --deep-forest: #4B6573;
+    --soft-cream: #F4F1E1;
   }
 
  
@@ -23,20 +28,31 @@ main {
 body {
    background-color: var(--cream);
 }
-
 header {
-  display: flex;               /* Flex container */
-  justify-content: flex-end;   /* Push input to the right */
+  display: flex;
   padding: 20px;
-  background-color: var(--cream); /* Optional semi-transparent header */
+  background-color: var(--cream);
+  box-sizing: border-box;
 }
 
 #search {
-  width: 350px;                /* Longer search bar */
-  padding: 8px 15px;          /* Comfortable padding */
-  font-size: 16px;
-  border: 1px solid var(--bg);
-  border-radius: 2px;
+  max-width: 350px;       /* Maximum width */
+  width: 100%;            /* Shrinks on smaller screens */
+  padding: 8px 15px;
+  font-size: 13px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: var(--text);
+  border: 1px solid var(--text);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: auto;      /* Push to the right, but not beyond page */
+}
+
+#search::placeholder {
+  font-family: 'Montserrat', sans-serif; /* Match placeholder font */
+  font-weight: 400;                        /* Slightly lighter for placeholder */
+  color: rgba(31, 57, 70, 0.5);           /* Optional lighter color */
 }
 
 /* Toggle button */
@@ -54,43 +70,45 @@ header {
   cursor: pointer;
 }
 
-/* Sidebar container */
+/* Sidebar slides down from top */
 .sidebar {
   position: fixed;
-  top: 0;
-  left: -200px; /* Hide sidebar off-screen */
-  width: 50px;
-  height: 100%;
+  top: -150px;            /* Hidden above viewport */
+  left: 0;
+  width: 100%;            /* Full width */
   background-color: var(--cream);
-  border-right: 2px solid var(--cream);
-  padding-top: 80px; /* space for header/menu button */
-  transition: left 0.3s ease;
+  padding: 20px 0;
+  transition: top 0.3s ease;
   z-index: 1000;
 }
 
 /* Show sidebar when active */
 .sidebar.active {
-  left: 0;
+  top: 60px;              /* Just below header (adjust as needed) */
 }
+
 
 /* Menu items */
 .menu {
   list-style: none;
   margin: 0;
   padding: 0;
+display: flex;
+  justify-content: center;   /* Center menu items */
+  gap: 40px;
 }
 
 .menu-item {
-  padding: 15px 20px;
   cursor: pointer;
-  color: var(--pinky);
-  border-radius: 5px;
+  color: var(--text);
+  font-size: 15px;
 }
 
 .menu-item:hover {
   background-color: var(--cream);
   color: var(--cream);
 }
+
 
 /* Push grid when sidebar visible (optional) */
 #swatchGrid {
@@ -99,14 +117,14 @@ header {
 }
 
 .sidebar.active ~ #swatchGrid {
-  margin-left: 70px; /* Match sidebar width */
+  margin-left: 30px; /* Match sidebar width */
 }
 
 
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-  gap: 10px;
+  gap: 30px;
   padding: 20px;
 }
 
@@ -120,6 +138,15 @@ header {
   width: 100%;
   height: auto;
   display: block;
+}
+
+.swatch-title {
+  text-align: right;  /* Align the number to the right */
+  margin-top: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text);
+  font-family: 'Montserrat', sans-serif;
 }
 
 .modal {
@@ -177,5 +204,12 @@ header {
 @media (max-width: 768px) {
   #search {
     width: 200px;              /* Responsive for smaller screens */
+  }
+}
+
+@media (max-width: 500px) {
+  #search {
+    max-width: 90%;  /* Shrink even more on tiny screens */
+    margin-left: 0;  /* Center if needed */
   }
 }
