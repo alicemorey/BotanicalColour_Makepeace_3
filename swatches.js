@@ -79,7 +79,7 @@ const swatchesData = [
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
     carousel: [
-        "carousel/carousel.webp",
+      "carousel/carousel.webp",
       "carousel/carousel_1.jpg",
       "carousel/carousel_2.jpg"
     ]
@@ -121,7 +121,7 @@ const swatchesData = [
     ]
   },
   {
-    id: 4,
+    id: "MP011",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",
@@ -133,7 +133,7 @@ const swatchesData = [
     ]
   },
   {
-    id: 4,
+    id: "MP012",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",
@@ -145,411 +145,411 @@ const swatchesData = [
     ]
   },
   {
-    id: 4,
+    id: "MP013",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
     carousel: [
-      "carousel/hydrangea1.webp",
-      "carousel/hydrangea2.webp",
-      "carousel/hydrangea3.webp"
+      "carousel/carousel.webp",
+      "carousel/carousel_1.jpg",
+      "carousel/carousel_2.jpg"
     ]
   },
   {
-    id: 4,
+    id: "MP014",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
     carousel: [
-      "carousel/hydrangea1.webp",
-      "carousel/hydrangea2.webp",
-      "carousel/hydrangea3.webp"
+      "carousel/carousel.webp",
+      "carousel/carousel_1.jpg",
+      "carousel/carousel_2.jpg"
     ]
   },
   {
-    id: 4,
+    id: "MP015",
     thumbnail: "swatches/placeholder.webp",
-    color: "blue",
-    plant: "hydrangea",
-    keywords: "cool calm ocean flower",
+    color: "pink",
+    plant: "rose",
+    keywords: "pinky",
     carousel: [
-      "carousel/hydrangea1.webp",
-      "carousel/hydrangea2.webp",
-      "carousel/hydrangea3.webp"
+      "carousel/carousel.webp",
+      "carousel/carousel_1.jpg",
+      "carousel/carousel_2.jpg"
     ]
   },
   {
-    id: 4,
+    id: "MP016",
     thumbnail: "swatches/placeholder.webp",
-    color: "blue",
-    plant: "hydrangea",
-    keywords: "cool calm ocean flower",
+    color: "orange",
+    plant: "marigold",
+    keywords: "warm, summer, hot",
     carousel: [
-      "carousel/hydrangea1.webp",
-      "carousel/hydrangea2.webp",
-      "carousel/hydrangea3.webp"
+      "carousel/carousel.webp",
+      "carousel/carousel_1.jpg",
+      "carousel/carousel_2.jpg"
     ]
   },
   {
-    id: 4,
+    id: "MP017",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
     carousel: [
-      "carousel/hydrangea1.webp",
-      "carousel/hydrangea2.webp",
-      "carousel/hydrangea3.webp"
+      "carousel/carousel.webp",
+      "carousel/carousel_1.jpg",
+      "carousel/carousel_2.jpg"
     ]
   },
   {
-    id: 4,
+    id: "MP018",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
     carousel: [
-      "carousel/hydrangea1.webp",
-      "carousel/hydrangea2.webp",
-      "carousel/hydrangea3.webp"
+      "carousel/carousel.webp",
+      "carousel/carousel_1.jpg",
+      "carousel/carousel_2.jpg"
     ]
   },
   {
-    id: 4,
+    id: "MP019",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
     carousel: [
-      "carousel/hydrangea1.webp",
-      "carousel/hydrangea2.webp",
-      "carousel/hydrangea3.webp"
+      "carousel/carousel.webp",
+      "carousel/carousel_1.jpg",
+      "carousel/carousel_2.jpg"
     ]
   },
   {
-    id: 4,
+    id: "MP020",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
     carousel: [
-      "carousel/hydrangea1.webp",
-      "carousel/hydrangea2.webp",
-      "carousel/hydrangea3.webp"
+     "carousel/carousel.webp",
+      "carousel/carousel_1.jpg",
+      "carousel/carousel_2.jpg"
     ]
   },
   {
-    id: 4,
+    id: "RP001",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",
-    keywords: "cool calm ocean flower",
+    keywords: "redpath",
     carousel: [
-      "carousel/hydrangea1.webp",
-      "carousel/hydrangea2.webp",
-      "carousel/hydrangea3.webp"
+      "carousel/carousel.webp",
+      "carousel/carousel_1.jpg",
+      "carousel/carousel_2.jpg"
     ]
   },
   {
-    id: 4,
+    id: "RP002",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",
-    keywords: "cool calm ocean flower",
+    keywords: "redpath",
     carousel: [
-      "carousel/hydrangea1.webp",
-      "carousel/hydrangea2.webp",
-      "carousel/hydrangea3.webp"
+      "carousel/carousel.webp",
+      "carousel/carousel_1.jpg",
+      "carousel/carousel_2.jpg"
     ]
   },
   {
-    id: 4,
+    id: "RP003",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
     carousel: [
-      "carousel/hydrangea1.webp",
-      "carousel/hydrangea2.webp",
-      "carousel/hydrangea3.webp"
+      "carousel/carousel.webp",
+      "carousel/carousel_1.jpg",
+      "carousel/carousel_2.jpg"
     ]
   },
   {
-    id: 4,
+    id: "MP021",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
     carousel: [
-      "carousel/hydrangea1.webp",
-      "carousel/hydrangea2.webp",
-      "carousel/hydrangea3.webp"
+      "carousel/carousel.webp",
+      "carousel/carousel_1.jpg",
+      "carousel/carousel_2.jpg"
     ]
   },
   {
-    id: 4,
+    id: "MP022",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
     carousel: [
-      "carousel/hydrangea1.webp",
-      "carousel/hydrangea2.webp",
-      "carousel/hydrangea3.webp"
+      "carousel/carousel.webp",
+      "carousel/carousel_1.jpg",
+      "carousel/carousel_2.jpg"
+      ]
+  },
+  {
+    id: "MP023",
+    thumbnail: "swatches/placeholder.webp",
+    color: "blue",
+    plant: "hydrangea",
+    keywords: "cool calm ocean flower",
+    carousel: [
+      "carousel/carousel.webp",
+      "carousel/carousel_1.jpg",
+      "carousel/carousel_2.jpg"
     ]
   },
   {
-    id: 4,
+    id: "MP024",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
     carousel: [
-      "carousel/hydrangea1.webp",
-      "carousel/hydrangea2.webp",
-      "carousel/hydrangea3.webp"
+      "carousel/carousel.webp",
+      "carousel/carousel_1.jpg",
+      "carousel/carousel_2.jpg"
     ]
   },
   {
-    id: 4,
+    id: "MP025",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
     carousel: [
-      "carousel/hydrangea1.webp",
-      "carousel/hydrangea2.webp",
-      "carousel/hydrangea3.webp"
+      "carousel/carousel.webp",
+      "carousel/carousel_1.jpg",
+      "carousel/carousel_2.jpg"
     ]
   },
   {
-    id: 4,
+    id: "MP026",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
     carousel: [
-      "carousel/hydrangea1.webp",
-      "carousel/hydrangea2.webp",
-      "carousel/hydrangea3.webp"
+      "carousel/carousel.webp",
+      "carousel/carousel_1.jpg",
+      "carousel/carousel_2.jpg"
     ]
   },
   {
-    id: 4,
+    id: "MP027",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
     carousel: [
-      "carousel/hydrangea1.webp",
-      "carousel/hydrangea2.webp",
-      "carousel/hydrangea3.webp"
+      "carousel/carousel.webp",
+      "carousel/carousel_1.jpg",
+      "carousel/carousel_2.jpg"
     ]
   },
   {
-    id: 4,
+    id: "RP004",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
     carousel: [
-      "carousel/hydrangea1.webp",
-      "carousel/hydrangea2.webp",
-      "carousel/hydrangea3.webp"
+      "carousel/carousel.webp",
+      "carousel/carousel_1.jpg",
+      "carousel/carousel_2.jpg"
     ]
   },
   {
-    id: 4,
+    id: "RP004",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
     carousel: [
-      "carousel/hydrangea1.webp",
-      "carousel/hydrangea2.webp",
-      "carousel/hydrangea3.webp"
+      "carousel/carousel.webp",
+      "carousel/carousel_1.jpg",
+      "carousel/carousel_2.jpg"
     ]
   },
   {
-    id: 4,
+    id: "RP005",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
     carousel: [
-      "carousel/hydrangea1.webp",
-      "carousel/hydrangea2.webp",
-      "carousel/hydrangea3.webp"
+      "carousel/carousel.webp",
+      "carousel/carousel_1.jpg",
+      "carousel/carousel_2.jpg"
     ]
   },
   {
-    id: 4,
+    id: "RP006",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
     carousel: [
-      "carousel/hydrangea1.webp",
-      "carousel/hydrangea2.webp",
-      "carousel/hydrangea3.webp"
+      "carousel/carousel.webp",
+      "carousel/carousel_1.jpg",
+      "carousel/carousel_2.jpg"
     ]
   },
   {
-    id: 4,
+    id: "RP007",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
     carousel: [
-      "carousel/hydrangea1.webp",
-      "carousel/hydrangea2.webp",
-      "carousel/hydrangea3.webp"
+      "carousel/carousel.webp",
+      "carousel/carousel_1.jpg",
+      "carousel/carousel_2.jpg"
     ]
   },
   {
-    id: 4,
+    id: "MP028",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
     carousel: [
-      "carousel/hydrangea1.webp",
-      "carousel/hydrangea2.webp",
-      "carousel/hydrangea3.webp"
+      "carousel/carousel.webp",
+      "carousel/carousel_1.jpg",
+      "carousel/carousel_2.jpg"
     ]
   },
   {
-    id: 4,
+    id: "MP029",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
     carousel: [
-      "carousel/hydrangea1.webp",
-      "carousel/hydrangea2.webp",
-      "carousel/hydrangea3.webp"
+      "carousel/carousel.webp",
+      "carousel/carousel_1.jpg",
+      "carousel/carousel_2.jpg"
     ]
   },
   {
-    id: 4,
+    id: "MP030",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
     carousel: [
-      "carousel/hydrangea1.webp",
-      "carousel/hydrangea2.webp",
-      "carousel/hydrangea3.webp"
+      "carousel/carousel.webp",
+      "carousel/carousel_1.jpg",
+      "carousel/carousel_2.jpg"
     ]
   },
   {
-    id: 4,
+    id: "MP031",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
     carousel: [
-      "carousel/hydrangea1.webp",
-      "carousel/hydrangea2.webp",
-      "carousel/hydrangea3.webp"
+      "carousel/carousel.webp",
+      "carousel/carousel_1.jpg",
+      "carousel/carousel_2.jpg"
     ]
   },
   {
-    id: 4,
+    id: "MP032",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
     carousel: [
-      "carousel/hydrangea1.webp",
-      "carousel/hydrangea2.webp",
-      "carousel/hydrangea3.webp"
+      "carousel/carousel.webp",
+      "carousel/carousel_1.jpg",
+      "carousel/carousel_2.jpg"
     ]
   },
   {
-    id: 4,
+    id:"MP033",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
     carousel: [
-      "carousel/hydrangea1.webp",
-      "carousel/hydrangea2.webp",
-      "carousel/hydrangea3.webp"
+      "carousel/carousel.webp",
+      "carousel/carousel_1.jpg",
+      "carousel/carousel_2.jpg"
     ]
   },
   {
-    id: 4,
+    id: "MP034",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
     carousel: [
-      "carousel/hydrangea1.webp",
-      "carousel/hydrangea2.webp",
-      "carousel/hydrangea3.webp"
+      "carousel/carousel.webp",
+      "carousel/carousel_1.jpg",
+      "carousel/carousel_2.jpg"
     ]
   },
   {
-    id: 4,
+    id: "MP035",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
     carousel: [
-      "carousel/hydrangea1.webp",
-      "carousel/hydrangea2.webp",
-      "carousel/hydrangea3.webp"
+      "carousel/carousel.webp",
+      "carousel/carousel_1.jpg",
+      "carousel/carousel_2.jpg"
     ]
   },
   {
-    id: 4,
+    id: "MP036",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
     carousel: [
-      "carousel/hydrangea1.webp",
-      "carousel/hydrangea2.webp",
-      "carousel/hydrangea3.webp"
+      "carousel/carousel.webp",
+      "carousel/carousel_1.jpg",
+      "carousel/carousel_2.jpg"
     ]
   },
   {
-    id: 4,
+    id: "MP037",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
     carousel: [
-      "carousel/hydrangea1.webp",
-      "carousel/hydrangea2.webp",
-      "carousel/hydrangea3.webp"
+      "carousel/carousel.webp",
+      "carousel/carousel_1.jpg",
+      "carousel/carousel_2.jpg"
     ]
   },
   {
-    id: 4,
+    id: "MP038",
     thumbnail: "swatches/placeholder.webp",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
     carousel: [
-      "carousel/hydrangea1.webp",
-      "carousel/hydrangea2.webp",
-      "carousel/hydrangea3.webp"
-    ]
-  },
-  {
-    id: 4,
-    thumbnail: "swatches/placeholder.webp",
-    color: "blue",
-    plant: "hydrangea",
-    keywords: "cool calm ocean flower",
-    carousel: [
-      "carousel/hydrangea1.webp",
-      "carousel/hydrangea2.webp",
-      "carousel/hydrangea3.webp"
+      "carousel/carousel.webp",
+      "carousel/carousel_1.jpg",
+      "carousel/carousel_2.jpg"
     ]
   }
   // … up to 400
