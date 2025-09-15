@@ -347,17 +347,76 @@ header {
   background-color: var(--accent);
 }
 
-
-
-@media (max-width: 768px) {
-  #search {
-    width: 200px;              /* Responsive for smaller screens */
-  }
+.site-footer {
+  text-align: center;
+  padding: 20px;
+  background-color: var(--cream); /* same as page background */
+  color: var(--text);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  border-top: 1px solid rgba(0,0,0,0.05); /* subtle separation */
+  margin-top: 40px;
 }
 
+
+
+/* Responsive adjustments */
+
+/* Tablets */
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 20px;
+  }
+
+  #search {
+    width: 200px;
+    }
+}
+
+/* Mobile phones */
 @media (max-width: 500px) {
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    gap: 15px;
+  }
+
+  .swatch-title {
+    font-size: 10px;
+  }
+
   #search {
     max-width: 90%;  /* Shrink even more on tiny screens */
     margin-left: 0;  /* Center if needed */
+  }
+
+  /* Sidebar full screen on mobile */
+  .sidebar {
+    width: 100%;
+    left: -100%;
+  }
+
+  .sidebar.active {
+    left: 0;
+  }
+
+  #menuToggle {
+    font-size: 26px;
+    padding: 8px 12px;
+  }
+
+  .carousel {
+    max-width: 60%;  /* almost full width on mobile */
+    padding: 15px;
+  }
+
+  .carousel img{
+    max-width: 30%; 
+    padding: 15px;
+  }
+
+  .carousel button {
+    padding: 6px 10px;
+    font-size: 18px;
   }
 }
