@@ -1,0 +1,45 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 10px;
+  padding: 20px;
+}
+
+.swatch {
+  cursor: pointer;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.swatch img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.modal {
+  display: none;
+  position: fixed; top:0; left:0; right:0; bottom:0;
+  background: rgba(0,0,0,0.7);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal.active { display: flex; }
+
+.carousel {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 600px;
+  text-align: center;
+}
+
+.carousel img {
+  max-width: 100%;
+  display: none;
+}
+
+.carousel img.active {
+  display: block;
+}
