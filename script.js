@@ -69,3 +69,11 @@ document.getElementById("search").addEventListener("input", (e) => {
 
 // Initial render
 renderSwatches(swatchesData);
+
+// menu toogle
+const menuToggle = document.getElementById('menuToggle');
+  const sidebar = document.getElementById('sidebar');
+
+  menuToggle.addEventListener('click', () => {
+    sidebar.classList.toggle('active');
+  });

@@ -5,26 +5,42 @@
   <title>Botanical Colour</title>
   <meta name="keywords" content="">
   <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 
-<input type="text" id="search" placeholder="Search by color, plant, or keyword...">
+
+<body>
+<header>
+    <input type="text" id="search" placeholder="Search by color, plant, or keyword...">
+</header>
+
+<!-- Menu toggle button -->
+<button id="menuToggle">&#9776;</button>
+
+<!-- Sidebar menu -->
+<nav class="sidebar" id="sidebar">
+  <ul class="menu">
+    <li class="menu-item">About</li>
+    <li class="menu-item">Contact</li>
+  </ul>
+</nav>
+
+
 
 <div id="swatchGrid" class="grid"></div>
 
 <div id="modal" class="modal">
   <div class="carousel">
-    <span id="close">x</span>
+    <span id="close">&times;</span>
     <div id="carouselImages"></div>
-    <button id="prev">⬅</button>
-    <button id="next"></button>
+    <button id="prev">&#8592;</button> <!-- Left arrow -->
+    <button id="next">&#8594;</button> <!-- Right arrow -->
   </div>
 </div>
 
 <script src="swatches.js"></script>
 <script src="script.js"></script>
 </body>
+
 
 <footer>
 

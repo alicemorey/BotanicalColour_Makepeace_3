@@ -1,3 +1,108 @@
+:root {
+   font-family: 'Montserrat', sans-serif;
+    --bg: #4b6573;
+    --text: #1f3946;
+    --accent: #bc7f5b;
+    --cream: #e0d8cd;
+    --cream-transparent: rgba(224, 216, 205, 0.7); /* 70% opacity */
+    --yellow: #cdbc59;
+    --moss: #6D946F;
+    --sky:   #A3C6DE;
+    --skyop: rgba(163, 198, 222, 0.7); /* 70% opacity */
+    --pink: #cfa1af;
+    --orange: #e2bb5e;
+    --pinky: #d5a284;
+    --pinky-transparent: rgba(213, 162, 132, 0.7); /* 70% opacity */
+  }
+
+ 
+main {
+    
+}
+
+body {
+   background-color: var(--cream);
+}
+
+header {
+  display: flex;               /* Flex container */
+  justify-content: flex-end;   /* Push input to the right */
+  padding: 20px;
+  background-color: var(--cream); /* Optional semi-transparent header */
+}
+
+#search {
+  width: 350px;                /* Longer search bar */
+  padding: 8px 15px;          /* Comfortable padding */
+  font-size: 16px;
+  border: 1px solid var(--bg);
+  border-radius: 2px;
+}
+
+/* Toggle button */
+#menuToggle {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1100;
+  padding: 10px 15px;
+  font-size: 30px;
+  background-color: var(--cream);
+  color: var(--bg);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Sidebar container */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -200px; /* Hide sidebar off-screen */
+  width: 50px;
+  height: 100%;
+  background-color: var(--cream);
+  border-right: 2px solid var(--cream);
+  padding-top: 80px; /* space for header/menu button */
+  transition: left 0.3s ease;
+  z-index: 1000;
+}
+
+/* Show sidebar when active */
+.sidebar.active {
+  left: 0;
+}
+
+/* Menu items */
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-item {
+  padding: 15px 20px;
+  cursor: pointer;
+  color: var(--pinky);
+  border-radius: 5px;
+}
+
+.menu-item:hover {
+  background-color: var(--cream);
+  color: var(--cream);
+}
+
+/* Push grid when sidebar visible (optional) */
+#swatchGrid {
+  margin-left: 0; /* Default when sidebar hidden */
+  transition: margin-left 0.3s ease;
+}
+
+.sidebar.active ~ #swatchGrid {
+  margin-left: 70px; /* Match sidebar width */
+}
+
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
@@ -6,11 +111,12 @@
 }
 
 .swatch {
-  cursor: pointer;
+  cursor: url("cursors/makepeace_circle.png") 32 32, pointer;
   overflow: hidden;
 }
 
 .swatch img {
+  
   width: 100%;
   height: auto;
   display: block;
@@ -19,7 +125,7 @@
 .modal {
   display: none;
   position: fixed; top:0; left:0; right:0; bottom:0;
-  background: rgba(0,0,0,0.7);
+  background: var(--skyop);
   justify-content: center;
   align-items: center;
 }
@@ -27,9 +133,8 @@
 .modal.active { display: flex; }
 
 .carousel {
-  background: white;
+  background: var(--text);
   padding: 20px;
-  border-radius: 15px;
   max-width: 600px;
   text-align: center;
 }
@@ -37,9 +142,40 @@
 .carousel img {
   max-width: 100%;
   display: none;
-  align-items: center;
 }
 
 .carousel img.active {
   display: block;
+}
+
+.carousel button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: var(--cream);
+  border: none;
+  padding: 10px 15px;
+  font-size: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+.carousel button:hover {
+  opacity: 1;
+}
+
+#prev {
+  left: 10px; /* Position left arrow on the left */
+}
+
+#next {
+  right: 10px; /* Position right arrow on the right */
+}
+
+
+@media (max-width: 768px) {
+  #search {
+    width: 200px;              /* Responsive for smaller screens */
+  }
 }
