@@ -7,7 +7,6 @@
 
 .swatch {
   cursor: pointer;
-  border-radius: 8px;
   overflow: hidden;
 }
 
@@ -30,7 +29,7 @@
 .carousel {
   background: white;
   padding: 20px;
-  border-radius: 12px;
+  border-radius: 15px;
   max-width: 600px;
   text-align: center;
 }
@@ -38,6 +37,7 @@
 .carousel img {
   max-width: 100%;
   display: none;
+  align-items: center;
 }
 
 .carousel img.active {
