@@ -382,7 +382,7 @@ header {
   }
 
   .swatch-title {
-    font-size: 10px;
+    font-size: 13px;
   }
 
   #search {
@@ -406,17 +406,21 @@ header {
   }
 
   .carousel {
-    max-width: 60%;  /* almost full width on mobile */
+    max-width: 90%;  /* almost full width on mobile */
     padding: 15px;
   }
 
   .carousel img{
-    max-width: 30%; 
+    max-width: 80%; 
     padding: 15px;
   }
 
   .carousel button {
     padding: 6px 10px;
     font-size: 18px;
+  }
+
+  .site-footer {
+    font-size: 13px ;
   }
 }
