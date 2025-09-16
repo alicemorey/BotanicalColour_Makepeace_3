@@ -387,7 +387,7 @@ header {
 
   #search {
     max-width: 90%;  /* Shrink even more on tiny screens */
-    margin-left: 0;  /* Center if needed */
+    
   }
 
   /* Sidebar full screen on mobile */
