@@ -377,12 +377,12 @@ header {
 /* Mobile phones */
 @media (max-width: 500px) {
   .grid {
-    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     gap: 15px;
   }
 
   .swatch-title {
-    font-size: 13px;
+    font-size: 10px;
   }
 
   #search {
@@ -405,13 +405,17 @@ header {
     padding: 8px 12px;
   }
 
+  menu a {
+    font-size: 13px;
+  }
+
   .carousel {
     max-width: 90%;  /* almost full width on mobile */
     padding: 15px;
   }
 
   .carousel img{
-    max-width: 80%; 
+    max-width: 90%; 
     padding: 15px;
   }
 
@@ -420,7 +424,7 @@ header {
     font-size: 18px;
   }
 
-  .site-footer {
-    font-size: 13px ;
+  .site-footer p {
+    font-size: 8px ;
   }
 }
