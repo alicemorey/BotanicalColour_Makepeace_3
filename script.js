@@ -54,6 +54,8 @@ document.addEventListener('DOMContentLoaded', () => {
     if (modalTitleEl) modalTitleEl.textContent = `${swatch.color || ""} — ${swatch.plant || ""}`;
 
     modal.classList.add("active");
+    document.body.classList.add("modal-open");
+
   }
 
   // Update carousel display (only if carouselImages exists)
@@ -86,8 +88,12 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   if (closeBtn && modal) {
-    closeBtn.addEventListener("click", () => modal.classList.remove("active"));
-  }
+  closeBtn.addEventListener("click", () => {
+    modal.classList.remove("active");
+    document.body.classList.remove("modal-open"); // remove class when modal closes
+  });
+}
+
 
   // Search filter — only if search input and swatchesData exist
   if (searchInput && typeof swatchesData !== 'undefined' && Array.isArray(swatchesData)) {

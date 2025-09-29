@@ -43,7 +43,7 @@ header {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   color: var(--text);
-  border: 1px solid var(--text);
+  border: 1px solid var(--muted-terracotta);
   border-radius: 4px;
   box-sizing: border-box;
   margin-left: auto;      /* Push to the right, but not beyond page */
@@ -52,7 +52,7 @@ header {
 #search::placeholder {
   font-family: 'Montserrat', sans-serif; /* Match placeholder font */
   font-weight: 400;                        /* Slightly lighter for placeholder */
-  color: rgba(31, 57, 70, 0.5);           /* Optional lighter color */
+  color: var(--orange);           /* Optional lighter color */
 }
 
 /* Toggle button */
@@ -60,7 +60,7 @@ header {
   position: fixed;
   top: 20px;
   left: 20px;
-  z-index: 1100;
+  z-index: 2000;
   padding: 10px 15px;
   font-size: 30px;
   background-color: var(--cream);
@@ -68,6 +68,11 @@ header {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+/* When modal is open, hide the menu toggle */
+body.modal-open #menuToggle {
+  display: none;
 }
 
 /* Sidebar slides down from top */
@@ -93,7 +98,7 @@ header {
   list-style: none;
   margin: 0;
   padding: 0;
-    display: flex;
+  display: flex;
   justify-content: center;   /* Center menu items */
   gap: 40px;
 }
@@ -133,7 +138,7 @@ header {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  grid-template-columns: repeat(6, 1fr);
   gap: 30px;
   padding: 20px;
 }
@@ -144,7 +149,6 @@ header {
 }
 
 .swatch img {
-  
   width: 100%;
   height: auto;
   display: block;
@@ -155,7 +159,7 @@ header {
   margin-top: 5px;
   font-size: 12px;
   font-weight: 500;
-  color: var(--text);
+  color: var(--muted-terracotta);
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -203,7 +207,7 @@ header {
   transform: scale(1.2); /* Slight zoom effect */
 }
 
-
+/* carousel images */
 .carousel {
   background: var(--text);
   padding: 20px;
@@ -245,6 +249,7 @@ header {
   right: 10px; /* Position right arrow on the right */
 }
 
+/* about section*/
 .about {
   display: flex;
   justify-content: center;
@@ -266,7 +271,7 @@ header {
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 20px;
-  color: var(--bg);
+  color: var(--muted-terracotta);
 }
 
 .about-container p {
@@ -279,6 +284,8 @@ header {
 .about-container p:last-child {
   margin-bottom: 0;
 }
+
+/*contact section*/
 
 .contact {
   display: flex;
@@ -302,7 +309,7 @@ header {
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 20px;
-  color: var(--bg);
+  color: var(--muted-terracotta);
 }
 
 .contact-container p {
@@ -351,21 +358,26 @@ header {
   text-align: center;
   padding: 20px;
   background-color: var(--cream); /* same as page background */
-  color: var(--text);
+  color: var(--muted-terracotta);
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
-  border-top: 1px solid rgba(0,0,0,0.05); /* subtle separation */
+  border-top: 2px solid var(--deep-forest); /* subtle separation */
   margin-top: 40px;
 }
 
+.amoreywebdesign {
+  text-decoration: none;
+  color: var(--muted-terracotta);
+  
+}
 
 
-/* Responsive adjustments */
+/* Responsive media queries */
 
 /* Tablets */
 @media (max-width: 768px) {
   .grid {
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
 
@@ -377,7 +389,7 @@ header {
 /* Mobile phones */
 @media (max-width: 500px) {
   .grid {
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 15px;
   }
 
@@ -426,5 +438,14 @@ header {
 
   .site-footer p {
     font-size: 8px ;
+  }
+}
+
+/*smaller screens*/
+
+@media (max-width: 350px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
   }
 }
