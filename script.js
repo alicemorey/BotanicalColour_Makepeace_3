@@ -147,8 +147,16 @@ function setLanguage(lang) {
   const elements = document.querySelectorAll('[data-key]');
   elements.forEach(el => {
     const key = el.getAttribute('data-key');
-    el.textContent = translations[lang][key];
+
+    if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
+      // Update placeholder for input/textarea
+      el.placeholder = translations[lang][key];
+    } else {
+      // Update text content for other elements
+      el.textContent = translations[lang][key];
+    }
   });
+
   localStorage.setItem('preferredLang', lang); // remember choice
 }
 
