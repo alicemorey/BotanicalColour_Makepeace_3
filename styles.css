@@ -419,7 +419,20 @@ body.modal-open #menuToggle {
   #search {
     width: 200px;
     }
+
+
+  #language-toggle button {
+    padding: 6px 10px;
+    font-size: 11px;
+  }
+
+  
+  .carousel button {
+    padding: 8px 12px;
+    font-size: 20px;
+  }
 }
+
 
 /* Mobile phones */
 @media (max-width: 500px) {
@@ -474,6 +487,18 @@ body.modal-open #menuToggle {
   .site-footer p {
     font-size: 8px ;
   }
+
+   /* Stack language buttons vertically if needed */
+  #language-toggle {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  #language-toggle button {
+    padding: 5px 8px;
+    font-size: 10px;
+  }
+
 }
 
 /*smaller screens*/
@@ -482,5 +507,14 @@ body.modal-open #menuToggle {
   .grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 12px;
+  }
+  #language-toggle button {
+    padding: 4px 6px;
+    font-size: 9px;
+  }
+
+  .carousel button {
+    padding: 5px 8px;
+    font-size: 16px;
   }
 }
