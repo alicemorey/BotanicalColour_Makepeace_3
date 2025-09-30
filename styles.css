@@ -89,11 +89,11 @@ header {
 /* Match styles of menu toggle */
 #language-toggle button {
   background-color: var(--cream);
-  color: var(--bg);
-  border: 1px solid var(--bg);
+  color: var(--orange);
+  border: 1px solid var(--muted-terracotta);
   border-radius: 5px;
   padding: 8px 12px;
-  font-size: 14px;
+  font-size: 12px;
   font-family: 'Montserrat', sans-serif;
   cursor: url("cursors/M.png") 32 32, pointer;
   transition: background-color 0.2s ease;
@@ -111,7 +111,7 @@ header {
   font-size: 13px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  color: var(--text);
+  color: var(--orange);
   border: 1px solid var(--muted-terracotta);
   border-radius: 4px;
   box-sizing: border-box;    
