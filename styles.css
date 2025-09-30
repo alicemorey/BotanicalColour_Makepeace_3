@@ -27,17 +27,85 @@ main {
 
 body {
    background-color: var(--cream);
-   cursor: url('cursors/makepeace_cursor.png');
+   cursor: url('cursors/M.png');
 }
+
+/*header {
+  display: flex;
+  padding: 20px;
+  background-color: var(--cream);
+  box-sizing: border-box;
+}*/
+
 header {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding: 20px;
   background-color: var(--cream);
   box-sizing: border-box;
 }
 
+/* Left side: menu toggle */
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+/* Right side: search + language toggle */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* gap between search and language toggle */
+}
+
+.header-center {
+  flex: 0 0 auto;         /* only as wide as needed */
+  margin-left: 100px;      /* pushes it to the right of the menu toggle */
+  max-width: 500px;       /* limits the width of the search bar */
+  width: 100%;
+
+}
+
+/* Group menu + language toggle */
+.nav-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* spacing between ☰ and ENG/CYM */
+  margin-right: 40px;
+}
+
+.nav-controls.no-search {
+  margin-left: auto;   /* pushes the group to the right */
+  gap: 10px;
+}
+
+/* Reset old absolute positioning */
+#language-toggle {
+  display: flex;
+  gap: 0.5rem;
+}
+
+/* Match styles of menu toggle */
+#language-toggle button {
+  background-color: var(--cream);
+  color: var(--bg);
+  border: 1px solid var(--bg);
+  border-radius: 5px;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  cursor: url("cursors/M.png") 32 32, pointer;
+  transition: background-color 0.2s ease;
+}
+
+#language-toggle button:hover{
+  background-color: var(--muted-terracotta);
+  color: var(--cream);
+}
+
 #search {
-  max-width: 350px;       /* Maximum width */
+  max-width: 500px;       /* Maximum width */
   width: 100%;            /* Shrinks on smaller screens */
   padding: 8px 15px;
   font-size: 13px;
@@ -46,8 +114,7 @@ header {
   color: var(--text);
   border: 1px solid var(--muted-terracotta);
   border-radius: 4px;
-  box-sizing: border-box;
-  margin-left: auto;      /* Push to the right, but not beyond page */
+  box-sizing: border-box;    
 }
 
 #search::placeholder {
@@ -68,7 +135,7 @@ header {
   color: var(--bg);
   border: none;
   border-radius: 5px;
-  cursor: url("cursors/makepeace_cursor1.png") 32 32, pointer;
+  cursor: url("cursors/M.png") 32 32, pointer;
 }
 
 /* When modal is open, hide the menu toggle */
@@ -79,7 +146,7 @@ body.modal-open #menuToggle {
 /* Sidebar slides down from top */
 .sidebar {
   position: fixed;
-  top: -150px;            /* Hidden above viewport */
+  top: -100px;            /* Hidden above viewport */
   left: 0;
   width: 100%;            /* Full width */
   background-color: var(--cream);
@@ -90,7 +157,7 @@ body.modal-open #menuToggle {
 
 /* Show sidebar when active */
 .sidebar.active {
-  top: 60px;              /* Just below header (adjust as needed) */
+  top: 0px;              /* Just below header (adjust as needed) */
 }
 
 
@@ -105,7 +172,7 @@ body.modal-open #menuToggle {
 }
 
 .menu-item {
-  cursor: url("cursors/makepeace_cursor1.png") 32 32, pointer;
+  cursor: url("cursors/M.png") 32 32, pointer;
   color: var(--text);
   font-size: 15px;
 }
@@ -117,7 +184,7 @@ body.modal-open #menuToggle {
   padding: 10px 15px;
   font-size: 15px;
   font-family: 'Montserrat', sans-serif;
-  cursor: url("cursors/makepeace_cursor1.png") 32 32, pointer;
+  cursor: url("cursors/M.png") 32 32, pointer;
 }
 
 
@@ -146,7 +213,7 @@ body.modal-open #menuToggle {
 }
 
 .swatch {
-  cursor: url("cursors/makepeace_cursor1.png") 32 32, pointer;
+  cursor: url("cursors/M.png") 32 32, pointer;
   overflow: hidden;
 }
 
@@ -199,7 +266,7 @@ body.modal-open #menuToggle {
   font-size: 28px;
   font-weight: bold;
   color: var(--bg);
-  cursor: url("cursors/makepeace_cursor1.png") 32 32, pointer;
+  cursor: url("cursors/M.png") 32 32, pointer;
   transition: transform 0.2s ease, color 0.2s ease;
   z-index: 1200;
 }
@@ -321,40 +388,7 @@ body.modal-open #menuToggle {
   color: var(--bg);
 }
 
-.contact-form label {
-  display: block;
-  font-weight: 500;
-  margin-bottom: 6px;
-  color: var(--text);
-}
 
-.contact-form input,
-.contact-form textarea {
-  width: 100%;
-  padding: 10px 12px;
-  margin-bottom: 16px;
-  border: 1px solid var(--text);
-  border-radius: 4px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
-  box-sizing: border-box;
-}
-
-.contact-form button {
-  padding: 12px 20px;
-  background-color: var(--muted-terracotta);
-  color: var(--cream);
-  border: none;
-  border-radius: 4px;
-  font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
-  cursor: pointer;
-  transition: background-color 0.2s ease;
-}
-
-.contact-form button:hover {
-  background-color: var(--accent);
-}
 
 .site-footer {
   text-align: center;
@@ -372,7 +406,6 @@ body.modal-open #menuToggle {
   color: var(--muted-terracotta);
   
 }
-
 
 /* Responsive media queries */
 

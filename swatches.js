@@ -2,8 +2,8 @@ const swatchesData = [
   {
     id:"MP001",
     thumbnail: "swatches/placeholder.webp",
-    color: "red",
-    plant: "rose",
+    color: "red, coch",
+    plant: "rose, rhosyn",
     keywords: "warm love romance flower",
     carousel: [
       "carousel/carousel.webp",
@@ -14,8 +14,8 @@ const swatchesData = [
   {
     id:"MP002",
     thumbnail: "swatches/placeholder.webp",
-    color: "green",
-    plant: "fern",
+    color: "green, gwyrdd",
+    plant: "fern, bedwen",
     keywords: "nature fresh forest plant",
     carousel: [
       "carousel/carousel.webp",
@@ -26,7 +26,7 @@ const swatchesData = [
   {
     id: "MP003",
     thumbnail: "swatches/placeholder.webp",
-    color: "blue",
+    color: "blue, glas",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
     carousel: [
@@ -39,7 +39,7 @@ const swatchesData = [
    {
     id: "MP004",
     thumbnail: "swatches/placeholder.webp",
-    color: "blue",
+    color: "blue, glas",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
     carousel: [

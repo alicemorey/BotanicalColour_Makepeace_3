@@ -131,3 +131,27 @@ document.addEventListener('DOMContentLoaded', () => {
   // Debug helper (uncomment if you want quick console hints)
   // console.log({ gridExists: !!grid, modalExists: !!modal, swatchesLoaded: typeof swatchesData !== 'undefined' });
 });
+
+
+// language to welsh & eng functions
+const buttons = document.querySelectorAll('#language-toggle button');
+
+buttons.forEach(btn => {
+  btn.addEventListener('click', () => {
+    const lang = btn.getAttribute('data-lang');
+    setLanguage(lang);
+  });
+});
+
+function setLanguage(lang) {
+  const elements = document.querySelectorAll('[data-key]');
+  elements.forEach(el => {
+    const key = el.getAttribute('data-key');
+    el.textContent = translations[lang][key];
+  });
+  localStorage.setItem('preferredLang', lang); // remember choice
+}
+
+// load saved preference
+const savedLang = localStorage.getItem('preferredLang') || 'en';
+setLanguage(savedLang);

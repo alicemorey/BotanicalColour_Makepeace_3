@@ -4,23 +4,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Botanical Colour</title>
+  <link rel="icon" type="image/png" sizes="16x16" href="cursors/makepeace_circle.png">
   <meta name="keywords" content="">
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  <header>
-    <input type="text" id="search" placeholder="Search by colour or plant">
-    <!-- Menu toggle button -->
-<button id="menuToggle">&#9776;</button></header>
 
+<header>
+  <div class="header-left">
+    <button id="menuToggle">&#9776;</button>
+  </div>
+  
+  <div class="header-center">
+    <input type="text" id="search" placeholder="Search by colour or plant">
+  </div>
+
+  <div class="header-right">
+    <div id="language-toggle">
+      <button data-lang="en">ENG</button>
+      <button data-lang="cy">CYM</button>
+    </div>
+  </div>
+</header>
 
 <!-- Sidebar menu -->
 <nav class="sidebar" id="sidebar">
   <ul class="menu">
-    <li class="menu-item"><a href="about.html">About</a></li>
-    <li class="menu-item"><a href="contact.html">Contact</a></li>
+    <li  class="menu-item"><a data-key="about" href="about.html">About</a></li>
+    <li  class="menu-item"><a data-key="contact" href="contact.html">Contact</a></li>
   </ul>
 </nav>
 
@@ -40,9 +52,10 @@
 
 <script src="swatches.js"></script>
 <script src="script.js"></script>
+
 </body>
 
-<footer class="site-footer">
+<footer data-key="footer" class="site-footer">
   <p>&copy; 2025 Botanical Colour. All rights reserved. Archive & website designed by <a class="amoreywebdesign" href="https://www.amoreywebdesign.com" target="_blank" rel="noopener noreferrer">amoreywebdesign</a>.
   </p>
 </footer>
