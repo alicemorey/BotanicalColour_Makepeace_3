@@ -1,19 +1,20 @@
 const swatchesData = [
   {
     id:"MP001",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/cotton.png",
     color: "red, coch",
     plant: "rose, rhosyn",
     keywords: "warm love romance flower",
     carousel: [
-      "carousel/carousel.webp",
-      "carousel/carousel_1.jpg",
-      "carousel/carousel_2.jpg"
+      "swatches/cotton.png",
+      "carousel/carousel_3.jpg",
+      "carousel/carousel_2.jpg",
+      "carousel/carousel_1.jpg"
     ]
   },
   {
     id:"MP002",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/silk.png",
     color: "green, gwyrdd",
     plant: "fern, bedwen",
     keywords: "nature fresh forest plant",
@@ -25,7 +26,7 @@ const swatchesData = [
   },
   {
     id: "MP003",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/linen2.png",
     color: "blue, glas",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
@@ -38,7 +39,7 @@ const swatchesData = [
 
    {
     id: "MP004",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/silk2.png",
     color: "blue, glas",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
@@ -50,7 +51,7 @@ const swatchesData = [
   },
   {
     id: "MP005",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/cotton2.png",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
@@ -62,7 +63,7 @@ const swatchesData = [
   },
   {
     id: "MP006",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/linen.png",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
@@ -74,7 +75,7 @@ const swatchesData = [
   },
   {
     id: "MP007",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/linen2.png",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
@@ -86,7 +87,7 @@ const swatchesData = [
   },
   {
     id: "MP008",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/silk2.png",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
@@ -98,7 +99,7 @@ const swatchesData = [
   },
   {
     id: "MP009",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/cotton.png",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
@@ -110,7 +111,7 @@ const swatchesData = [
   },
   {
     id: "MP010",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/linen.png",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
@@ -122,7 +123,7 @@ const swatchesData = [
   },
   {
     id: "MP011",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/linen2.png",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
@@ -134,7 +135,7 @@ const swatchesData = [
   },
   {
     id: "MP012",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/cotton.png",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
@@ -146,7 +147,7 @@ const swatchesData = [
   },
   {
     id: "MP013",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/silk.png",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
@@ -158,7 +159,7 @@ const swatchesData = [
   },
   {
     id: "MP014",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/cotton2.png",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
@@ -170,7 +171,7 @@ const swatchesData = [
   },
   {
     id: "MP015",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/linen2.png",
     color: "pink",
     plant: "rose",
     keywords: "pinky",
@@ -182,7 +183,7 @@ const swatchesData = [
   },
   {
     id: "MP016",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/cotton.png",
     color: "orange",
     plant: "marigold",
     keywords: "warm, summer, hot",
@@ -194,7 +195,7 @@ const swatchesData = [
   },
   {
     id: "MP017",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/cotton2.png",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
@@ -206,7 +207,7 @@ const swatchesData = [
   },
   {
     id: "MP018",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/silk2.png",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
@@ -218,7 +219,7 @@ const swatchesData = [
   },
   {
     id: "MP019",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/silk.png",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
@@ -230,7 +231,7 @@ const swatchesData = [
   },
   {
     id: "MP020",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/cotton.png",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
@@ -242,7 +243,7 @@ const swatchesData = [
   },
   {
     id: "RP001",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/linen.png",
     color: "blue",
     plant: "hydrangea",
     keywords: "redpath",
@@ -254,7 +255,7 @@ const swatchesData = [
   },
   {
     id: "RP002",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/linen2.png",
     color: "blue",
     plant: "hydrangea",
     keywords: "redpath",
@@ -266,7 +267,7 @@ const swatchesData = [
   },
   {
     id: "RP003",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/silk2.png",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
@@ -278,7 +279,7 @@ const swatchesData = [
   },
   {
     id: "MP021",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/cotton.png",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
@@ -290,7 +291,7 @@ const swatchesData = [
   },
   {
     id: "MP022",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/linen.png",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
@@ -302,7 +303,7 @@ const swatchesData = [
   },
   {
     id: "MP023",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/linen2.png",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
@@ -314,7 +315,7 @@ const swatchesData = [
   },
   {
     id: "MP024",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/silk.png",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
@@ -326,7 +327,7 @@ const swatchesData = [
   },
   {
     id: "MP025",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/silk2.png",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
@@ -338,7 +339,7 @@ const swatchesData = [
   },
   {
     id: "MP026",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/linen2.png",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
@@ -350,7 +351,7 @@ const swatchesData = [
   },
   {
     id: "MP027",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/cotton.png",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
@@ -362,7 +363,7 @@ const swatchesData = [
   },
   {
     id: "RP004",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/silk.png",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
@@ -374,7 +375,7 @@ const swatchesData = [
   },
   {
     id: "RP004",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/linen.png",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
@@ -386,7 +387,7 @@ const swatchesData = [
   },
   {
     id: "RP005",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/linen2.png",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
@@ -398,7 +399,7 @@ const swatchesData = [
   },
   {
     id: "RP006",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/silk2.png",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
@@ -410,7 +411,7 @@ const swatchesData = [
   },
   {
     id: "RP007",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/cotton2.png",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
@@ -422,7 +423,7 @@ const swatchesData = [
   },
   {
     id: "MP028",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/silk.png",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
@@ -434,7 +435,7 @@ const swatchesData = [
   },
   {
     id: "MP029",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/silk2.png",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
@@ -446,7 +447,7 @@ const swatchesData = [
   },
   {
     id: "MP030",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/cotton2.png",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
@@ -458,7 +459,7 @@ const swatchesData = [
   },
   {
     id: "MP031",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/cotton.png",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
@@ -470,7 +471,7 @@ const swatchesData = [
   },
   {
     id: "MP032",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/linen.png",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
@@ -482,7 +483,7 @@ const swatchesData = [
   },
   {
     id:"MP033",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/silk.png",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
@@ -494,7 +495,7 @@ const swatchesData = [
   },
   {
     id: "MP034",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/silk2.png",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
@@ -506,7 +507,7 @@ const swatchesData = [
   },
   {
     id: "MP035",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/cotton.png",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
@@ -518,7 +519,7 @@ const swatchesData = [
   },
   {
     id: "MP036",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/cotton2.png",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
@@ -530,7 +531,7 @@ const swatchesData = [
   },
   {
     id: "MP037",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/silk.png",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
@@ -542,7 +543,7 @@ const swatchesData = [
   },
   {
     id: "MP038",
-    thumbnail: "swatches/placeholder.webp",
+    thumbnail: "swatches/linen.png",
     color: "blue",
     plant: "hydrangea",
     keywords: "cool calm ocean flower",
