@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
     updateCarousel();
 
     if (swatchIdEl) swatchIdEl.textContent = swatch.id || "";
-    if (modalTitleEl) modalTitleEl.textContent = `${swatch.color || ""} — ${swatch.plant || ""}`;
+    if (modalTitleEl) modalTitleEl.textContent = `${swatch.latin || ""} — ${swatch.plant || ""}`;
 
     modal.classList.add("active");
     document.body.classList.add("modal-open");

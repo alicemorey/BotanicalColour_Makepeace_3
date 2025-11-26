@@ -27,7 +27,7 @@ main {
 
 body {
    background-color: var(--cream);
-   cursor: url('cursors/M.png');
+   cursor: url('cursors/star-favicon.png');
 }
 
 /*header {
@@ -95,7 +95,7 @@ header {
   padding: 8px 12px;
   font-size: 12px;
   font-family: 'Montserrat', sans-serif;
-  cursor: url("cursors/M.png") 32 32, pointer;
+  cursor: url("cursors/star-favicon.png") 32 32, pointer;
   transition: background-color 0.2s ease;
 }
 
@@ -114,7 +114,8 @@ header {
   color: var(--orange);
   border: 1px solid var(--muted-terracotta);
   border-radius: 4px;
-  box-sizing: border-box;    
+  box-sizing: border-box; 
+  cursor: url("cursors/star-favicon.png") 32 32, pointer;   
 }
 
 #search::placeholder {
@@ -135,7 +136,7 @@ header {
   color: var(--bg);
   border: none;
   border-radius: 5px;
-  cursor: url("cursors/M.png") 32 32, pointer;
+  cursor: url("cursors/star-favicon.png") 32 32, pointer;
 }
 
 /* When modal is open, hide the menu toggle */
@@ -172,7 +173,7 @@ body.modal-open #menuToggle {
 }
 
 .menu-item {
-  cursor: url("cursors/M.png") 32 32, pointer;
+  cursor: url("cursors/star-favicon.png") 32 32, pointer;
   color: var(--text);
   font-size: 15px;
 }
@@ -184,7 +185,7 @@ body.modal-open #menuToggle {
   padding: 10px 15px;
   font-size: 15px;
   font-family: 'Montserrat', sans-serif;
-  cursor: url("cursors/M.png") 32 32, pointer;
+  cursor: url("cursors/star-favicon.png") 32 32, pointer;
 }
 
 
@@ -213,7 +214,7 @@ body.modal-open #menuToggle {
 }
 
 .swatch {
-  cursor: url("cursors/M.png") 32 32, pointer;
+  cursor: url("cursors/star-favicon.png") 32 32, pointer;
   overflow: hidden;
 }
 
@@ -234,7 +235,7 @@ body.modal-open #menuToggle {
 
 .modal-title {
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 400;
   font-family: 'Montserrat', sans-serif;
   color: var(--cream);
   text-align: left;
@@ -305,6 +306,7 @@ body.modal-open #menuToggle {
   cursor: pointer;
   opacity: 0.8;
   transition: opacity 0.2s;
+  cursor: url("cursors/star-favicon.png") 32 32, pointer;
 }
 .carousel button:hover {
   opacity: 1;

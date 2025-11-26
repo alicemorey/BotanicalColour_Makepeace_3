@@ -1,14 +1,15 @@
 const swatchesData = [
   {
-    id:"MP001",
+    id:"bc_swa_0001_001",
     thumbnail: "swatches/cotton.webp",
-    color: "red, coch",
-    plant: "rose, rhosyn",
-    keywords: "warm love romance flower",
+    latin: "achillea millefolium",
+    plant: "yarrow, milddail ",
+    material:"cotton",
+    keywords: "yarrow yellow achillea millefolium field ",
     carousel: [
       "swatches/cotton.webp",
+      "carousel/samplekey_yarrow.webp",
       "carousel/carousel_3.jpg",
-      "carousel/carousel_2.jpg",
       "carousel/carousel_1.jpg"
     ]
   },
