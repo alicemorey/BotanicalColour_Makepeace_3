@@ -27,7 +27,7 @@ main {
 
 body {
    background-color: var(--cream);
-   cursor: url('cursors/star-favicon.png');
+   
 }
 
 /*header {
@@ -161,6 +161,22 @@ body.modal-open #menuToggle {
   top: 0px;              /* Just below header (adjust as needed) */
 }
 
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 40px;  /* adjust size */
+  height: 40px; /* adjust size */
+  pointer-events: none; /* so it doesn’t block clicks */
+  transform: translate(-50%, -50%);
+  transition: transform 0.08s ease-out; /* smooth movement */
+  z-index: 9999;
+}
+
+/* Hide the default cursor */
+body {
+  cursor: none;
+}
 
 /* Menu items */
 .menu {
@@ -267,7 +283,7 @@ body.modal-open #menuToggle {
   font-size: 28px;
   font-weight: bold;
   color: var(--bg);
-  cursor: url("cursors/M.png") 32 32, pointer;
+  cursor: url("cursors/star-favicon.png") 32 32, pointer;
   transition: transform 0.2s ease, color 0.2s ease;
   z-index: 1200;
 }

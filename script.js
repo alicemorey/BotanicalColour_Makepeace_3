@@ -12,10 +12,30 @@ document.addEventListener('DOMContentLoaded', () => {
   const swatchIdEl = document.getElementById('swatchId');
   const modalTitleEl = document.getElementById('modalTitle');
   const swatchMaterialEl = document.getElementById("swatchMaterial");
+  const customCursor = document.querySelector('.custom-cursor');
+
+
 
 
   let current = 0;
   let currentCarousel = [];
+
+  // Make PNG follow the mouse
+if (customCursor) {
+  document.addEventListener('mousemove', (e) => {
+    customCursor.style.top = `${e.clientY}px`;
+    customCursor.style.left = `${e.clientX}px`;
+  });
+
+  // optional: click animation
+  document.addEventListener('click', () => {
+    customCursor.style.transform = 'translate(-50%, -50%) scale(0.8)';
+    setTimeout(() => {
+      customCursor.style.transform = 'translate(-50%, -50%) scale(1)';
+    }, 150);
+  });
+}
+
 
   // Render swatches (only if grid exists)
   function renderSwatches(data) {
@@ -166,3 +186,4 @@ function setLanguage(lang) {
 // load saved preference
 const savedLang = localStorage.getItem('preferredLang') || 'en';
 setLanguage(savedLang);
+
