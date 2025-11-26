@@ -8,16 +8,19 @@ const swatchesData = [
     keywords: "yarrow yellow achillea millefolium field ",
     carousel: [
       "swatches/cotton.webp",
-      "carousel/samplekey_yarrow.webp",
+      "carousel/samplekey_yarrow_noname.webp",
       "carousel/carousel_3.jpg",
-      "carousel/carousel_1.jpg"
+      "carousel/carousel_1.jpg",
+      "carousel/carousel_2.jpg",
+      "carousel/carousel_3.jpg"
     ]
   },
   {
-    id:"MP002",
+    id:"bc_swa_0001_002",
     thumbnail: "swatches/silk.webp",
     color: "green, gwyrdd",
     plant: "fern, bedwen",
+    material:"silk",
     keywords: "nature fresh forest plant",
     carousel: [
       "carousel/carousel.webp",
@@ -26,7 +29,7 @@ const swatchesData = [
     ]
   },
   {
-    id: "MP003",
+    id: "bc_swa_0001_003",
     thumbnail: "swatches/linen2.webp",
     color: "blue, glas",
     plant: "hydrangea",
@@ -39,7 +42,7 @@ const swatchesData = [
   },
 
    {
-    id: "MP004",
+    id: "bc_swa_0001_004",
     thumbnail: "swatches/silk2.webp",
     color: "blue, glas",
     plant: "hydrangea",

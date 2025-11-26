@@ -11,6 +11,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const searchInput = document.getElementById('search');
   const swatchIdEl = document.getElementById('swatchId');
   const modalTitleEl = document.getElementById('modalTitle');
+  const swatchMaterialEl = document.getElementById("swatchMaterial");
+
 
   let current = 0;
   let currentCarousel = [];
@@ -50,8 +52,9 @@ document.addEventListener('DOMContentLoaded', () => {
     currentCarousel = Array.isArray(swatch.carousel) ? swatch.carousel.slice() : [];
     updateCarousel();
 
-    if (swatchIdEl) swatchIdEl.textContent = swatch.id || "";
+    if (swatchIdEl) swatchIdEl.textContent = `${swatch.id || ""} - ${swatch.material || ""}`;
     if (modalTitleEl) modalTitleEl.textContent = `${swatch.latin || ""} — ${swatch.plant || ""}`;
+    
 
     modal.classList.add("active");
     document.body.classList.add("modal-open");
