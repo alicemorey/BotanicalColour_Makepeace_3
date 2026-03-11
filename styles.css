@@ -104,6 +104,55 @@ header {
   color: var(--cream);
 }
 
+/* Landing page */
+.landing {
+  min-height: calc(100vh - 160px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.landing h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--muted-terracotta)
+}
+
+.landing-text {
+  max-width: 480px;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  color: var(--deep-forest);
+}
+
+.landing-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Matches your existing button style */
+.lang-btn {
+  font-family: inherit;
+  padding: 0.6rem 1.2rem;
+  border: 1px solid var(--muted-terracotta);
+  border-radius: 5px;
+  background: transparent;
+  color: var(--orange);
+  text-decoration: none;
+  cursor: url("cursors/star-favicon.png") 32 32, pointer;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.lang-btn:hover {
+  background: var(--muted-terracotta);
+  cursor: url("cursors/star-favicon.png") 32 32, pointer;
+  color: #fff;
+}
+
+
 #search {
   max-width: 500px;       /* Maximum width */
   width: 100%;            /* Shrinks on smaller screens */
