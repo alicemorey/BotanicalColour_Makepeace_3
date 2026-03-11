@@ -576,7 +576,7 @@ body {
     gap: 5px;
   }
 
-  #back-toggle .back-button{
+  .back-toggle{
     padding: 5px 8px;
     font-size: 10px;
   }
