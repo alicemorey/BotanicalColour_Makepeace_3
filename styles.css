@@ -46,7 +46,7 @@ body {
   content: "";
   position: fixed;
   inset: 0;
-  background: #4B6573;
+  
   mix-blend-mode: color;
   opacity: 0.6;
   z-index: -1;
