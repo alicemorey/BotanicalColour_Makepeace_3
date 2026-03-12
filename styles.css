@@ -30,6 +30,28 @@ body {
    
 }
 
+.bg-image {
+  position:fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 25%; /* moves image up */
+  opacity: 0.18;
+  z-index: -1;
+}
+
+.index-page::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: #4B6573;
+  mix-blend-mode: color;
+  opacity: 0.6;
+  z-index: -1;
+}
+
 /*header {
   display: flex;
   padding: 20px;
@@ -118,14 +140,16 @@ header {
 .landing h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  color: var(--muted-terracotta)
+  color: var(--muted-terracotta);
+  font-weight: 600;
 }
 
 .landing-text {
   max-width: 480px;
   margin-bottom: 2rem;
   font-size: 1rem;
-  color: var(--deep-forest);
+  color: var(--text);
+  font-weight: 600;
 }
 
 .landing-buttons {
@@ -465,7 +489,7 @@ body {
 .site-footer {
   text-align: center;
   padding: 20px;
-  background-color: var(--cream); /* same as page background */
+  
   color: var(--muted-terracotta);
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
