@@ -85,11 +85,28 @@ if (customCursor) {
   function updateCarousel() {
     if (!carouselImages) return;
     carouselImages.innerHTML = "";
-    currentCarousel.forEach((src, i) => {
-      const img = document.createElement("img");
-      img.src = src;
+
+    currentCarousel.forEach((item, i) => {
+      const wrapper= document.createElement("div");
+      wrapper.className = i === current ? "carousel-item active" : "carousel-item";
+
+       // TEXT ABOVE IMAGE
+      const caption = document.createElement("div");
+      caption.className = "caption";
+      caption.innerHTML = `
+      <strong>${item.name || ""}</strong><br>
+      <span>${item.material || ""}</span>
+    `;
+
+      //IMAGE
+      const img=document.createElement ("img");
+     img.src = item.src;
       img.className = i === current ? "active" : "";
-      carouselImages.appendChild(img);
+
+      //APPEND
+      wrapper.appendChild (caption);
+      wrapper.appendChild(img);
+      carouselImages.appendChild(wrapper);
     });
   }
 
