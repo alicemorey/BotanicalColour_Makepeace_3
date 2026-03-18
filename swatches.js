@@ -149,13 +149,13 @@ const swatchesData = [
   },
   {
     id:"bc_swa_00014",
-    thumbnail: "swatches/PNG/bc_swa_0014/0001.png",
+    thumbnail: "swatches/PNG/bc_swa_0014/0001_1.webp",
     latin: "Laurus nobilis",
     plant: "Bay leaves ",
     material:"",
     keywords: "yarrow yellow achillea millefolium field ",
     carousel: [
-      "swatches/PNG/bc_swa_0014/0001.png",
+      "swatches/PNG/bc_swa_0014/0001_1.webp",
       "swatches/PNG/bc_swa_0014/0002.png",
       "swatches/PNG/bc_swa_0014/0003.png",
       "swatches/PNG/bc_swa_0014/0004.png",
@@ -164,13 +164,13 @@ const swatchesData = [
   },
   {
     id:"bc_swa_00015",
-    thumbnail: "swatches/bc_swa_0015/0001.png",
+    thumbnail: "swatches/bc_swa_0015/0001_1.webp",
     latin: "Persea americana",
     plant: "Avocado stone",
     material:"",
     keywords: "avocado stones, nature fresh forest plant food",
     carousel: [
-      "swatches/bc_swa_0015/0001.webp",
+      "swatches/bc_swa_0015/0001_1.webp",
       "swatches/bc_swa_0015/0002.webp",
       "swatches/bc_swa_0015/0003.webp",
       "swatches/bc_swa_0015/0004.webp",
