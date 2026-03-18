@@ -16,8 +16,16 @@ const swatchesData = [
     name: "",
     material: "silk"
   },
-      "swatches/PNG/bc_swa_0001/IMG_0003.png",
-      "swatches/PNG/bc_swa_0001/IMG_0004.png",
+  {
+    src: "swatches/PNG/bc_swa_0001/IMG_0003.png",
+    name: "",
+    material: "silk"
+  },
+  {
+    src: "swatches/PNG/bc_swa_0001/IMG_0004.png",
+    name: "",
+    material: "silk"
+  },
       "carousel/samplekey_yarrow_noname.webp"
     ]
   },

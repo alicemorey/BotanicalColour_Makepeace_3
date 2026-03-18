@@ -83,32 +83,40 @@ if (customCursor) {
 
   // Update carousel display (only if carouselImages exists)
   function updateCarousel() {
-    if (!carouselImages) return;
-    carouselImages.innerHTML = "";
+  if (!carouselImages) return;
+  carouselImages.innerHTML = "";
 
-    currentCarousel.forEach((item, i) => {
-      const wrapper= document.createElement("div");
-      wrapper.className = i === current ? "carousel-item active" : "carousel-item";
+  currentCarousel.forEach((item, i) => {
+    const wrapper = document.createElement("div");
+    wrapper.className = i === current ? "carousel-item active" : "carousel-item";
+    
 
-       // TEXT ABOVE IMAGE
+    // ✅ handle BOTH formats
+    const src = typeof item === "string" ? item : item.src;
+    const name = typeof item === "string" ? "" : item.name;
+    const material = typeof item === "string" ? "" : item.material;
+
+    // TEXT (only if exists)
+    if (name || material) {
       const caption = document.createElement("div");
       caption.className = "caption";
       caption.innerHTML = `
-      <strong>${item.name || ""}</strong><br>
-      <span>${item.material || ""}</span>
-    `;
+        <strong>${name}</strong><br>
+        <span>${material}</span>
+      `;
+      wrapper.appendChild(caption);
+    }
 
-      //IMAGE
-      const img=document.createElement ("img");
-     img.src = item.src;
-      img.className = i === current ? "active" : "";
+    // IMAGE
+    const img = document.createElement("img");
+    img.src = src;
+    img.alt = "swatch image";
+    img.className = i === current ? "active" : "";
 
-      //APPEND
-      wrapper.appendChild (caption);
-      wrapper.appendChild(img);
-      carouselImages.appendChild(wrapper);
-    });
-  }
+    wrapper.appendChild(img);
+    carouselImages.appendChild(wrapper);
+  });
+}
 
   // Navigation (safe guards)
   if (nextBtn) {
