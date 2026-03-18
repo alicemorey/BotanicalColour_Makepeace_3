@@ -53,7 +53,7 @@ if (customCursor) {
 
       div.innerHTML = `
         <img src="${thumb}" alt="${plant} swatch" loading="lazy">
-        <div class="swatch-title">${idText}</div>
+        
       `;
 
       grid.appendChild(div);
