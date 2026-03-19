@@ -60,44 +60,44 @@ const swatchesData = [
     ]
   },{
     id:"bc_swa_0004",
-    thumbnail: "swatches/PNG/bc_swa_0004/IMG_0001.png",
+    thumbnail: "swatches/PNG/bc_swa_0004/IMG_0001_4.webp",
     latin: "Jacobaea vulgaris",
     plant: "Ragwort",
     material:"",
     keywords: "ragwort yellow Jacobaea vulgaris beige natural ",
     carousel: [
-      "swatches/PNG/bc_swa_0004/IMG_0001.png",
-      "swatches/PNG/bc_swa_0004/IMG_0002.png",
-      "swatches/PNG/bc_swa_0004/IMG_0003.png",
+      "swatches/PNG/bc_swa_0004/IMG_0001_4.webp",
+      "swatches/PNG/bc_swa_0004/IMG_0002_4.webp",
+      "swatches/PNG/bc_swa_0004/IMG_0003_4.webp",
       "swatches/PNG/bc_swa_0004/IMG_0004.png",
       "carousel/samplekey_yarrow_noname.webp"
     ]
   },{
     id:"bc_swa_0009",
-    thumbnail: "swatches/PNG/bc_swa_0009/0001.png",
+    thumbnail: "swatches/PNG/bc_swa_0009/0001_9.webp",
     latin: "Leucanthemum vulgare yellow",
     plant: "Oxeye Daisy ",
     material:"",
     keywords: "Oxeye Daisy Leucanthemum vulgare",
     carousel: [
-      "swatches/PNG/bc_swa_0009/0001.png",
-      "swatches/PNG/bc_swa_0009/0002.png",
-      "swatches/PNG/bc_swa_0009/0003.png",
-      "swatches/PNG/bc_swa_0009/0004.png",
+      "swatches/PNG/bc_swa_0009/0001_9.webp",
+      "swatches/PNG/bc_swa_0009/0002_9.webp",
+      "swatches/PNG/bc_swa_0009/0003_9.webp",
+      "swatches/PNG/bc_swa_0009/0004_9.webp",
       "carousel/samplekey_yarrow_noname.webp"
     ]
   },
   {
     id:"bc_swa_00010",
-    thumbnail: "swatches/PNG/bc_swa_0010/IMG_0001.png",
+    thumbnail: "swatches/PNG/bc_swa_0010/IMG_0001_10.webp",
     latin: "Leycesteria formosa",
     plant: "Himalayan Honeysuckle ",
     material:"",
     keywords: "Himalayan Honeysuckle Leycesteria formosa green light-green",
     carousel: [
-      "swatches/PNG/bc_swa_0010/IMG_0001.png",
-      "swatches/PNG/bc_swa_0010/IMG_0002.png",
-      "swatches/PNG/bc_swa_0010/IMG_0003.png",
+      "swatches/PNG/bc_swa_0010/IMG_0001_10.webp",
+      "swatches/PNG/bc_swa_0010/IMG_0002_10.webp",
+      "swatches/PNG/bc_swa_0010/IMG_0003_10.webp",
       "swatches/PNG/bc_swa_0010/IMG_0004.png",
       "carousel/samplekey_yarrow_noname.webp"
     ]
