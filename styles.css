@@ -63,31 +63,43 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
+  padding: 20px clamp(10px, 5vw, 40px);
   background-color: var(--cream);
   box-sizing: border-box;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
-/* Left side: menu toggle */
+/* Left side: menu toggle 
 .header-left {
   display: flex;
   align-items: center;
 }
 
-/* Right side: search + language toggle */
+ Right side: search + language toggle 
 .header-left {
   display: flex;
   align-items: center;
   gap: 10px; /* gap between search and language toggle */
+
+
+.header-left,
+.header-right {
+  flex: 0 0 auto; /* don’t grow */
 }
 
 .header-center {
-  flex: 0 0 auto;         /* only as wide as needed */
-  margin-left: 100px;      /* pushes it to the right of the menu toggle */
-  max-width: 500px;       /* limits the width of the search bar */
-  width: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: center; /* 👈 centers the search */
+  min-width: 0;
+}
 
+
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 /* Group menu + language toggle */
@@ -115,6 +127,11 @@ header {
   text-decoration: none;
   cursor: url("cursors/star-favicon.png") 32 32, pointer;
   transition: background-color 0.2s ease;
+}
+
+#back-toggle {
+  margin-left: auto;
+  flex-shrink: 0;
 }
 
 #back-toggle .back-button:hover {
@@ -178,8 +195,8 @@ header {
 
 
 #search {
-  max-width: 500px;       /* Maximum width */
-  width: 100%;            /* Shrinks on smaller screens */
+  max-width: 100%;       /* Maximum width */
+  width: clamp(200px, 40vw, 600px);           /* Shrinks on smaller screens */
   padding: 8px 15px;
   font-size: 13px;
   font-family: 'Montserrat', sans-serif;
@@ -541,16 +558,6 @@ body {
 
 /* Responsive media queries */
 
-@media (max-width: 500px) {
-
-  #back-toggle {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    z-index: 1000;
-  }
-
-}
 
 /* Tablets */
 @media (max-width: 768px) {
@@ -630,13 +637,13 @@ body {
     font-size: 8px ;
   }
 
-   /* Stack language buttons vertically if needed */
+  
   #back-toggle {
-    flex-direction: column;
+    flex-direction:inherit;
     gap: 5px;
   }
 
-  .back-toggle{
+  .back-button{
     padding: 5px 8px;
     font-size: 10px;
   }

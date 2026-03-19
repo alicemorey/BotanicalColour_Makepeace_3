@@ -1,45 +1,45 @@
 const swatchesData = [
   {
     id:"bc_swa_0001",
-    thumbnail: "swatches/PNG/bc_swa_0001/IMG_0001.png",
+    thumbnail: "swatches/bc_swa_0001/IMG_0001_1.webp",
     latin: "achillea millefolium",
     plant: "yarrow, milddail ",
     keywords: "yarrow yellow achillea millefolium field ",
     carousel: [
       {
-    src: "swatches/PNG/bc_swa_0001/IMG_0001.png",
+    src: "swatches/bc_swa_0001/IMG_0001_1.webp",
+    name: "",
+    material: "linen"
+  },
+  {
+    src: "swatches/bc_swa_0001/IMG_0002_1.webp",
     name: "",
     material: "cotton"
   },
   {
-    src: "swatches/PNG/bc_swa_0001/IMG_0002.png",
+    src: "swatches/bc_swa_0001/IMG_0003_1.webp",
     name: "",
     material: "silk"
   },
   {
-    src: "swatches/PNG/bc_swa_0001/IMG_0003.png",
+    src: "swatches/bc_swa_0001/IMG_0004_1.webp",
     name: "",
-    material: "silk"
-  },
-  {
-    src: "swatches/PNG/bc_swa_0001/IMG_0004.png",
-    name: "",
-    material: "silk"
+    material: "wool"
   },
       "carousel/samplekey_yarrow_noname.webp"
     ]
   },
   {
     id:"bc_swa_0002",
-    thumbnail: "swatches/PNG/bc_swa_0002/IMG_0001.png",
+    thumbnail: "swatches/bc_swa_0002/IMG_0001_2.webp",
     latin: "Hypericum perforatum",
     plant: "St Johns Wort flowers ",
     material:"",
     keywords: "yarrow yellow achillea millefolium field ",
     carousel: [
-      "swatches/PNG/bc_swa_0002/IMG_0001.png",
-      "swatches/PNG/bc_swa_0002/IMG_0002.png",
-      "swatches/PNG/bc_swa_0002/IMG_0003.png",
+      "swatches/bc_swa_0002/IMG_0001_2.webp",
+      "swatches/bc_swa_0002/IMG_0002_2.webp",
+      "swatches/bc_swa_0002/IMG_0003_2.webp",
       "swatches/PNG/bc_swa_0002/IMG_0004.png",
       "carousel/samplekey_yarrow_noname.webp"
     ]
