@@ -291,7 +291,7 @@ const swatchesData = [
     ]
   },
   {id: "bc_swa_00024",
-    thumbnail: "swatches/bc_swa_0016/0001.webp",
+    thumbnail: "swatches/bc_swa_0024/0001.webp",
     latin: "Filix",
     plant: "Ferns",
     keywords: "Filix Ferns",
@@ -302,7 +302,634 @@ const swatchesData = [
       "swatches/bc_swa_0024/0004.webp",
       "carousel/samplekey_yarrow_noname.webp"
     ]
+  },
+
+  {id: "00025",
+    thumbnail: "swatches/bc_swa_0025/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0025/0001.webp",
+      "swatches/bc_swa_0025/0002.webp",
+      "swatches/bc_swa_0025/0003.webp",
+      "swatches/bc_swa_0025/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+  {id: "00026",
+    thumbnail: "swatches/bc_swa_0026/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0026/0001.webp",
+      "swatches/bc_swa_0026/0002.webp",
+      "swatches/bc_swa_0026/0003.webp",
+      "swatches/bc_swa_0026/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+  {id: "00027",
+    thumbnail: "swatches/bc_swa_0027/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0027/0001.webp",
+      "swatches/bc_swa_0027/0002.webp",
+      "swatches/bc_swa_0027/0003.webp",
+      "swatches/bc_swa_0027/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+  {id: "00028",
+    thumbnail: "swatches/bc_swa_0028/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0028/0001.webp",
+      "swatches/bc_swa_0028/0002.webp",
+      "swatches/bc_swa_0028/0003.webp",
+      "swatches/bc_swa_0028/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+  {id: "00029",
+    thumbnail: "swatches/bc_swa_0029/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0029/0001.webp",
+      "swatches/bc_swa_0029/0002.webp",
+      "swatches/bc_swa_0029/0003.webp",
+      "swatches/bc_swa_0029/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+  {id: "00030",
+    thumbnail: "swatches/bc_swa_0016/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0030/0001.webp",
+      "swatches/bc_swa_0030/0002.webp",
+      "swatches/bc_swa_0030/0003.webp",
+      "swatches/bc_swa_0030/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+  {id: "00031",
+    thumbnail: "swatches/bc_swa_0031/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0031/0001.webp",
+      "swatches/bc_swa_0031/0002.webp",
+      "swatches/bc_swa_0024/0003.webp",
+      "swatches/bc_swa_0024/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+  {id: "00032",
+    thumbnail: "swatches/bc_swa_0032/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0032/0001.webp",
+      "swatches/bc_swa_0032/0002.webp",
+      "swatches/bc_swa_0032/0003.webp",
+      "swatches/bc_swa_0032/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+  {id: "00033",
+    thumbnail: "swatches/bc_swa_0033/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0033/0001.webp",
+      "swatches/bc_swa_0033/0002.webp",
+      "swatches/bc_swa_0033/0003.webp",
+      "swatches/bc_swa_0033/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+  {id: "00034",
+    thumbnail: "swatches/bc_swa_0034/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0034/0001.webp",
+      "swatches/bc_swa_0034/0002.webp",
+      "swatches/bc_swa_0034/0003.webp",
+      "swatches/bc_swa_0034/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+  {id: "00035",
+    thumbnail: "swatches/bc_swa_0016/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0035/0001.webp",
+      "swatches/bc_swa_0035/0002.webp",
+      "swatches/bc_swa_0035/0003.webp",
+      "swatches/bc_swa_0035/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+  {id: "00036",
+    thumbnail: "swatches/bc_swa_0036/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0036/0001.webp",
+      "swatches/bc_swa_0036/0002.webp",
+      "swatches/bc_swa_0036/0003.webp",
+      "swatches/bc_swa_0036/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+  {id: "00037",
+    thumbnail: "swatches/bc_swa_0037/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0037/0001.webp",
+      "swatches/bc_swa_0037/0002.webp",
+      "swatches/bc_swa_0037/0003.webp",
+      "swatches/bc_swa_0037/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+  {id: "00038",
+    thumbnail: "swatches/bc_swa_0038/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0038/0001.webp",
+      "swatches/bc_swa_0038/0002.webp",
+      "swatches/bc_swa_0038/0003.webp",
+      "swatches/bc_swa_0038/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+  {id: "00039",
+    thumbnail: "swatches/bc_swa_0039/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0039/0001.webp",
+      "swatches/bc_swa_0039/0002.webp",
+      "swatches/bc_swa_0039/0003.webp",
+      "swatches/bc_swa_0039/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+  {id: "00040",
+    thumbnail: "swatches/bc_swa_0040/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0040/0001.webp",
+      "swatches/bc_swa_0040/0002.webp",
+      "swatches/bc_swa_0040/0003.webp",
+      "swatches/bc_swa_0040/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+  {id: "00041",
+    thumbnail: "swatches/bc_swa_0041/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0041/0001.webp",
+      "swatches/bc_swa_0041/0002.webp",
+      "swatches/bc_swa_0041/0003.webp",
+      "swatches/bc_swa_0041/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+  {id: "00042",
+    thumbnail: "swatches/bc_swa_0042/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0042/0001.webp",
+      "swatches/bc_swa_0042/0002.webp",
+      "swatches/bc_swa_0042/0003.webp",
+      "swatches/bc_swa_0042/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+  {id: "00043",
+    thumbnail: "swatches/bc_swa_0043/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0043/0001.webp",
+      "swatches/bc_swa_0043/0002.webp",
+      "swatches/bc_swa_0043/0003.webp",
+      "swatches/bc_swa_0043/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+  {id: "00044",
+    thumbnail: "swatches/bc_swa_0044/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0044/0001.webp",
+      "swatches/bc_swa_0044/0002.webp",
+      "swatches/bc_swa_0044/0003.webp",
+      "swatches/bc_swa_0044/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+  {id: "00045",
+    thumbnail: "swatches/bc_swa_0045/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0045/0001.webp",
+      "swatches/bc_swa_0045/0002.webp",
+      "swatches/bc_swa_0045/0003.webp",
+      "swatches/bc_swa_0045/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+  {id: "00046",
+    thumbnail: "swatches/bc_swa_0046/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0040/0001.webp",
+      "swatches/bc_swa_0040/0002.webp",
+      "swatches/bc_swa_0040/0003.webp",
+      "swatches/bc_swa_0040/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+  {id: "00047",
+    thumbnail: "swatches/bc_swa_0047/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0047/0001.webp",
+      "swatches/bc_swa_0047/0002.webp",
+      "swatches/bc_swa_0047/0003.webp",
+      "swatches/bc_swa_0047/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+  {id: "00048",
+    thumbnail: "swatches/bc_swa_0048/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0048/0001.webp",
+      "swatches/bc_swa_0048/0002.webp",
+      "swatches/bc_swa_0048/0003.webp",
+      "swatches/bc_swa_0048/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+  {id: "00049",
+    thumbnail: "swatches/bc_swa_0049/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0049/0001.webp",
+      "swatches/bc_swa_0049/0002.webp",
+      "swatches/bc_swa_0049/0003.webp",
+      "swatches/bc_swa_0049/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+  {id: "00050",
+    thumbnail: "swatches/bc_swa_0050/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0050/0001.webp",
+      "swatches/bc_swa_0050/0002.webp",
+      "swatches/bc_swa_0050/0003.webp",
+      "swatches/bc_swa_0050/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+  {id: "00051",
+    thumbnail: "swatches/bc_swa_0051/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0051/0001.webp",
+      "swatches/bc_swa_0051/0002.webp",
+      "swatches/bc_swa_0051/0003.webp",
+      "swatches/bc_swa_0051/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+  {id: "00052",
+    thumbnail: "swatches/bc_swa_0052/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0052/0001.webp",
+      "swatches/bc_swa_0052/0002.webp",
+      "swatches/bc_swa_0052/0003.webp",
+      "swatches/bc_swa_0052/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+  {id: "00053",
+    thumbnail: "swatches/bc_swa_0053/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0053/0001.webp",
+      "swatches/bc_swa_0053/0002.webp",
+      "swatches/bc_swa_0053/0003.webp",
+      "swatches/bc_swa_0053/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+  {id: "00054",
+    thumbnail: "swatches/bc_swa_0054/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0054/0001.webp",
+      "swatches/bc_swa_0054/0002.webp",
+      "swatches/bc_swa_0054/0003.webp",
+      "swatches/bc_swa_0054/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+  {id: "00055",
+    thumbnail: "swatches/bc_swa_0055/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0055/0001.webp",
+      "swatches/bc_swa_0055/0002.webp",
+      "swatches/bc_swa_0055/0003.webp",
+      "swatches/bc_swa_0055/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+  {id: "00056",
+    thumbnail: "swatches/bc_swa_0056/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0056/0001.webp",
+      "swatches/bc_swa_0056/0002.webp",
+      "swatches/bc_swa_0056/0003.webp",
+      "swatches/bc_swa_0056/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+  {id: "00057",
+    thumbnail: "swatches/bc_swa_0057/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0057/0001.webp",
+      "swatches/bc_swa_0057/0002.webp",
+      "swatches/bc_swa_0057/0003.webp",
+      "swatches/bc_swa_0057/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+  {id: "00058",
+    thumbnail: "swatches/bc_swa_0058/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0058/0001.webp",
+      "swatches/bc_swa_0058/0002.webp",
+      "swatches/bc_swa_0058/0003.webp",
+      "swatches/bc_swa_0058/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+  {id: "00059",
+    thumbnail: "swatches/bc_swa_0059/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0059/0001.webp",
+      "swatches/bc_swa_0059/0002.webp",
+      "swatches/bc_swa_0059/0003.webp",
+      "swatches/bc_swa_0059/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+   {id: "00060",
+    thumbnail: "swatches/bc_swa_0060/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0060/0001.webp",
+      "swatches/bc_swa_0060/0002.webp",
+      "swatches/bc_swa_0060/0003.webp",
+      "swatches/bc_swa_0060/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+   {id: "00061",
+    thumbnail: "swatches/bc_swa_0061/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0061/0001.webp",
+      "swatches/bc_swa_0061/0002.webp",
+      "swatches/bc_swa_0061/0003.webp",
+      "swatches/bc_swa_0061/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+   {id: "00062",
+    thumbnail: "swatches/bc_swa_0062/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0062/0001.webp",
+      "swatches/bc_swa_0062/0002.webp",
+      "swatches/bc_swa_0062/0003.webp",
+      "swatches/bc_swa_0062/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+   {id: "00063",
+    thumbnail: "swatches/bc_swa_0063/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0063/0001.webp",
+      "swatches/bc_swa_0063/0002.webp",
+      "swatches/bc_swa_0063/0003.webp",
+      "swatches/bc_swa_0063/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+  {id: "00064",
+    thumbnail: "swatches/bc_swa_0064/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0064/0001.webp",
+      "swatches/bc_swa_0064/0002.webp",
+      "swatches/bc_swa_0064/0003.webp",
+      "swatches/bc_swa_0064/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+   {id: "00065",
+    thumbnail: "swatches/bc_swa_0065/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0065/0001.webp",
+      "swatches/bc_swa_0065/0002.webp",
+      "swatches/bc_swa_0065/0003.webp",
+      "swatches/bc_swa_0065/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+   {id: "00066",
+    thumbnail: "swatches/bc_swa_0066/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0066/0001.webp",
+      "swatches/bc_swa_0066/0002.webp",
+      "swatches/bc_swa_0066/0003.webp",
+      "swatches/bc_swa_0066/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+   {id: "00067(1)",
+    thumbnail: "swatches/bc_swa_0067(1)/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0067(1)/0001.webp",
+      "swatches/bc_swa_0067(1)/0002.webp",
+      "swatches/bc_swa_0067(1)/0003.webp",
+      "swatches/bc_swa_0067(1)/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+   {id: "00067(2)",
+    thumbnail: "swatches/bc_swa_0067(2)/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0067(2)/0001.webp",
+      "swatches/bc_swa_0067(2)/0002.webp",
+      "swatches/bc_swa_0067(2)/0003.webp",
+      "swatches/bc_swa_0067(2)/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+   {id: "00068",
+    thumbnail: "swatches/bc_swa_0068/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0068/0001.webp",
+      "swatches/bc_swa_0068/0002.webp",
+      "swatches/bc_swa_0068/0003.webp",
+      "swatches/bc_swa_0068/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+   {id: "00069",
+    thumbnail: "swatches/bc_swa_0069/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0069/0001.webp",
+      "swatches/bc_swa_0069/0002.webp",
+      "swatches/bc_swa_0069/0003.webp",
+      "swatches/bc_swa_0069/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+   {id: "00070",
+    thumbnail: "swatches/bc_swa_0070/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0070/0001.webp",
+      "swatches/bc_swa_0070/0002.webp",
+      "swatches/bc_swa_0070/0003.webp",
+      "swatches/bc_swa_0070/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
+  },
+   {id: "00071",
+    thumbnail: "swatches/bc_swa_0069/0001.webp",
+    latin: "Filix",
+    plant: "Ferns",
+    keywords: "Filix Ferns",
+    carousel: [
+      "swatches/bc_swa_0071/0001.webp",
+      "swatches/bc_swa_0071/0002.webp",
+      "swatches/bc_swa_0071/0003.webp",
+      "swatches/bc_swa_0071/0004.webp",
+      "carousel/samplekey_yarrow_noname.webp"
+    ]
   }
+  
+  
   
  
   // … up to 400
