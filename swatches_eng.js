@@ -221,7 +221,7 @@ const swatchesData = [
   {
    id: "0020",
     thumbnail: "swatches/bc_swa_0020/0001.webp",
-    color: "Calendula officinalis",
+    latin: "Calendula officinalis",
     plant: "Calendula",
     keywords: "Common marigold Calendula officinalis blue purple",
     carousel: [
