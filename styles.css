@@ -343,7 +343,7 @@ body {
   font-size: 14px;
   font-weight: 400;
   font-family: 'Montserrat', sans-serif;
-  color: var(--cream);
+  color: var(--text);
   text-align: left;
 }
 
@@ -352,7 +352,7 @@ body {
   font-size: 14px;
   font-weight: 600;
   font-family: 'Montserrat', sans-serif;
-  color: var(--cream);
+  color: var(--text);
   margin-bottom: 8px; /* Space between ID and image */
 }
 
@@ -385,7 +385,7 @@ body {
 
 /* carousel images */
 .carousel {
-  background: var(--text);
+  background: var(--soft-cream);
   padding: 20px;
   max-width: 600px;
   text-align: center;
@@ -443,7 +443,7 @@ body {
 
 .caption {
   font-family: 'Montserrat', sans-serif;
-  color: var(--cream); /* already white-ish */
+  color: var(--text); /* already white-ish */
   text-align: right;   /* ✅ move text to the right */
   margin-bottom: 10px;
   line-height: 1.3;

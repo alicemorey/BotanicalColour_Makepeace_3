@@ -73,7 +73,7 @@ if (customCursor) {
     updateCarousel();
 
     if (swatchIdEl) swatchIdEl.textContent = `${swatch.id || ""} - ${swatch.material || ""}`;
-    if (modalTitleEl) modalTitleEl.textContent = `${swatch.latin || ""} — ${swatch.plant || ""}`;
+    if (modalTitleEl) modalTitleEl.textContent = `${swatch.plant || ""} — ${swatch.latin || ""}`;
     
 
     modal.classList.add("active");
