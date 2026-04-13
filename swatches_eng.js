@@ -22,25 +22,25 @@ const swatchesData = [
     keywords: "yarrow yellow achillea millefolium field ",
     carousel: [
       {src:"swatches/bc_swa_0002/IMG_0001_2.webp",name: "",material: "linen"},
-      {src:"swatches/bc_swa_0002/IMG_0002_2.webp",name: "",material: "linen"},
-      {src:"swatches/bc_swa_0002/IMG_0003_2.webp",name: "",material: "linen"},
-      {src:"swatches/PNG/bc_swa_0002/IMG_0004.png",name: "",material: "linen"},
+      {src:"swatches/bc_swa_0002/IMG_0002_2.webp",name: "",material: "cotton"},
+      {src:"swatches/bc_swa_0002/IMG_0003_2.webp",name: "",material: "silk"},
+      {src:"swatches/bc_swa_0002/IMG_0004.png",name: "",material: "wool"},
       "carousel/samplekey_yarrow_noname.webp"
     ]
   },
   {
     id:"0003",
-    thumbnail: "swatches/PNG/bc_swa_0003/IMG_0001.png",
+    thumbnail: "swatches/bc_swa_0003/IMG_0001.webp",
     latin: "Solidago virgaurea",
     plant: "Goldenrod",
     material:"",
     keywords: "goldenrod solidago yellow ",
     carousel: [
-      "swatches/PNG/bc_swa_0003/IMG_0001.png",
-      "swatches/PNG/bc_swa_0003/IMG_0002.png",
-      "swatches/PNG/bc_swa_0003/IMG_0003.png",
-      "swatches/PNG/bc_swa_0003/IMG_0004.png",
-      "carousel/samplekey_yarrow_noname.webp"
+        {src:"swatches/bc_swa_0003/IMG_0001.png",name: "",material: "linen"},
+        {src:"swatches/bc_swa_0003/IMG_0002.png",name: "",material: "linen"},
+        {src:"swatches/PNG/bc_swa_0003/IMG_0003.png",name: "",material: "linen"},
+        {src:"swatches/PNG/bc_swa_0003/IMG_0004.png",name: "",material: "linen"},
+        "carousel/samplekey_yarrow_noname.webp"
     ]
   },{
     id:"0004",
@@ -148,14 +148,15 @@ const swatchesData = [
   },
   {
     id:"0015",
-    thumbnail: "swatches/bc_swa_0015/0001_1.webp",
+    thumbnail: "swatches/bc_swa_0015/0002.webp",
     latin: "Persea americana",
     plant: "Avocado stone",
     material:"",
     keywords: "avocado stones, nature fresh forest plant food",
     carousel: [
+       "swatches/bc_swa_0015/0002.webp",
       "swatches/bc_swa_0015/0001_1.webp",
-      "swatches/bc_swa_0015/0002.webp",
+     
       "swatches/bc_swa_0015/0003.webp",
       "swatches/bc_swa_0015/0004.webp",
       "carousel/samplekey_yarrow_noname.webp"
@@ -164,14 +165,14 @@ const swatchesData = [
   },
   {
     id: "0016",
-    thumbnail: "swatches/bc_swa_0016/0001.webp",
+    thumbnail: "swatches/bc_swa_0016/0003.webp",
     latin: "Persea americana",
     plant: "Avocado skin",
     keywords: "avocado skin, Persea americana plant warm climate",
     carousel: [
+      "swatches/bc_swa_0016/0003.webp",
       "swatches/bc_swa_0016/0001.webp",
       "swatches/bc_swa_0016/0002.webp",
-      "swatches/bc_swa_0016/0003.webp",
       "swatches/bc_swa_0016/0004.webp",
       "carousel/samplekey_yarrow_noname.webp"
     ]
@@ -179,15 +180,16 @@ const swatchesData = [
 
    {
     id: "0017",
-    thumbnail: "swatches/bc_swa_0017/0001.webp",
+    thumbnail: "swatches/bc_swa_0017/0004.webp",
     latin: "Rhamnus cathartica",
     plant: "Buckthorn",
     keywords: "Rhamnus Buckthorn berries",
     carousel: [
+       "swatches/bc_swa_0017/0004.webp",
       "swatches/bc_swa_0017/0001.webp",
       "swatches/bc_swa_0017/0002.webp",
       "swatches/bc_swa_0017/0003.webp",
-      "swatches/bc_swa_0017/0004.webp",
+     
       "carousel/samplekey_yarrow_noname.webp"
     ]
   },
@@ -206,14 +208,15 @@ const swatchesData = [
   },
   {
     id: "0019",
-    thumbnail: "swatches/bc_swa_0019/0001.webp",
+    thumbnail: "swatches/bc_swa_0019/0003.webp",
     latin: "Ocimum basilicum",
     plant: "Basil",
     keywords: "basilius Basil",
     carousel: [
+       "swatches/bc_swa_0019/0003.webp",
       "swatches/bc_swa_0019/0001.webp",
       "swatches/bc_swa_0019/0002.webp",
-      "swatches/bc_swa_0019/0003.webp",
+     
       "swatches/bc_swa_0019/0004.webp",
       "carousel/samplekey_yarrow_noname.webp"
     ]
@@ -445,9 +448,9 @@ const swatchesData = [
   },
   {id: "00037",
     thumbnail: "swatches/bc_swa_0037/0001.webp",
-    latin: "Filix",
-    plant: "Ferns",
-    keywords: "Filix Ferns",
+    latin: "Calluna vulgaris",
+    plant: "Heather",
+    keywords: "Heather Calluna vulgaris",
     carousel: [
       "swatches/bc_swa_0037/0001.webp",
       "swatches/bc_swa_0037/0002.webp",
@@ -458,9 +461,9 @@ const swatchesData = [
   },
   {id: "00038",
     thumbnail: "swatches/bc_swa_0038/0001.webp",
-    latin: "Filix",
-    plant: "Ferns",
-    keywords: "Filix Ferns",
+    latin: "Isatis tinctoria",
+    plant: "Woad",
+    keywords: "Woad Isatis tinctoria",
     carousel: [
       "swatches/bc_swa_0038/0001.webp",
       "swatches/bc_swa_0038/0002.webp",
@@ -471,9 +474,9 @@ const swatchesData = [
   },
   {id: "00039",
     thumbnail: "swatches/bc_swa_0039/0001.webp",
-    latin: "Filix",
-    plant: "Ferns",
-    keywords: "Filix Ferns",
+    latin: "Cirsium arvense",
+    plant: "Thistles",
+    keywords: "Cirsium arvense Thistles",
     carousel: [
       "swatches/bc_swa_0039/0001.webp",
       "swatches/bc_swa_0039/0002.webp",
@@ -484,9 +487,9 @@ const swatchesData = [
   },
   {id: "00040",
     thumbnail: "swatches/bc_swa_0040/0001.webp",
-    latin: "Filix",
-    plant: "Ferns",
-    keywords: "Filix Ferns",
+    latin: "Allium cepa",
+    plant: "Onion (red)",
+    keywords: "Onion (red) Allium cepa",
     carousel: [
       "swatches/bc_swa_0040/0001.webp",
       "swatches/bc_swa_0040/0002.webp",
@@ -497,9 +500,9 @@ const swatchesData = [
   },
   {id: "00041",
     thumbnail: "swatches/bc_swa_0041/0001.webp",
-    latin: "Filix",
-    plant: "Ferns",
-    keywords: "Filix Ferns",
+    latin: "Lythrum salicaria",
+    plant: "Purple loosestrife",
+    keywords: "Lythrum salicaria Purple loosestrife",
     carousel: [
       "swatches/bc_swa_0041/0001.webp",
       "swatches/bc_swa_0041/0002.webp",
@@ -510,8 +513,8 @@ const swatchesData = [
   },
   {id: "00042",
     thumbnail: "swatches/bc_swa_0042/0001.webp",
-    latin: "Filix",
-    plant: "Ferns",
+    latin: "Carduus",
+    plant: "Thistles",
     keywords: "Filix Ferns",
     carousel: [
       "swatches/bc_swa_0042/0001.webp",
@@ -523,9 +526,9 @@ const swatchesData = [
   },
   {id: "00043",
     thumbnail: "swatches/bc_swa_0043/0001.webp",
-    latin: "Filix",
-    plant: "Ferns",
-    keywords: "Filix Ferns",
+    latin: "Asplenium scolopendrium",
+    plant: "Hart's tongue fern",
+    keywords: "Asplenium scolopendrium Hart's tongue fern",
     carousel: [
       "swatches/bc_swa_0043/0001.webp",
       "swatches/bc_swa_0043/0002.webp",
@@ -536,9 +539,9 @@ const swatchesData = [
   },
   {id: "00044",
     thumbnail: "swatches/bc_swa_0044/0001.webp",
-    latin: "Filix",
-    plant: "Ferns",
-    keywords: "Filix Ferns",
+    latin: "Prunus domestica",
+    plant: "Plum tree",
+    keywords: "Plum tree Prunus domestica",
     carousel: [
       "swatches/bc_swa_0044/0001.webp",
       "swatches/bc_swa_0044/0002.webp",
@@ -549,9 +552,9 @@ const swatchesData = [
   },
   {id: "00045",
     thumbnail: "swatches/bc_swa_0045/0001.webp",
-    latin: "Filix",
-    plant: "Ferns",
-    keywords: "Filix Ferns",
+    latin: "Malus domesticax",
+    plant: "Apple tree",
+    keywords: "Apple tree Malus domestica",
     carousel: [
       "swatches/bc_swa_0045/0001.webp",
       "swatches/bc_swa_0045/0002.webp",
