@@ -43,20 +43,6 @@ const swatchesData = [
         "carousel/samplekey_yarrow_noname.webp"
     ]
   },{
-    id:"0004",
-    thumbnail: "swatches/bc_swa_0004/0004.webp",
-    latin: "Leucanthemum vulgare",
-    plant: "Oxeye daisy ",
-    material:"",
-    keywords: "Oxeye Daisy Leucanthemum vulgare",
-    carousel: [
-        {src:"swatches/bc_swa_0004/0001.webp",name: "",material: "linen"},
-        {src:"swatches/bc_swa_0004/0002.webp",name: "",material: "linen"},
-        {src:"swatches/bc_swa_0004/0003.webp",name: "",material: "linen"},
-        {src:"swatches/bc_swa_0004/0004.webp",name: "",material: "linen"},
-      "carousel/samplekey_yarrow_noname.webp"
-    ]
-  },{
     id:"0009",
     thumbnail: "swatches/bc_swa_0009/0001.webp",
     latin: "Leucanthemum vulgare",
@@ -431,15 +417,15 @@ const swatchesData = [
     ]
   },
   {id: "00036",
-    thumbnail: "swatches/bc_swa_0036/0001.webp",
+    thumbnail: "swatches/bc_swa_0036/0004.webp",
     latin: "Cornus sanguinea",
     plant: "Dogwood",
     keywords: "Dogwood Cornus sanguinea",
     carousel: [
-      "swatches/bc_swa_0036/0001.webp",
+      "swatches/bc_swa_0036/0004.webp",
       "swatches/bc_swa_0036/0002.webp",
       "swatches/bc_swa_0036/0003.webp",
-      "swatches/bc_swa_0036/0004.webp",
+      "swatches/bc_swa_0036/0001.webp",
       "carousel/samplekey_yarrow_noname.webp"
     ]
   },
@@ -483,14 +469,14 @@ const swatchesData = [
     ]
   },
   {id: "00040",
-    thumbnail: "swatches/bc_swa_0040/0001.webp",
+    thumbnail: "swatches/bc_swa_0040/0003.webp",
     latin: "Allium cepa",
     plant: "Onion (red)",
     keywords: "Onion (red) Allium cepa",
     carousel: [
-      "swatches/bc_swa_0040/0001.webp",
-      "swatches/bc_swa_0040/0002.webp",
       "swatches/bc_swa_0040/0003.webp",
+      "swatches/bc_swa_0040/0002.webp",
+      "swatches/bc_swa_0040/0001.webp",
       "swatches/bc_swa_0040/0004.webp",
       "carousel/samplekey_yarrow_noname.webp"
     ]
@@ -535,15 +521,15 @@ const swatchesData = [
     ]
   },
   {id: "00044",
-    thumbnail: "swatches/bc_swa_0044/0001.webp",
+    thumbnail: "swatches/bc_swa_0044/0004.webp",
     latin: "Prunus domestica",
     plant: "Plum tree",
     keywords: "Plum tree Prunus domestica",
     carousel: [
-      "swatches/bc_swa_0044/0001.webp",
+      "swatches/bc_swa_0044/0004.webp",
       "swatches/bc_swa_0044/0002.webp",
       "swatches/bc_swa_0044/0003.webp",
-      "swatches/bc_swa_0044/0004.webp",
+      "swatches/bc_swa_0044/0001.webp",
       "carousel/samplekey_yarrow_noname.webp"
     ]
   },
@@ -2139,7 +2125,7 @@ const swatchesData = [
       "swatches/bc_swa_0121(a)/0001.webp",
       "swatches/bc_swa_0121(a)/0002.webp",
       "swatches/bc_swa_0121(a)/0003.webp",
-      "swatches/bc_swa_0121(a)/0004.webp",
+      "swatches/bc_swa_0121(a)/0006.webp",
       "carousel/samplekey_yarrow_noname.webp"
     ]
   },
