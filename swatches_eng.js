@@ -110,10 +110,10 @@ const swatchesData = [
     material:"",
     keywords: "Dipsacus fullonum Teasle ",
     carousel: [
-      "swatches/bc_swa_0013/0001.webp",
-      "swatches/bc_swa_0013/0002.webp",
-      "swatches/bc_swa_0013/0003.webp",
-      "swatches/bc_swa_0013/0004.webp",
+      {src:"swatches/bc_swa_0013/0001.webp",name: "",material: "linen"},
+      {src:"swatches/bc_swa_0013/0002.webp",name: "",material: "linen"},
+      {src:"swatches/bc_swa_0013/0003.webp",name: "",material: "linen"},
+      {src:"swatches/bc_swa_0013/0004.webp",name: "",material: "linen"},
       "carousel/samplekey_yarrow_noname.webp"
     ]
   },
@@ -125,10 +125,10 @@ const swatchesData = [
     material:"",
     keywords: "yarrow yellow achillea millefolium field ",
     carousel: [
-      "swatches/bc_swa_0014/0001.webp",
-      "swatches/bc_swa_0014/0002.webp",
-      "swatches/bc_swa_0014/0003.webp",
-      "swatches/bc_swa_0014/0004.webp",
+       {src:"swatches/bc_swa_0014/0001.webp",name: "",material: "linen"},
+       {src:"swatches/bc_swa_0014/0002.webp",name: "",material: "linen"},
+       {src:"swatches/bc_swa_0014/0003.webp",name: "",material: "linen"},
+       {src:"swatches/bc_swa_0014/0004.webp",name: "",material: "linen"},
       "carousel/samplekey_yarrow_noname.webp"
     ]
   },
@@ -211,10 +211,10 @@ const swatchesData = [
     plant: "Calendula",
     keywords: "Common marigold Calendula officinalis blue purple",
     carousel: [
-      "swatches/bc_swa_0020/0001.webp",
-      "swatches/bc_swa_0020/0002.webp",
-      "swatches/bc_swa_0020/0003.webp",
-      "swatches/bc_swa_0020/0004.webp",
+       {src:"swatches/bc_swa_0020/0001.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0020/0002.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0020/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0020/0004.webp",name: "",material: "silk"},
       "carousel/samplekey_yarrow_noname.webp"
     ]
   },
@@ -225,10 +225,10 @@ const swatchesData = [
     plant: "Himalayan Honeysuckle",
     keywords: "Leycesteria formosa Himalayan Honeysuckle",
     carousel: [
-      "swatches/bc_swa_0021/0001.webp",
-      "swatches/bc_swa_0021/0002.webp",
-      "swatches/bc_swa_0021/0003.webp",
-      "swatches/bc_swa_0021/0004.webp",
+       {src:"swatches/bc_swa_0021/0001.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0021/0002.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0021/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0021/0004.webp",name: "",material: "silk"},
       "carousel/samplekey_yarrow_noname.webp"
     ]
   },
@@ -239,10 +239,10 @@ const swatchesData = [
     plant: "Tansy",
     keywords: "Tanacetum vulgare Tansy",
     carousel: [
-      "swatches/bc_swa_0022/0001.webp",
-      "swatches/bc_swa_0022/0002.webp",
-      "swatches/bc_swa_0022/0003.webp",
-      "swatches/bc_swa_0022/0004.webp",
+       {src:"swatches/bc_swa_0022/0001.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0022/0002.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0022/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0022/0004.webp",name: "",material: "silk"},
       "carousel/samplekey_yarrow_noname.webp"
     ]
   },
@@ -253,10 +253,10 @@ const swatchesData = [
     plant: "Dogrose rosehip",
     keywords: "Rosa canina Dogrose rosehip",
     carousel: [
-      "swatches/bc_swa_0023/0001.webp",
-      "swatches/bc_swa_0023/0002.webp",
-      "swatches/bc_swa_0023/0003.webp",
-      "swatches/bc_swa_0023/0004.webp",
+       {src:"swatches/bc_swa_0023/0001.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0023/0002.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0023/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0023/0004.webp",name: "",material: "silk"},
       "carousel/samplekey_yarrow_noname.webp"
     ]
   },
@@ -266,10 +266,10 @@ const swatchesData = [
     plant: "Soft shield fern Polystichum setiferum",
     keywords: "Soft shield fern ",
     carousel: [
-      "swatches/bc_swa_0024/0001.webp",
-      "swatches/bc_swa_0024/0002.webp",
-      "swatches/bc_swa_0024/0003.webp",
-      "swatches/bc_swa_0024/0004.webp",
+       {src:"swatches/bc_swa_0024/0001.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0024/0002.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0024/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0024/0004.webp",name: "",material: "silk"},
       "carousel/samplekey_yarrow_noname.webp"
     ]
   },
@@ -279,10 +279,10 @@ const swatchesData = [
     plant: "Tansy",
     keywords: "Filix Ferns",
     carousel: [
-      "swatches/bc_swa_0025/0001.webp",
-      "swatches/bc_swa_0025/0002.webp",
-      "swatches/bc_swa_0025/0003.webp",
-      "swatches/bc_swa_0025/0004.webp",
+       {src:"swatches/bc_swa_0025/0001.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0025/0002.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0025/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0025/0004.webp",name: "",material: "silk"},
       "carousel/samplekey_yarrow_noname.webp"
     ]
   },
@@ -292,10 +292,10 @@ const swatchesData = [
     plant: "Comfrey",
     keywords: "Symphytum officinale Comfrey ",
     carousel: [
-      "swatches/bc_swa_0026/0001.webp",
-      "swatches/bc_swa_0026/0002.webp",
-      "swatches/bc_swa_0026/0003.webp",
-      "swatches/bc_swa_0026/0004.webp",
+       {src:"swatches/bc_swa_0026/0001.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0026/0002.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0026/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0026/0004.webp",name: "",material: "silk"},
       "carousel/samplekey_yarrow_noname.webp"
     ]
   },
@@ -305,11 +305,11 @@ const swatchesData = [
     plant: "Himalayan balsam",
     keywords: "Impatiens glandulifera Himalayan balsam",
     carousel: [
-      "swatches/bc_swa_0027/0001.webp",
-      "swatches/bc_swa_0027/0002.webp",
-      "swatches/bc_swa_0027/0003.webp",
-      "swatches/bc_swa_0027/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+       {src:"swatches/bc_swa_0027/0001.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0027/0002.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0027/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0027/0004.webp",name: "",material: "silk"},
+        "carousel/samplekey_yarrow_noname.webp"
     ]
   },
   {id: "0028",
@@ -318,11 +318,11 @@ const swatchesData = [
     plant: "Bracken",
     keywords: "Bracken Pteridium aquilinum",
     carousel: [
-      "swatches/bc_swa_0028/0001.webp",
-      "swatches/bc_swa_0028/0002.webp",
-      "swatches/bc_swa_0028/0003.webp",
-      "swatches/bc_swa_0028/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+       {src:"swatches/bc_swa_0028/0001.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0028/0002.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0028/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0028/0004.webp",name: "",material: "silk"},
+        "carousel/samplekey_yarrow_noname.webp"
     ]
   },
   {id: "0029",
