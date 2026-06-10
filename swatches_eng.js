@@ -10,7 +10,7 @@ const swatchesData = [
       {src: "swatches/bc_swa_0001/IMG_0002_1.webp",name: "",material: "cotton"},
       {src: "swatches/bc_swa_0001/IMG_0003_1.webp",name: "",material: "silk"},
       {src: "swatches/bc_swa_0001/IMG_0004_1.webp",name: "",material: "wool"},
-      "swatches/bc_swa_0001/IMG_0005.webp"
+      "swatches/bc_swa_0001/IMG_0005.webp",
     ]
   },
   {
@@ -18,14 +18,13 @@ const swatchesData = [
     thumbnail: "swatches/bc_swa_0002/IMG_0001_2.webp",
     latin: "Hypericum perforatum",
     plant: "St Johns Wort flowers ",
-    material:"",
     keywords: "yarrow yellow achillea millefolium field ",
     carousel: [
       {src:"swatches/bc_swa_0002/IMG_0001_2.webp",name: "",material: "linen"},
       {src:"swatches/bc_swa_0002/IMG_0002_2.webp",name: "",material: "cotton"},
       {src:"swatches/bc_swa_0002/IMG_0003_2.webp",name: "",material: "silk"},
       {src:"swatches/bc_swa_0002/IMG_0004.png",name: "",material: "wool"},
-      "carousel/samplekey_yarrow_noname.webp"
+      "swatches/bc_swa_0002/IMG_0005.webp",
     ]
   },
   {
@@ -33,28 +32,26 @@ const swatchesData = [
     thumbnail: "swatches/bc_swa_0003/0001.webp",
     latin: "Solidago virgaurea",
     plant: "Goldenrod",
-    material:"",
     keywords: "goldenrod solidago yellow ",
     carousel: [
         {src:"swatches/bc_swa_0003/0001.webp",name: "",material: "linen"},
         {src:"swatches/bc_swa_0003/0002.webp",name: "",material: "cotton"},
         {src:"swatches/bc_swa_0003/0003.webp",name: "",material: "silk"},
         {src:"swatches/bc_swa_0003/0004.webp",name: "",material: "wool"},
-        "carousel/samplekey_yarrow_noname.webp"
+         "swatches/bc_swa_0003/IMG_0005.webp"
     ]
   },{
     id:"0009",
     thumbnail: "swatches/bc_swa_0009/0001.webp",
     latin: "Leucanthemum vulgare",
     plant: "Oxeye daisy ",
-    material:"",
     keywords: "Oxeye Daisy Leucanthemum vulgare",
     carousel: [
         {src:"swatches/bc_swa_0009/0001.webp",name: "",material: "linen"},
         {src:"swatches/bc_swa_0009/0002.webp",name: "",material: "linen"},
         {src:"swatches/bc_swa_0009/0003.webp",name: "",material: "linen"},
         {src:"swatches/bc_swa_0009/0004.webp",name: "",material: "linen"},
-      "carousel/samplekey_yarrow_noname.webp"
+      "swatches/bc_swa_0009/0005.webp"
     ]
   },
   {
@@ -69,7 +66,7 @@ const swatchesData = [
         {src:"swatches/bc_swa_0010/0002.webp",name: "",material: "linen"},
         {src:"swatches/bc_swa_0010/0003.webp",name: "",material: "linen"},
         {src:"swatches/bc_swa_0010/0004.webp",name: "",material: "linen"},
-      "carousel/samplekey_yarrow_noname.webp"
+      "swatches/bc_swa_0010/IMG_0005.webp"
     ]
   },
   {
