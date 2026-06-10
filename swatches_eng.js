@@ -10,7 +10,7 @@ const swatchesData = [
       {src: "swatches/bc_swa_0001/IMG_0002_1.webp",name: "",material: "cotton"},
       {src: "swatches/bc_swa_0001/IMG_0003_1.webp",name: "",material: "silk"},
       {src: "swatches/bc_swa_0001/IMG_0004_1.webp",name: "",material: "wool"},
-      "carousel/samplekey_yarrow_noname.webp"
+      "swatches/bc_swa_0001/IMG_0005.webp"
     ]
   },
   {
