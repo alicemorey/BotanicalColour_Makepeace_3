@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-  let current = 0;
+  let current = null;
   let currentCarousel = [];
 
   // Make PNG follow the mouse
@@ -66,20 +66,34 @@ if (customCursor) {
   }
 
   // Open modal with carousel (only if modal exists)
-  function openModal(swatch) {
-    if (!modal) return;
-    current = 0;
-    currentCarousel = Array.isArray(swatch.carousel) ? swatch.carousel.slice() : [];
-    updateCarousel();
+ function openModal(swatch) {
+  if (!modal) return;
 
-    if (swatchIdEl) swatchIdEl.textContent = `${swatch.id || ""} - ${swatch.material || ""}`;
-    if (modalTitleEl) modalTitleEl.textContent = `${swatch.plant || ""} — ${swatch.latin || ""}`;
-    
+  currentSwatch = swatch; // 🔥 store globally
 
-    modal.classList.add("active");
-    document.body.classList.add("modal-open");
+  current = 0;
+  currentCarousel = Array.isArray(swatch.carousel)
+    ? swatch.carousel.slice()
+    : [];
 
+  updateCarousel();
+
+  // default header (shown unless hidden by slide)
+  if (swatchIdEl) {
+    swatchIdEl.textContent = swatch.id || "";
+    swatchIdEl.style.display = "";
   }
+
+  if (modalTitleEl) {
+    modalTitleEl.textContent =
+      `${swatch.plant || ""} — ${swatch.latin || ""}`;
+    modalTitleEl.style.display = "";
+  }
+
+  modal.classList.add("active");
+  document.body.classList.add("modal-open");
+}
+
 
   // Update carousel display (only if carouselImages exists)
   function updateCarousel() {
@@ -88,16 +102,23 @@ if (customCursor) {
 
   currentCarousel.forEach((item, i) => {
     const wrapper = document.createElement("div");
-    wrapper.className = i === current ? "carousel-item active" : "carousel-item";
-    
+    wrapper.className =
+      i === current ? "carousel-item active" : "carousel-item";
 
-    // ✅ handle BOTH formats
+    // handle both formats
     const src = typeof item === "string" ? item : item.src;
-    const name = typeof item === "string" ? "" : item.name;
-    const material = typeof item === "string" ? "" : item.material;
+    const name = typeof item === "string" ? "" : (item.name || "");
+    const material = typeof item === "string" ? "" : (item.material || "");
+    const hideMeta = typeof item === "string"
+      ? false
+      : item.hideMeta === true;
 
-    // TEXT (only if exists)
-    if (name || material) {
+    // 🔥 clean slide logic
+    const isCleanSlide =
+      hideMeta || (!name.trim() && !material.trim());
+
+    // CAPTION (only if not clean)
+    if (!isCleanSlide && (name.trim() || material.trim())) {
       const caption = document.createElement("div");
       caption.className = "caption";
       caption.innerHTML = `
@@ -116,7 +137,23 @@ if (customCursor) {
     wrapper.appendChild(img);
     carouselImages.appendChild(wrapper);
   });
+
+  // 🔥 HEADER CONTROL (THIS is the missing piece)
+  const currentItem = currentCarousel[current];
+
+  const isCleanSlide =
+    currentItem?.hideMeta === true ||
+    (!currentItem?.name && !currentItem?.material);
+
+  if (swatchIdEl) {
+    swatchIdEl.style.display = isCleanSlide ? "none" : "";
+  }
+
+  if (modalTitleEl) {
+    modalTitleEl.style.display = isCleanSlide ? "none" : "";
+  }
 }
+ 
 
   // Navigation (safe guards)
   if (nextBtn) {
