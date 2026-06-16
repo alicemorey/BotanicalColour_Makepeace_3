@@ -395,11 +395,11 @@ const swatchesData = [
     plant: "Bay",
     keywords: "Bay Laurus nobilis",
     carousel: [
-      "swatches/bc_swa_0034/0001.webp",
-      "swatches/bc_swa_0034/0002.webp",
-      "swatches/bc_swa_0034/0003.webp",
-      "swatches/bc_swa_0034/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+        {src:"swatches/bc_swa_0034/0001.webp",name: "",material: "linen"},
+       {src:"swatches/bc_swa_0034/0002.webp",name: "",material: "cotton"},
+       {src:"swatches/bc_swa_0034/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0034/0004.webp",name: "",material: "wool"},
+      {src:"swatches/bc_swa_0034/0005.webp"}
     ]
   },
   {id: "00035",
@@ -408,11 +408,11 @@ const swatchesData = [
     plant: "Poppy",
     keywords: "Papaver somniferum Poppy",
     carousel: [
-      "swatches/bc_swa_0035/0001.webp",
-      "swatches/bc_swa_0035/0002.webp",
-      "swatches/bc_swa_0035/0003.webp",
-      "swatches/bc_swa_0035/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+        {src:"swatches/bc_swa_0035/0001.webp",name: "",material: "linen"},
+        {src:"swatches/bc_swa_0035/0002.webp",name: "",material: "cotton"},
+        {src:"swatches/bc_swa_0035/0003.webp",name: "",material: "silk"},
+        {src:"swatches/bc_swa_0035/0004.webp",name: "",material: "wool"},
+        {src:"swatches/bc_swa_0035/0005.webp"}
     ]
   },
   {id: "00036",
@@ -421,11 +421,11 @@ const swatchesData = [
     plant: "Dogwood",
     keywords: "Dogwood Cornus sanguinea",
     carousel: [
-      "swatches/bc_swa_0036/0004.webp",
-      "swatches/bc_swa_0036/0002.webp",
-      "swatches/bc_swa_0036/0003.webp",
-      "swatches/bc_swa_0036/0001.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+       {src:"swatches/bc_swa_0036/0001.webp",name: "",material: "linen"},
+       {src:"swatches/bc_swa_0036/0002.webp",name: "",material: "cotton"},
+       {src:"swatches/bc_swa_0036/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0036/0004.webp",name: "",material: "wool"},
+        {src:"swatches/bc_swa_0036/0005.webp"}
     ]
   },
   {id: "00037",
@@ -434,11 +434,11 @@ const swatchesData = [
     plant: "Heather",
     keywords: "Heather Calluna vulgaris",
     carousel: [
-      "swatches/bc_swa_0037/0001.webp",
-      "swatches/bc_swa_0037/0002.webp",
-      "swatches/bc_swa_0037/0003.webp",
-      "swatches/bc_swa_0037/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+        {src:"swatches/bc_swa_0037/0001.webp",name: "",material: "linen"},
+       {src:"swatches/bc_swa_0037/0002.webp",name: "",material: "cotton"},
+       {src:"swatches/bc_swa_0037/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0037/0004.webp",name: "",material: "wool"},
+        {src:"swatches/bc_swa_0037/0005.webp"}
     ]
   },
   {id: "00038",
@@ -447,11 +447,11 @@ const swatchesData = [
     plant: "Woad",
     keywords: "Woad Isatis tinctoria",
     carousel: [
-      "swatches/bc_swa_0038/0001.webp",
-      "swatches/bc_swa_0038/0002.webp",
-      "swatches/bc_swa_0038/0003.webp",
-      "swatches/bc_swa_0038/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+        {src:"swatches/bc_swa_0038/0001.webp",name: "",material: "linen"},
+       {src:"swatches/bc_swa_0038/0002.webp",name: "",material: "cotton"},
+       {src:"swatches/bc_swa_0038/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0038/0004.webp",name: "",material: "wool"},
+        {src:"swatches/bc_swa_0038/0005.webp"}
     ]
   },
   {id: "00039",
@@ -460,11 +460,11 @@ const swatchesData = [
     plant: "Thistles",
     keywords: "Cirsium arvense Thistles",
     carousel: [
-      "swatches/bc_swa_0039/0001.webp",
-      "swatches/bc_swa_0039/0002.webp",
-      "swatches/bc_swa_0039/0003.webp",
-      "swatches/bc_swa_0039/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+        {src:"swatches/bc_swa_0039/0001.webp",name: "",material: "linen"},
+       {src:"swatches/bc_swa_0039/0002.webp",name: "",material: "cotton"},
+       {src:"swatches/bc_swa_0039/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0039/0004.webp",name: "",material: "wool"},
+      {src:"swatches/bc_swa_0039/0005.webp"}
     ]
   },
   {id: "00040",
@@ -473,11 +473,11 @@ const swatchesData = [
     plant: "Onion (red)",
     keywords: "Onion (red) Allium cepa",
     carousel: [
-      "swatches/bc_swa_0040/0003.webp",
-      "swatches/bc_swa_0040/0002.webp",
-      "swatches/bc_swa_0040/0001.webp",
-      "swatches/bc_swa_0040/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+        {src:"swatches/bc_swa_0040/0001.webp",name: "",material: "linen"},
+       {src:"swatches/bc_swa_0040/0002.webp",name: "",material: "cotton"},
+       {src:"swatches/bc_swa_0040/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0040/0004.webp",name: "",material: "wool"},
+      {src:"swatches/bc_swa_0040/0005.webp"}
     ]
   },
   {id: "00041",
@@ -486,11 +486,11 @@ const swatchesData = [
     plant: "Purple loosestrife",
     keywords: "Lythrum salicaria Purple loosestrife",
     carousel: [
-      "swatches/bc_swa_0041/0001.webp",
-      "swatches/bc_swa_0041/0002.webp",
-      "swatches/bc_swa_0041/0003.webp",
-      "swatches/bc_swa_0041/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+      {src:"swatches/bc_swa_0041/0001.webp",name: "",material: "linen"},
+       {src:"swatches/bc_swa_0041/0002.webp",name: "",material: "cotton"},
+       {src:"swatches/bc_swa_0041/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0041/0004.webp",name: "",material: "wool"},
+      {src:"swatches/bc_swa_0041/0005.webp"}
     ]
   },
   {id: "00042",
@@ -499,11 +499,11 @@ const swatchesData = [
     plant: "Thistles",
     keywords: "Carduus Thistles",
     carousel: [
-      "swatches/bc_swa_0042/0001.webp",
-      "swatches/bc_swa_0042/0002.webp",
-      "swatches/bc_swa_0042/0003.webp",
-      "swatches/bc_swa_0042/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+      {src:"swatches/bc_swa_0042/0001.webp",name: "",material: "linen"},
+       {src:"swatches/bc_swa_0042/0002.webp",name: "",material: "cotton"},
+       {src:"swatches/bc_swa_0042/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0042/0004.webp",name: "",material: "wool"},
+      {src:"swatches/bc_swa_0042/0005.webp"}
     ]
   },
   {id: "00043",
@@ -512,11 +512,11 @@ const swatchesData = [
     plant: "Hart's tongue fern",
     keywords: "Asplenium scolopendrium Hart's tongue fern",
     carousel: [
-      "swatches/bc_swa_0043/0001.webp",
-      "swatches/bc_swa_0043/0002.webp",
-      "swatches/bc_swa_0043/0003.webp",
-      "swatches/bc_swa_0043/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+      {src:"swatches/bc_swa_0040/0001.webp",name: "",material: "linen"},
+       {src:"swatches/bc_swa_0040/0002.webp",name: "",material: "cotton"},
+       {src:"swatches/bc_swa_0040/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0040/0004.webp",name: "",material: "wool"},
+      {src:"swatches/bc_swa_0040/0005.webp"}
     ]
   },
   {id: "00044",
@@ -525,11 +525,11 @@ const swatchesData = [
     plant: "Plum tree",
     keywords: "Plum tree Prunus domestica",
     carousel: [
-      "swatches/bc_swa_0044/0004.webp",
-      "swatches/bc_swa_0044/0002.webp",
-      "swatches/bc_swa_0044/0003.webp",
-      "swatches/bc_swa_0044/0001.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+      {src:"swatches/bc_swa_0044/0001.webp",name: "",material: "linen"},
+       {src:"swatches/bc_swa_0044/0002.webp",name: "",material: "cotton"},
+       {src:"swatches/bc_swa_0044/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0044/0004.webp",name: "",material: "wool"},
+      {src:"swatches/bc_swa_0044/0005.webp"}
     ]
   },
   {id: "00045",
@@ -538,11 +538,11 @@ const swatchesData = [
     plant: "Apple tree",
     keywords: "Apple tree Malus domestica",
     carousel: [
-      "swatches/bc_swa_0045/0001.webp",
-      "swatches/bc_swa_0045/0002.webp",
-      "swatches/bc_swa_0045/0003.webp",
-      "swatches/bc_swa_0045/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+      {src:"swatches/bc_swa_0045/0001.webp",name: "",material: "linen"},
+       {src:"swatches/bc_swa_0045/0002.webp",name: "",material: "cotton"},
+       {src:"swatches/bc_swa_0045/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0045/0004.webp",name: "",material: "wool"},
+      {src:"swatches/bc_swa_0045/0005.webp"}
     ]
   },
   {id: "00046",
@@ -551,11 +551,11 @@ const swatchesData = [
     plant: "Cherry tree",
     keywords: "Cherry tree Prunus avium",
     carousel: [
-      "swatches/bc_swa_0040/0001.webp",
-      "swatches/bc_swa_0040/0002.webp",
-      "swatches/bc_swa_0040/0003.webp",
-      "swatches/bc_swa_0040/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+      {src:"swatches/bc_swa_0046/0001.webp",name: "",material: "linen"},
+       {src:"swatches/bc_swa_0046/0002.webp",name: "",material: "cotton"},
+       {src:"swatches/bc_swa_0046/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0046/0004.webp",name: "",material: "wool"},
+      {src:"swatches/bc_swa_0046/0005.webp"}
     ]
   },
   {id: "00047",
@@ -564,11 +564,11 @@ const swatchesData = [
     plant: "Quince tree",
     keywords: "Quince tree Cydonia oblonga",
     carousel: [
-      "swatches/bc_swa_0047/0001.webp",
-      "swatches/bc_swa_0047/0002.webp",
-      "swatches/bc_swa_0047/0003.webp",
-      "swatches/bc_swa_0047/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+      {src:"swatches/bc_swa_0047/0001.webp",name: "",material: "linen"},
+       {src:"swatches/bc_swa_0047/0002.webp",name: "",material: "cotton"},
+       {src:"swatches/bc_swa_0047/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0047/0004.webp",name: "",material: "wool"},
+      {src:"swatches/bc_swa_0047/0005.webp"}
     ]
   },
   {id: "00048",
@@ -577,11 +577,11 @@ const swatchesData = [
     plant: "Weld",
     keywords: "Reseda luteola Weld",
     carousel: [
-      "swatches/bc_swa_0048/0001.webp",
-      "swatches/bc_swa_0048/0002.webp",
-      "swatches/bc_swa_0048/0003.webp",
-      "swatches/bc_swa_0048/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+      {src:"swatches/bc_swa_0048/0001.webp",name: "",material: "linen"},
+       {src:"swatches/bc_swa_0048/0002.webp",name: "",material: "cotton"},
+       {src:"swatches/bc_swa_0048/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0048/0004.webp",name: "",material: "wool"},
+      {src:"swatches/bc_swa_0048/0005.webp"}
     ]
   },
   {id: "00049",
@@ -590,11 +590,11 @@ const swatchesData = [
     plant: "Weld",
     keywords: "Weld Reseda luteola",
     carousel: [
-      "swatches/bc_swa_0049/0001.webp",
-      "swatches/bc_swa_0049/0002.webp",
-      "swatches/bc_swa_0049/0003.webp",
-      "swatches/bc_swa_0049/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+      {src:"swatches/bc_swa_0049/0001.webp",name: "",material: "linen"},
+       {src:"swatches/bc_swa_0049/0002.webp",name: "",material: "cotton"},
+       {src:"swatches/bc_swa_0049/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0049/0004.webp",name: "",material: "wool"},
+      {src:"swatches/bc_swa_0049/0005.webp"}
     ]
   },
   {id: "00050",
@@ -603,11 +603,11 @@ const swatchesData = [
     plant: "Spearmint",
     keywords: "Spearmint Mentha piperita",
     carousel: [
-      "swatches/bc_swa_0050/0001.webp",
-      "swatches/bc_swa_0050/0002.webp",
-      "swatches/bc_swa_0050/0003.webp",
-      "swatches/bc_swa_0050/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+      {src:"swatches/bc_swa_0050/0001.webp",name: "",material: "linen"},
+       {src:"swatches/bc_swa_0050/0002.webp",name: "",material: "cotton"},
+       {src:"swatches/bc_swa_0050/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0050/0004.webp",name: "",material: "wool"},
+      {src:"swatches/bc_swa_0050/0005.webp"}
     ]
   },
   {id: "00051",
@@ -616,11 +616,11 @@ const swatchesData = [
     plant: "Japanese Anemone and Hazel",
     keywords: "Japanese Anemone and Hazel, Anemone hupehensis, Corylus avellana",
     carousel: [
-      "swatches/bc_swa_0051/0001.webp",
-      "swatches/bc_swa_0051/0002.webp",
-      "swatches/bc_swa_0051/0003.webp",
-      "swatches/bc_swa_0051/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+       {src:"swatches/bc_swa_0051/0001.webp",name: "",material: "linen"},
+       {src:"swatches/bc_swa_0051/0002.webp",name: "",material: "cotton"},
+       {src:"swatches/bc_swa_0051/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0051/0004.webp",name: "",material: "wool"},
+      {src:"swatches/bc_swa_0051/0005.webp"}
     ]
   },
   {id: "00052",
@@ -629,11 +629,11 @@ const swatchesData = [
     plant: "Spearmint",
     keywords: "Mentha spicata, Spearmint",
     carousel: [
-      "swatches/bc_swa_0052/0001.webp",
-      "swatches/bc_swa_0052/0002.webp",
-      "swatches/bc_swa_0052/0003.webp",
-      "swatches/bc_swa_0052/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+     {src:"swatches/bc_swa_0052/0001.webp",name: "",material: "linen"},
+       {src:"swatches/bc_swa_0052/0002.webp",name: "",material: "cotton"},
+       {src:"swatches/bc_swa_0052/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0052/0004.webp",name: "",material: "wool"},
+      {src:"swatches/bc_swa_0052/0005.webp"}
     ]
   },
   {id: "00053",
@@ -642,11 +642,11 @@ const swatchesData = [
     plant: "Eucalyptus",
     keywords: "Eucalyptus",
     carousel: [
-      "swatches/bc_swa_0053/0001.webp",
-      "swatches/bc_swa_0053/0002.webp",
-      "swatches/bc_swa_0053/0003.webp",
-      "swatches/bc_swa_0053/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+      {src:"swatches/bc_swa_0053/0001.webp",name: "",material: "linen"},
+       {src:"swatches/bc_swa_0053/0002.webp",name: "",material: "cotton"},
+       {src:"swatches/bc_swa_0053/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0053/0004.webp",name: "",material: "wool"},
+      {src:"swatches/bc_swa_0053/0005.webp"}
     ]
   },
   {id: "00054",
@@ -655,11 +655,11 @@ const swatchesData = [
     plant: "Pale-leaved sunflowers",
     keywords: "Pale-leaved sunflowers Helianthus strumosus",
     carousel: [
-      "swatches/bc_swa_0054/0001.webp",
-      "swatches/bc_swa_0054/0002.webp",
-      "swatches/bc_swa_0054/0003.webp",
-      "swatches/bc_swa_0054/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+      {src:"swatches/bc_swa_0054/0001.webp",name: "",material: "linen"},
+       {src:"swatches/bc_swa_0054/0002.webp",name: "",material: "cotton"},
+       {src:"swatches/bc_swa_0054/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0054/0004.webp",name: "",material: "wool"},
+      {src:"swatches/bc_swa_0054/0005.webp"}
     ]
   },
   {id: "00055",

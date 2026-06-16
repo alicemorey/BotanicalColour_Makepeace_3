@@ -389,11 +389,11 @@ const swatchesData = [
     plant: "Llawryf",
     keywords: "Llawryf, Laurus nobilis",
     carousel: [
-      "swatches/bc_swa_0034/0001.webp",
-      "swatches/bc_swa_0034/0002.webp",
-      "swatches/bc_swa_0034/0003.webp",
-      "swatches/bc_swa_0034/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+      {src:"swatches/bc_swa_0034/0001.webp",name: "",material: "linen"},
+       {src:"swatches/bc_swa_0034/0002.webp",name: "",material: "cotton"},
+       {src:"swatches/bc_swa_0034/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0034/0004.webp",name: "",material: "wool"},
+      {src:"swatches/bc_swa_0034/0006.webp"}
     ]
   },
   {id: "00035",
