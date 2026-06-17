@@ -668,11 +668,11 @@ const swatchesData = [
     plant: " Buddleia (white variety)",
     keywords: " Buddleia (white variety)",
     carousel: [
-      "swatches/bc_swa_0055/0001.webp",
-      "swatches/bc_swa_0055/0002.webp",
-      "swatches/bc_swa_0055/0003.webp",
-      "swatches/bc_swa_0055/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+      {src:"swatches/bc_swa_0055/0001.webp",name: "",material: "linen"},
+       {src:"swatches/bc_swa_0055/0002.webp",name: "",material: "cotton"},
+       {src:"swatches/bc_swa_0055/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0055/0004.webp",name: "",material: "wool"},
+      {src:"swatches/bc_swa_0055/0005.webp"}
     ]
   },
   {id: "00056",
@@ -681,11 +681,11 @@ const swatchesData = [
     plant: "Coffee grounds",
     keywords: "Coffea, Coffee grounds",
     carousel: [
-      "swatches/bc_swa_0056/0001.webp",
-      "swatches/bc_swa_0056/0002.webp",
-      "swatches/bc_swa_0056/0003.webp",
-      "swatches/bc_swa_0056/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+       {src:"swatches/bc_swa_0057/0001.webp",name: "",material: "linen"},
+       {src:"swatches/bc_swa_0057/0002.webp",name: "",material: "cotton"},
+       {src:"swatches/bc_swa_0057/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0057/0004.webp",name: "",material: "wool"},
+      {src:"swatches/bc_swa_0057/0005.webp"}
     ]
   },
   {id: "00057",
@@ -694,11 +694,11 @@ const swatchesData = [
     plant: "Blackthorn",
     keywords: "Blackthorn, Prunus spinosa",
     carousel: [
-      "swatches/bc_swa_0057/0001.webp",
-      "swatches/bc_swa_0057/0002.webp",
-      "swatches/bc_swa_0057/0003.webp",
-      "swatches/bc_swa_0057/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+       {src:"swatches/bc_swa_0057/0001.webp",name: "",material: "linen"},
+       {src:"swatches/bc_swa_0057/0002.webp",name: "",material: "cotton"},
+       {src:"swatches/bc_swa_0057/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0057/0004.webp",name: "",material: "wool"},
+      {src:"swatches/bc_swa_0057/0005.webp"}
     ]
   },
   {id: "00058",
@@ -707,11 +707,11 @@ const swatchesData = [
     plant: "Avocado",
     keywords: "Avocado, Persea americana",
     carousel: [
-      "swatches/bc_swa_0058/0001.webp",
-      "swatches/bc_swa_0058/0002.webp",
-      "swatches/bc_swa_0058/0003.webp",
-      "swatches/bc_swa_0058/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+    {src:"swatches/bc_swa_0058/0001.webp",name: "",material: "linen"},
+       {src:"swatches/bc_swa_0058/0002.webp",name: "",material: "cotton"},
+       {src:"swatches/bc_swa_0058/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0058/0004.webp",name: "",material: "wool"},
+      {src:"swatches/bc_swa_0058/0005.webp"}
     ]
   },
   {id: "00059",
@@ -720,11 +720,11 @@ const swatchesData = [
     plant: "Calendula",
     keywords: "Calendula",
     carousel: [
-      "swatches/bc_swa_0059/0001.webp",
-      "swatches/bc_swa_0059/0002.webp",
-      "swatches/bc_swa_0059/0003.webp",
-      "swatches/bc_swa_0059/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+       {src:"swatches/bc_swa_0059/0001.webp",name: "",material: "linen"},
+       {src:"swatches/bc_swa_0059/0002.webp",name: "",material: "cotton"},
+       {src:"swatches/bc_swa_0059/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0059/0004.webp",name: "",material: "wool"},
+      {src:"swatches/bc_swa_0059/0005.webp"}
     ]
   },
    {id: "00060",
@@ -733,11 +733,11 @@ const swatchesData = [
     plant: "Oak galls",
     keywords: "Oak galls, Andricus quercuscalicis ",
     carousel: [
-      "swatches/bc_swa_0060/0001.webp",
-      "swatches/bc_swa_0060/0002.webp",
-      "swatches/bc_swa_0060/0003.webp",
-      "swatches/bc_swa_0060/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+       {src:"swatches/bc_swa_0060/0001.webp",name: "",material: "linen"},
+       {src:"swatches/bc_swa_0060/0002.webp",name: "",material: "cotton"},
+       {src:"swatches/bc_swa_0060/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0060/0004.webp",name: "",material: "wool"},
+      {src:"swatches/bc_swa_0060/0005.webp"}
     ]
   },
    {id: "00061",

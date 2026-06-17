@@ -397,55 +397,55 @@ const swatchesData = [
     ]
   },
   {id: "00035",
-    thumbnail: "swatches/bc_swa_0016/0001.webp",
-    latin: "Filix",
-    plant: "Ferns",
-    keywords: "Filix Ferns",
+    thumbnail: "swatches/bc_swa_0035/0001.webp",
+    latin: "Papaver somniferum",
+    plant: "Pabi coch",
+    keywords: "Pabi coch, Papaver somniferum",
     carousel: [
-      "swatches/bc_swa_0035/0001.webp",
-      "swatches/bc_swa_0035/0002.webp",
-      "swatches/bc_swa_0035/0003.webp",
-      "swatches/bc_swa_0035/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0035/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0035/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0035/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0035/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0035/0006.webp"}
     ]
   },
   {id: "00036",
     thumbnail: "swatches/bc_swa_0036/0001.webp",
-    latin: "Filix",
-    plant: "Ferns",
-    keywords: "Filix Ferns",
+    latin: "Cornus sanguinea.",
+    plant: "Cornwydden",
+    keywords: "Cornwydden,Cornus sanguinea.",
     carousel: [
-      "swatches/bc_swa_0036/0001.webp",
-      "swatches/bc_swa_0036/0002.webp",
-      "swatches/bc_swa_0036/0003.webp",
-      "swatches/bc_swa_0036/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0036/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0036/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0036/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0036/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0036/0006.webp"}
     ]
   },
   {id: "00037",
     thumbnail: "swatches/bc_swa_0037/0001.webp",
-    latin: "Filix",
-    plant: "Ferns",
-    keywords: "Filix Ferns",
+    latin: "Calluna vulgaris",
+    plant: "Grug",
+    keywords: "Grug,Calluna vulgaris",
     carousel: [
-      "swatches/bc_swa_0037/0001.webp",
-      "swatches/bc_swa_0037/0002.webp",
-      "swatches/bc_swa_0037/0003.webp",
-      "swatches/bc_swa_0037/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0037/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0037/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0037/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0037/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0037/0006.webp"}
     ]
   },
   {id: "00038",
     thumbnail: "swatches/bc_swa_0038/0001.webp",
-    latin: "Filix",
-    plant: "Ferns",
-    keywords: "Filix Ferns",
+    latin: "Isatis tinctoria",
+    plant: "Glaslys",
+    keywords: "Glaslys,Isatis tinctoria",
     carousel: [
-      "swatches/bc_swa_0038/0001.webp",
-      "swatches/bc_swa_0038/0002.webp",
-      "swatches/bc_swa_0038/0003.webp",
-      "swatches/bc_swa_0038/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0038/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0038/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0038/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0038/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0038/0006.webp"}
     ]
   },
   {id: "00039",
@@ -454,11 +454,11 @@ const swatchesData = [
     plant: "Ferns",
     keywords: "Filix Ferns",
     carousel: [
-      "swatches/bc_swa_0039/0001.webp",
-      "swatches/bc_swa_0039/0002.webp",
-      "swatches/bc_swa_0039/0003.webp",
-      "swatches/bc_swa_0039/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0039/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0039/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0039/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0039/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0039/0006.webp"}
     ]
   },
   {id: "00040",
