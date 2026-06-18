@@ -450,9 +450,9 @@ const swatchesData = [
   },
   {id: "00039",
     thumbnail: "swatches/bc_swa_0039/0001.webp",
-    latin: "Filix",
-    plant: "Ferns",
-    keywords: "Filix Ferns",
+    latin: "Cirsium arvense",
+    plant: "Ysgallen",
+    keywords: "Ysgallen, Cirsium arvense",
     carousel: [
           {src:"swatches/bc_swa_0039/0001.webp",name: "",material: "lliain"},
           {src:"swatches/bc_swa_0039/0002.webp",name: "",material: "cotwm"},
@@ -463,41 +463,41 @@ const swatchesData = [
   },
   {id: "00040",
     thumbnail: "swatches/bc_swa_0040/0001.webp",
-    latin: "Filix",
-    plant: "Ferns",
-    keywords: "Filix Ferns",
+    latin: "Allium cepa",
+    plant: "Nionyn Coch",
+    keywords: "Nionyn Coch, Allium cepa",
     carousel: [
-      "swatches/bc_swa_0040/0001.webp",
-      "swatches/bc_swa_0040/0002.webp",
-      "swatches/bc_swa_0040/0003.webp",
-      "swatches/bc_swa_0040/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0040/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0040/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0040/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0040/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0040/0006.webp"}
     ]
   },
   {id: "00041",
     thumbnail: "swatches/bc_swa_0041/0001.webp",
-    latin: "Filix",
-    plant: "Ferns",
-    keywords: "Filix Ferns",
+    latin: "Lythrum salicaria",
+    plant: "Gwaedlys",
+    keywords: "Gwaedlys, Lythrum salicaria",
     carousel: [
-      "swatches/bc_swa_0041/0001.webp",
-      "swatches/bc_swa_0041/0002.webp",
-      "swatches/bc_swa_0041/0003.webp",
-      "swatches/bc_swa_0041/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0041/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0041/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0041/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0041/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0041/0006.webp"}
     ]
   },
   {id: "00042",
     thumbnail: "swatches/bc_swa_0042/0001.webp",
-    latin: "Filix",
-    plant: "Ferns",
-    keywords: "Filix Ferns",
+    latin: "Carduus",
+    plant: "Ysgallod",
+    keywords: "Ysgallod, Carduus",
     carousel: [
-      "swatches/bc_swa_0042/0001.webp",
-      "swatches/bc_swa_0042/0002.webp",
-      "swatches/bc_swa_0042/0003.webp",
-      "swatches/bc_swa_0042/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0042/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0042/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0042/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0042/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0042/0006.webp"}
     ]
   },
   {id: "00043",

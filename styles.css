@@ -121,7 +121,7 @@ header {
   border: 1px solid var(--muted-terracotta);
   border-radius: 5px;
   padding: 8px 12px;
-  font-size: 12px;
+  font-size: 10px;
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
   cursor: url("cursors/star-favicon.png") 32 32, pointer;
@@ -218,7 +218,7 @@ header {
   position: fixed;
   top: 20px;
   left: 20px;
-  z-index: 2000;
+  z-index: 1400;
   padding: 10px 15px;
   font-size: 30px;
   background-color: var(--cream);
@@ -233,22 +233,7 @@ body.modal-open #menuToggle {
   display: none;
 }
 
-/* Sidebar slides down from top */
-.sidebar {
-  position: fixed;
-  top: -100px;            /* Hidden above viewport */
-  left: 0;
-  width: 100%;            /* Full width */
-  background-color: var(--cream);
-  padding: 20px 0;
-  transition: top 0.3s ease;
-  z-index: 1000;
-}
 
-/* Show sidebar when active */
-.sidebar.active {
-  top: 0px;              /* Just below header (adjust as needed) */
-}
 
 .custom-cursor {
   position: fixed;
@@ -273,22 +258,24 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: center;   /* Center menu items */
-  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
 }
 
 .menu-item {
   cursor: url("cursors/star-favicon.png") 32 32, pointer;
   color: var(--text);
   font-size: 15px;
+  margin: 15px 0;
 }
 
 .menu-item a {
   text-decoration: none;
   color: var(--text);
-  display: block;
-  padding: 10px 15px;
   font-size: 15px;
+  font-weight: 500;
+  transition: color 0.2s ease;
   font-family: 'Montserrat', sans-serif;
   cursor: url("cursors/star-favicon.png") 32 32, pointer;
 }
@@ -299,16 +286,33 @@ body {
   color: var(--cream);
 }
 
-
-/* Push grid when sidebar visible (optional) */
 #swatchGrid {
-  margin-left: 0; /* Default when sidebar hidden */
+  margin-left: 0; 
   transition: margin-left 0.3s ease;
 }
 
-.sidebar.active ~ #swatchGrid {
-  margin-left: 30px; /* Match sidebar width */
+  
+.sidebar {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: var(--cream);
+  z-index: 1500;
+  box-sizing: border-box;
+  padding-top: 60px;
+  border-bottom: 1px solid var(--warm-beige);
 }
+
+.sidebar.active {
+  display: block;
+}
+
+/*.sidebar.active ~ #swatchGrid {
+  margin-left: 30px; 
+} */
 
 
 .grid {
@@ -680,16 +684,6 @@ body {
   #search {
     max-width: 90%;  /* Shrink even more on tiny screens */
     
-  }
-
-  /* Sidebar full screen on mobile */
-  .sidebar {
-    width: 100%;
-    left: -100%;
-  }
-
-  .sidebar.active {
-    left: 0;
   }
 
   #menuToggle {
