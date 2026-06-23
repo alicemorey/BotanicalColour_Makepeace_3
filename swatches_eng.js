@@ -746,180 +746,180 @@ const swatchesData = [
     plant: "Oak galls",
     keywords: "Oak galls, Andricus quercuscalicis",
     carousel: [
-      "swatches/bc_swa_0061/0001.webp",
-      "swatches/bc_swa_0061/0002.webp",
-      "swatches/bc_swa_0061/0003.webp",
-      "swatches/bc_swa_0061/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+      {src:"swatches/bc_swa_0061/0001.webp",name: "",material: "linen"},
+       {src:"swatches/bc_swa_0061/0002.webp",name: "",material: "cotton"},
+       {src:"swatches/bc_swa_0061/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0061/0004.webp",name: "",material: "wool"},
+      {src:"swatches/bc_swa_0061/0005.webp"}
     ]
   },
    {id: "00062",
     thumbnail: "swatches/bc_swa_0062/0001.webp",
-    latin: "Filix",
-    plant: "Ferns",
-    keywords: "Filix Ferns",
+    latin: "Sambucus nigra",
+    plant: "Elder",
+    keywords: "Elder,Sambucus nigra",
     carousel: [
-      "swatches/bc_swa_0062/0001.webp",
-      "swatches/bc_swa_0062/0002.webp",
-      "swatches/bc_swa_0062/0003.webp",
-      "swatches/bc_swa_0062/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+        {src:"swatches/bc_swa_0062/0001.webp",name: "",material: "linen"},
+        {src:"swatches/bc_swa_0062/0002.webp",name: "",material: "cotton"},
+        {src:"swatches/bc_swa_0062/0003.webp",name: "",material: "silk"},
+        {src:"swatches/bc_swa_0062/0004.webp",name: "",material: "wool"},
+        {src:"swatches/bc_swa_0062/0005.webp"}
     ]
   },
    {id: "00063",
     thumbnail: "swatches/bc_swa_0063/0001.webp",
-    latin: "Filix",
-    plant: "Ferns",
-    keywords: "Filix Ferns",
+    latin: "Phragmites australis",
+    plant: "Common reed",
+    keywords: "Common reed, Phragmites australis ",
     carousel: [
-      "swatches/bc_swa_0063/0001.webp",
-      "swatches/bc_swa_0063/0002.webp",
-      "swatches/bc_swa_0063/0003.webp",
-      "swatches/bc_swa_0063/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+       {src:"swatches/bc_swa_0063/0001.webp",name: "",material: "linen"},
+       {src:"swatches/bc_swa_0063/0002.webp",name: "",material: "cotton"},
+       {src:"swatches/bc_swa_0063/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0063/0004.webp",name: "",material: "wool"},
+        {src:"swatches/bc_swa_0063/0005.webp"}
     ]
   },
   {id: "00064",
     thumbnail: "swatches/bc_swa_0064/0001.webp",
-    latin: "Filix",
-    plant: "Ferns",
-    keywords: "Filix Ferns",
+    latin: "Crocosmia",
+    plant: "Crocosmia",
+    keywords: "Crocosmia, Crocosmia",
     carousel: [
-      "swatches/bc_swa_0064/0001.webp",
-      "swatches/bc_swa_0064/0002.webp",
-      "swatches/bc_swa_0064/0003.webp",
-      "swatches/bc_swa_0064/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+      {src:"swatches/bc_swa_0064/0001.webp",name: "",material: "linen"},
+       {src:"swatches/bc_swa_0064/0002.webp",name: "",material: "cotton"},
+       {src:"swatches/bc_swa_0064/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0064/0004.webp",name: "",material: "wool"},
+        {src:"swatches/bc_swa_0064/0005.webp"}
     ]
   },
    {id: "00065",
     thumbnail: "swatches/bc_swa_0065/0001.webp",
-    latin: "Filix",
-    plant: "Ferns",
-    keywords: "Filix Ferns",
+    latin: "Bambusa",
+    plant: "Bamboo",
+    keywords: "Bamboo, Bambusa ",
     carousel: [
-      "swatches/bc_swa_0065/0001.webp",
-      "swatches/bc_swa_0065/0002.webp",
-      "swatches/bc_swa_0065/0003.webp",
-      "swatches/bc_swa_0065/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+      {src:"swatches/bc_swa_0065/0001.webp",name: "",material: "linen"},
+       {src:"swatches/bc_swa_0065/0002.webp",name: "",material: "cotton"},
+       {src:"swatches/bc_swa_0065/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0065/0004.webp",name: "",material: "wool"},
+        {src:"swatches/bc_swa_0065/0005.webp"}
     ]
   },
    {id: "00066",
     thumbnail: "swatches/bc_swa_0066/0001.webp",
-    latin: "Filix",
-    plant: "Ferns",
-    keywords: "Filix Ferns",
+    latin: "Hypericum androsaemum",
+    plant: "Tutsan",
+    keywords: "Tutsan, Hypericum androsaemum",
     carousel: [
-      "swatches/bc_swa_0066/0001.webp",
-      "swatches/bc_swa_0066/0002.webp",
-      "swatches/bc_swa_0066/0003.webp",
-      "swatches/bc_swa_0066/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+      {src:"swatches/bc_swa_0066/0001.webp",name: "",material: "linen"},
+       {src:"swatches/bc_swa_0066/0002.webp",name: "",material: "cotton"},
+       {src:"swatches/bc_swa_0066/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0066/0004.webp",name: "",material: "wool"},
+        {src:"swatches/bc_swa_0066/0005.webp"}
     ]
   },
    {id: "00067(1)",
     thumbnail: "swatches/bc_swa_0067(1)/0001.webp",
-    latin: "Filix",
-    plant: "Ferns",
-    keywords: "Filix Ferns",
+    latin: "Wikstroemia uva ursi",
+    plant: "Wikstroemia",
+    keywords: "Wikstroemia, Wikstroemia uva ursi",
     carousel: [
-      "swatches/bc_swa_0067(1)/0001.webp",
-      "swatches/bc_swa_0067(1)/0002.webp",
-      "swatches/bc_swa_0067(1)/0003.webp",
-      "swatches/bc_swa_0067(1)/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+      {src:"swatches/bc_swa_0067(1)/0001.webp",name: "",material: "linen"},
+       {src:"swatches/bc_swa_0067(1)/0002.webp",name: "",material: "cotton"},
+       {src:"swatches/bc_swa_0067(1)/0003.webp",name: "",material: "silk"},
+       {src:"swatches/bc_swa_0067(1)/0004.webp",name: "",material: "wool"},
+        {src:"swatches/bc_swa_0067(1)/0005.webp"}
     ]
   },
    {id: "00067(2)",
     thumbnail: "swatches/bc_swa_0067(2)/0001.webp",
-    latin: "Filix",
-    plant: "Ferns",
-    keywords: "Filix Ferns",
+    latin: "Galium aparine",
+    plant: "Cleavers",
+    keywords: "Cleavers, Galium aparine",
     carousel: [
-      "swatches/bc_swa_0067(2)/0001.webp",
-      "swatches/bc_swa_0067(2)/0002.webp",
-      "swatches/bc_swa_0067(2)/0003.webp",
-      "swatches/bc_swa_0067(2)/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+        {src:"swatches/bc_swa_0067(2)/0001.webp",name: "",material: "linen"},
+        {src:"swatches/bc_swa_0067(2)/0002.webp",name: "",material: "cotton"},
+        {src:"swatches/bc_swa_0067(2)/0003.webp",name: "",material: "silk"},
+        {src:"swatches/bc_swa_0067(2)/0004.webp",name: "",material: "wool"},
+        {src:"swatches/bc_swa_0067(2)/0005.webp"}
     ]
   },
    {id: "00068",
     thumbnail: "swatches/bc_swa_0068/0001.webp",
-    latin: "Filix",
-    plant: "Ferns",
-    keywords: "Filix Ferns",
+    latin: "Rumex obtusifolius",
+    plant: "Dock",
+    keywords: "Dock, Rumex obtusifolius",
     carousel: [
-      "swatches/bc_swa_0068/0001.webp",
-      "swatches/bc_swa_0068/0002.webp",
-      "swatches/bc_swa_0068/0003.webp",
-      "swatches/bc_swa_0068/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+        {src:"swatches/bc_swa_0068/0001.webp",name: "",material: "linen"},
+        {src:"swatches/bc_swa_0068/0002.webp",name: "",material: "cotton"},
+        {src:"swatches/bc_swa_0068/0003.webp",name: "",material: "silk"},
+        {src:"swatches/bc_swa_0068/0004.webp",name: "",material: "wool"},
+        {src:"swatches/bc_swa_0068/0005.webp"}
     ]
   },
    {id: "00069",
     thumbnail: "swatches/bc_swa_0069/0001.webp",
-    latin: "Filix",
-    plant: "Ferns",
-    keywords: "Filix Ferns",
+    latin: "Salix alba",
+    plant: "White willow",
+    keywords: "White willow, Salix alba ",
     carousel: [
-      "swatches/bc_swa_0069/0001.webp",
-      "swatches/bc_swa_0069/0002.webp",
-      "swatches/bc_swa_0069/0003.webp",
-      "swatches/bc_swa_0069/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+        {src:"swatches/bc_swa_0069/0001.webp",name: "",material: "linen"},
+        {src:"swatches/bc_swa_0069/0002.webp",name: "",material: "cotton"},
+        {src:"swatches/bc_swa_0069/0003.webp",name: "",material: "silk"},
+        {src:"swatches/bc_swa_0069/0004.webp",name: "",material: "wool"},
+        {src:"swatches/bc_swa_0069/0005.webp"}
     ]
   },
    {id: "00070",
     thumbnail: "swatches/bc_swa_0070/0001.webp",
-    latin: "Filix",
-    plant: "Ferns",
-    keywords: "Filix Ferns",
+    latin: "Helianthus annuus, Hedera nepalensis",
+    plant: "Sunflowers and Himalayan ivy",
+    keywords: "Sunflowers and Himalayan ivy, Helianthus annuus, Hedera nepalensis ",
     carousel: [
-      "swatches/bc_swa_0070/0001.webp",
-      "swatches/bc_swa_0070/0002.webp",
-      "swatches/bc_swa_0070/0003.webp",
-      "swatches/bc_swa_0070/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+        {src:"swatches/bc_swa_0070/0001.webp",name: "",material: "linen"},
+        {src:"swatches/bc_swa_0070/0002.webp",name: "",material: "cotton"},
+        {src:"swatches/bc_swa_0070/0003.webp",name: "",material: "silk"},
+        {src:"swatches/bc_swa_0070/0004.webp",name: "",material: "wool"},
+        {src:"swatches/bc_swa_0070/0005.webp"}
     ]
   },
    {id: "00071",
-    thumbnail: "swatches/bc_swa_0069/0001.webp",
-    latin: "Filix",
-    plant: "Ferns",
-    keywords: "Filix Ferns",
+    thumbnail: "swatches/bc_swa_0071/0001.webp",
+    latin: "Rubus fruticosus",
+    plant: "Bramble",
+    keywords: "Bramble, Rubus fruticosus ",
     carousel: [
-      "swatches/bc_swa_0071/0001.webp",
-      "swatches/bc_swa_0071/0002.webp",
-      "swatches/bc_swa_0071/0003.webp",
-      "swatches/bc_swa_0071/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+        {src:"swatches/bc_swa_0071/0001.webp",name: "",material: "linen"},
+        {src:"swatches/bc_swa_0071/0002.webp",name: "",material: "cotton"},
+        {src:"swatches/bc_swa_0071/0003.webp",name: "",material: "silk"},
+        {src:"swatches/bc_swa_0071/0004.webp",name: "",material: "wool"},
+        {src:"swatches/bc_swa_0071/0005.webp"}
     ]
   },
    {id: "00072",
     thumbnail: "swatches/bc_swa_0072/0001.webp",
-    latin: "Filix",
-    plant: "Ferns",
-    keywords: "Filix Ferns",
+    latin: "Taraxacum",
+    plant: "Dandelion",
+    keywords: "Dandelion, Taraxacum",
     carousel: [
-      "swatches/bc_swa_0072/0001.webp",
-      "swatches/bc_swa_0072/0002.webp",
-      "swatches/bc_swa_0072/0003.webp",
-      "swatches/bc_swa_0072/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+        {src:"swatches/bc_swa_0072/0001.webp",name: "",material: "linen"},
+        {src:"swatches/bc_swa_0072/0002.webp",name: "",material: "cotton"},
+        {src:"swatches/bc_swa_0072/0003.webp",name: "",material: "silk"},
+        {src:"swatches/bc_swa_0072/0004.webp",name: "",material: "wool"},
+        {src:"swatches/bc_swa_0072/0005.webp"}
     ]
   },
    {id: "00073",
     thumbnail: "swatches/bc_swa_0073/0001.webp",
-    latin: "Filix",
-    plant: "Ferns",
-    keywords: "Filix Ferns",
+    latin: "Malva sylvestris",
+    plant: "Mallow",
+    keywords: "Mallow, Malva sylvestris",
     carousel: [
-      "swatches/bc_swa_0073/0001.webp",
-      "swatches/bc_swa_0073/0002.webp",
-      "swatches/bc_swa_0073/0003.webp",
-      "swatches/bc_swa_0073/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+        {src:"swatches/bc_swa_0073/0001.webp",name: "",material: "linen"},
+        {src:"swatches/bc_swa_0073/0002.webp",name: "",material: "cotton"},
+        {src:"swatches/bc_swa_0073/0003.webp",name: "",material: "silk"},
+        {src:"swatches/bc_swa_0073/0004.webp",name: "",material: "wool"},
+        {src:"swatches/bc_swa_0073/0005.webp"}
     ]
   },
    {id: "00074",
@@ -928,11 +928,11 @@ const swatchesData = [
     plant: "Ferns",
     keywords: "Filix Ferns",
     carousel: [
-      "swatches/bc_swa_0074/0001.webp",
-      "swatches/bc_swa_0074/0002.webp",
-      "swatches/bc_swa_0074/0003.webp",
-      "swatches/bc_swa_0074/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+        {src:"swatches/bc_swa_0074/0001.webp",name: "",material: "linen"},
+        {src:"swatches/bc_swa_0074/0002.webp",name: "",material: "cotton"},
+        {src:"swatches/bc_swa_0074/0003.webp",name: "",material: "silk"},
+        {src:"swatches/bc_swa_0074/0004.webp",name: "",material: "wool"},
+        {src:"swatches/bc_swa_0074/0005.webp"}
     ]
   },
    {id: "00075",
@@ -941,11 +941,11 @@ const swatchesData = [
     plant: "Ferns",
     keywords: "Filix Ferns",
     carousel: [
-      "swatches/bc_swa_0075/0001.webp",
-      "swatches/bc_swa_0075/0002.webp",
-      "swatches/bc_swa_0075/0003.webp",
-      "swatches/bc_swa_0075/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+        {src:"swatches/bc_swa_0075/0001.webp",name: "",material: "linen"},
+        {src:"swatches/bc_swa_0075/0002.webp",name: "",material: "cotton"},
+        {src:"swatches/bc_swa_0075/0003.webp",name: "",material: "silk"},
+        {src:"swatches/bc_swa_0075/0004.webp",name: "",material: "wool"},
+        {src:"swatches/bc_swa_0075/0005.webp"}
     ]
   },
    {id: "00076",
@@ -954,11 +954,11 @@ const swatchesData = [
     plant: "Ferns",
     keywords: "Filix Ferns",
     carousel: [
-      "swatches/bc_swa_0076/0001.webp",
-      "swatches/bc_swa_0076/0002.webp",
-      "swatches/bc_swa_0076/0003.webp",
-      "swatches/bc_swa_0076/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+        {src:"swatches/bc_swa_0076/0001.webp",name: "",material: "linen"},
+        {src:"swatches/bc_swa_0076/0002.webp",name: "",material: "cotton"},
+        {src:"swatches/bc_swa_0076/0003.webp",name: "",material: "silk"},
+        {src:"swatches/bc_swa_0076/0004.webp",name: "",material: "wool"},
+        {src:"swatches/bc_swa_0076/0005.webp"}
     ]
   },
   {id: "00077",
@@ -967,11 +967,11 @@ const swatchesData = [
     plant: "Ferns",
     keywords: "Filix Ferns",
     carousel: [
-      "swatches/bc_swa_0077/0001.webp",
-      "swatches/bc_swa_0077/0002.webp",
-      "swatches/bc_swa_0077/0003.webp",
-      "swatches/bc_swa_0077/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+        {src:"swatches/bc_swa_0077/0001.webp",name: "",material: "linen"},
+        {src:"swatches/bc_swa_0077/0002.webp",name: "",material: "cotton"},
+        {src:"swatches/bc_swa_0077/0003.webp",name: "",material: "silk"},
+        {src:"swatches/bc_swa_0077/0004.webp",name: "",material: "wool"},
+        {src:"swatches/bc_swa_0077/0005.webp"}
     ]
   },
    {id: "00078",
@@ -980,11 +980,11 @@ const swatchesData = [
     plant: "Ferns",
     keywords: "Filix Ferns",
     carousel: [
-      "swatches/bc_swa_0078/0001.webp",
-      "swatches/bc_swa_0078/0002.webp",
-      "swatches/bc_swa_0078/0003.webp",
-      "swatches/bc_swa_0078/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+        {src:"swatches/bc_swa_0078/0001.webp",name: "",material: "linen"},
+        {src:"swatches/bc_swa_0078/0002.webp",name: "",material: "cotton"},
+        {src:"swatches/bc_swa_0078/0003.webp",name: "",material: "silk"},
+        {src:"swatches/bc_swa_0078/0004.webp",name: "",material: "wool"},
+        {src:"swatches/bc_swa_0078/0005.webp"}
     ]
   },
    {id: "00079",
@@ -993,11 +993,11 @@ const swatchesData = [
     plant: "Ferns",
     keywords: "Filix Ferns",
     carousel: [
-      "swatches/bc_swa_0079/0001.webp",
-      "swatches/bc_swa_0079/0002.webp",
-      "swatches/bc_swa_0079/0003.webp",
-      "swatches/bc_swa_0079/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+        {src:"swatches/bc_swa_0079/0001.webp",name: "",material: "linen"},
+        {src:"swatches/bc_swa_0079/0002.webp",name: "",material: "cotton"},
+        {src:"swatches/bc_swa_0079/0003.webp",name: "",material: "silk"},
+        {src:"swatches/bc_swa_0079/0004.webp",name: "",material: "wool"},
+        {src:"swatches/bc_swa_0079/0005.webp"}
     ]
   },
    {id: "00080",
@@ -1006,11 +1006,11 @@ const swatchesData = [
     plant: "Ferns",
     keywords: "Filix Ferns",
     carousel: [
-      "swatches/bc_swa_0080/0001.webp",
-      "swatches/bc_swa_0080/0002.webp",
-      "swatches/bc_swa_0080/0003.webp",
-      "swatches/bc_swa_0080/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+        {src:"swatches/bc_swa_0080/0001.webp",name: "",material: "linen"},
+        {src:"swatches/bc_swa_0080/0002.webp",name: "",material: "cotton"},
+        {src:"swatches/bc_swa_0080/0003.webp",name: "",material: "silk"},
+        {src:"swatches/bc_swa_0080/0004.webp",name: "",material: "wool"},
+        {src:"swatches/bc_swa_0080/0005.webp"}
     ]
   },
    {id: "00081",
@@ -1019,11 +1019,11 @@ const swatchesData = [
     plant: "Ferns",
     keywords: "Filix Ferns",
     carousel: [
-      "swatches/bc_swa_0081/0001.webp",
-      "swatches/bc_swa_0081/0002.webp",
-      "swatches/bc_swa_0081/0003.webp",
-      "swatches/bc_swa_0081/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+        {src:"swatches/bc_swa_0081/0001.webp",name: "",material: "linen"},
+        {src:"swatches/bc_swa_0081/0002.webp",name: "",material: "cotton"},
+        {src:"swatches/bc_swa_0081/0003.webp",name: "",material: "silk"},
+        {src:"swatches/bc_swa_0081/0004.webp",name: "",material: "wool"},
+        {src:"swatches/bc_swa_0081/0005.webp"}
     ]
   },
    {id: "00082",
@@ -1032,11 +1032,11 @@ const swatchesData = [
     plant: "Ferns",
     keywords: "Filix Ferns",
     carousel: [
-      "swatches/bc_swa_0082/0001.webp",
-      "swatches/bc_swa_0082/0002.webp",
-      "swatches/bc_swa_0082/0003.webp",
-      "swatches/bc_swa_0082/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+        {src:"swatches/bc_swa_0082/0001.webp",name: "",material: "linen"},
+        {src:"swatches/bc_swa_0082/0002.webp",name: "",material: "cotton"},
+        {src:"swatches/bc_swa_0082/0003.webp",name: "",material: "silk"},
+        {src:"swatches/bc_swa_0082/0004.webp",name: "",material: "wool"},
+        {src:"swatches/bc_swa_0082/0005.webp"}
     ]
   },
    {id: "00083",
@@ -1045,11 +1045,11 @@ const swatchesData = [
     plant: "Ferns",
     keywords: "Filix Ferns",
     carousel: [
-      "swatches/bc_swa_0083/0001.webp",
-      "swatches/bc_swa_0083/0002.webp",
-      "swatches/bc_swa_0083/0003.webp",
-      "swatches/bc_swa_0083/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+        {src:"swatches/bc_swa_0083/0001.webp",name: "",material: "linen"},
+        {src:"swatches/bc_swa_0083/0002.webp",name: "",material: "cotton"},
+        {src:"swatches/bc_swa_0083/0003.webp",name: "",material: "silk"},
+        {src:"swatches/bc_swa_0083/0004.webp",name: "",material: "wool"},
+        {src:"swatches/bc_swa_0083/0005.webp"}
     ]
   },
    {id: "00084",
@@ -1058,11 +1058,11 @@ const swatchesData = [
     plant: "Ferns",
     keywords: "Filix Ferns",
     carousel: [
-      "swatches/bc_swa_0084/0001.webp",
-      "swatches/bc_swa_0084/0002.webp",
-      "swatches/bc_swa_0084/0003.webp",
-      "swatches/bc_swa_0084/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+        {src:"swatches/bc_swa_0084/0001.webp",name: "",material: "linen"},
+        {src:"swatches/bc_swa_0084/0002.webp",name: "",material: "cotton"},
+        {src:"swatches/bc_swa_0084/0003.webp",name: "",material: "silk"},
+        {src:"swatches/bc_swa_0084/0004.webp",name: "",material: "wool"},
+        {src:"swatches/bc_swa_0084/0005.webp"}
     ]
   },
    {id: "00085",
@@ -1071,11 +1071,11 @@ const swatchesData = [
     plant: "Ferns",
     keywords: "Filix Ferns",
     carousel: [
-      "swatches/bc_swa_0085/0001.webp",
-      "swatches/bc_swa_0085/0002.webp",
-      "swatches/bc_swa_0085/0003.webp",
-      "swatches/bc_swa_0085/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+        {src:"swatches/bc_swa_0085/0001.webp",name: "",material: "linen"},
+        {src:"swatches/bc_swa_0085/0002.webp",name: "",material: "cotton"},
+        {src:"swatches/bc_swa_0085/0003.webp",name: "",material: "silk"},
+        {src:"swatches/bc_swa_0085/0004.webp",name: "",material: "wool"},
+        {src:"swatches/bc_swa_0085/0005.webp"}
     ]
   },
    {id: "00086",
@@ -1084,11 +1084,11 @@ const swatchesData = [
     plant: "Ferns",
     keywords: "Filix Ferns",
     carousel: [
-      "swatches/bc_swa_0086/0001.webp",
-      "swatches/bc_swa_0086/0002.webp",
-      "swatches/bc_swa_0086/0003.webp",
-      "swatches/bc_swa_0086/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+        {src:"swatches/bc_swa_0086/0001.webp",name: "",material: "linen"},
+        {src:"swatches/bc_swa_0086/0002.webp",name: "",material: "cotton"},
+        {src:"swatches/bc_swa_0086/0003.webp",name: "",material: "silk"},
+        {src:"swatches/bc_swa_0086/0004.webp",name: "",material: "wool"},
+        {src:"swatches/bc_swa_0086/0005.webp"}
     ]
   },
    {id: "00087",
@@ -1097,11 +1097,11 @@ const swatchesData = [
     plant: "Ferns",
     keywords: "Filix Ferns",
     carousel: [
-      "swatches/bc_swa_0087/0001.webp",
-      "swatches/bc_swa_0087/0002.webp",
-      "swatches/bc_swa_0087/0003.webp",
-      "swatches/bc_swa_0087/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+        {src:"swatches/bc_swa_0087/0001.webp",name: "",material: "linen"},
+        {src:"swatches/bc_swa_0087/0002.webp",name: "",material: "cotton"},
+        {src:"swatches/bc_swa_0087/0003.webp",name: "",material: "silk"},
+        {src:"swatches/bc_swa_0087/0004.webp",name: "",material: "wool"},
+        {src:"swatches/bc_swa_0087/0005.webp"}
     ]
   },
    {id: "00088",
@@ -1110,11 +1110,11 @@ const swatchesData = [
     plant: "Ferns",
     keywords: "Filix Ferns",
     carousel: [
-      "swatches/bc_swa_0088/0001.webp",
-      "swatches/bc_swa_0088/0002.webp",
-      "swatches/bc_swa_0088/0003.webp",
-      "swatches/bc_swa_0088/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+        {src:"swatches/bc_swa_0088/0001.webp",name: "",material: "linen"},
+        {src:"swatches/bc_swa_0088/0002.webp",name: "",material: "cotton"},
+        {src:"swatches/bc_swa_0088/0003.webp",name: "",material: "silk"},
+        {src:"swatches/bc_swa_0088/0004.webp",name: "",material: "wool"},
+        {src:"swatches/bc_swa_0088/0005.webp"}
     ]
   },
    {id: "00089",
@@ -1123,11 +1123,11 @@ const swatchesData = [
     plant: "Ferns",
     keywords: "Filix Ferns",
     carousel: [
-      "swatches/bc_swa_0089/0001.webp",
-      "swatches/bc_swa_0089/0002.webp",
-      "swatches/bc_swa_0089/0003.webp",
-      "swatches/bc_swa_0089/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+        {src:"swatches/bc_swa_0089/0001.webp",name: "",material: "linen"},
+        {src:"swatches/bc_swa_0089/0002.webp",name: "",material: "cotton"},
+        {src:"swatches/bc_swa_0089/0003.webp",name: "",material: "silk"},
+        {src:"swatches/bc_swa_0089/0004.webp",name: "",material: "wool"},
+        {src:"swatches/bc_swa_0089/0005.webp"}
     ]
   },
    {id: "00090",
@@ -1136,11 +1136,11 @@ const swatchesData = [
     plant: "Ferns",
     keywords: "Filix Ferns",
     carousel: [
-      "swatches/bc_swa_0090/0001.webp",
-      "swatches/bc_swa_0090/0002.webp",
-      "swatches/bc_swa_0090/0003.webp",
-      "swatches/bc_swa_0090/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+        {src:"swatches/bc_swa_0090/0001.webp",name: "",material: "linen"},
+        {src:"swatches/bc_swa_0090/0002.webp",name: "",material: "cotton"},
+        {src:"swatches/bc_swa_0090/0003.webp",name: "",material: "silk"},
+        {src:"swatches/bc_swa_0090/0004.webp",name: "",material: "wool"},
+        {src:"swatches/bc_swa_0090/0005.webp"}
     ]
   },
    {id: "00091",
@@ -1149,11 +1149,11 @@ const swatchesData = [
     plant: "Ferns",
     keywords: "Filix Ferns",
     carousel: [
-      "swatches/bc_swa_0091/0001.webp",
-      "swatches/bc_swa_0091/0002.webp",
-      "swatches/bc_swa_0091/0003.webp",
-      "swatches/bc_swa_0091/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+        {src:"swatches/bc_swa_0091/0001.webp",name: "",material: "linen"},
+        {src:"swatches/bc_swa_0091/0002.webp",name: "",material: "cotton"},
+        {src:"swatches/bc_swa_0091/0003.webp",name: "",material: "silk"},
+        {src:"swatches/bc_swa_0091/0004.webp",name: "",material: "wool"},
+        {src:"swatches/bc_swa_0091/0005.webp"}
     ]
   },
    {id: "0092",
@@ -1162,11 +1162,11 @@ const swatchesData = [
     plant: "Ferns",
     keywords: "Filix Ferns",
     carousel: [
-      "swatches/bc_swa_0092/0001.webp",
-      "swatches/bc_swa_0092/0002.webp",
-      "swatches/bc_swa_0092/0003.webp",
-      "swatches/bc_swa_0092/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+        {src:"swatches/bc_swa_0092/0001.webp",name: "",material: "linen"},
+        {src:"swatches/bc_swa_0092/0002.webp",name: "",material: "cotton"},
+        {src:"swatches/bc_swa_0092/0003.webp",name: "",material: "silk"},
+        {src:"swatches/bc_swa_0092/0004.webp",name: "",material: "wool"},
+        {src:"swatches/bc_swa_0092/0005.webp"}
     ]
   }
   ,
@@ -1176,11 +1176,11 @@ const swatchesData = [
     plant: "Ferns",
     keywords: "Filix Ferns",
     carousel: [
-      "swatches/bc_swa_0093/0001.webp",
-      "swatches/bc_swa_0093/0002.webp",
-      "swatches/bc_swa_0093/0003.webp",
-      "swatches/bc_swa_0093/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+        {src:"swatches/bc_swa_0093/0001.webp",name: "",material: "linen"},
+        {src:"swatches/bc_swa_0093/0002.webp",name: "",material: "cotton"},
+        {src:"swatches/bc_swa_0093/0003.webp",name: "",material: "silk"},
+        {src:"swatches/bc_swa_0093/0004.webp",name: "",material: "wool"},
+        {src:"swatches/bc_swa_0093/0005.webp"}
     ]
   }
   ,
@@ -1190,11 +1190,11 @@ const swatchesData = [
     plant: "Ferns",
     keywords: "Filix Ferns",
     carousel: [
-      "swatches/bc_swa_0094/0001.webp",
-      "swatches/bc_swa_0094/0002.webp",
-      "swatches/bc_swa_0094/0003.webp",
-      "swatches/bc_swa_0094/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+        {src:"swatches/bc_swa_0094/0001.webp",name: "",material: "linen"},
+        {src:"swatches/bc_swa_0094/0002.webp",name: "",material: "cotton"},
+        {src:"swatches/bc_swa_0094/0003.webp",name: "",material: "silk"},
+        {src:"swatches/bc_swa_0094/0004.webp",name: "",material: "wool"},
+        {src:"swatches/bc_swa_0094/0005.webp"}
     ]
   }
   ,
@@ -1204,11 +1204,11 @@ const swatchesData = [
     plant: "Ferns",
     keywords: "Filix Ferns",
     carousel: [
-      "swatches/bc_swa_0095/0001.webp",
-      "swatches/bc_swa_0095/0002.webp",
-      "swatches/bc_swa_0095/0003.webp",
-      "swatches/bc_swa_0095/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+        {src:"swatches/bc_swa_0095/0001.webp",name: "",material: "linen"},
+        {src:"swatches/bc_swa_0095/0002.webp",name: "",material: "cotton"},
+        {src:"swatches/bc_swa_0095/0003.webp",name: "",material: "silk"},
+        {src:"swatches/bc_swa_0095/0004.webp",name: "",material: "wool"},
+        {src:"swatches/bc_swa_0095/0005.webp"}
     ]
   },
      {id: "0096",
