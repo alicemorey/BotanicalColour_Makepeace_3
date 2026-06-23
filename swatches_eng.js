@@ -1603,19 +1603,6 @@ const swatchesData = [
         {src:"swatches/bc_swa_0110(c)/0005.webp"}
     ]
   },
-  {id: "0111",
-    thumbnail: "swatches/bc_swa_0111/0001.webp",
-    latin: "Quercus",
-    plant: "Oak",
-    keywords: "Oak, Quercus",
-    carousel: [
-        {src:"swatches/bc_swa_0111/0001.webp",name: "",material: "linen"},
-        {src:"swatches/bc_swa_0111/0002.webp",name: "",material: "cotton"},
-        {src:"swatches/bc_swa_0111/0003.webp",name: "",material: "silk"},
-        {src:"swatches/bc_swa_0111/0004.webp",name: "",material: "wool"},
-        {src:"swatches/bc_swa_0111/0005.webp"}
-    ]
-  },
    {id: "0111(a)",
     thumbnail: "swatches/bc_swa_0111(a)/0001.webp",
     latin: "Quercus",
