@@ -1470,11 +1470,11 @@ const swatchesData = [
     plant: "Collen",
     keywords: "Collen, Corylus avellana",
     carousel: [
-      "swatches/bc_swa_0108(b)/0001.webp",
-      "swatches/bc_swa_0108(b)/0002.webp",
-      "swatches/bc_swa_0108(b)/0003.webp",
-      "swatches/bc_swa_0108(b)/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0108(b)/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0108(b)/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0108(b)/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0108(b)/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0108(b)/0006.webp"}
     ]
   },
   {id: "0108(c)",
@@ -1483,11 +1483,11 @@ const swatchesData = [
     plant: "Collen",
     keywords: "Collen, Corylus avellana",
     carousel: [
-      "swatches/bc_swa_0108(c)/0001.webp",
-      "swatches/bc_swa_0108(c)/0002.webp",
-      "swatches/bc_swa_0108(c)/0003.webp",
-      "swatches/bc_swa_0108(c)/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0108(c)/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0108(c)/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0108(c)/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0108(c)/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0108(c)/0006.webp"}
     ]
   },
   
@@ -1497,11 +1497,11 @@ const swatchesData = [
     plant: "Melyn Mair",
     keywords: "Melyn Mair, Calendula officinalis",
     carousel: [
-      "swatches/bc_swa_0109/0001.webp",
-      "swatches/bc_swa_0109/0002.webp",
-      "swatches/bc_swa_0109/0003.webp",
-      "swatches/bc_swa_0109/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0109/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0109/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0109/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0109/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0109/0006.webp"}
     ]
   },
   {id: "0109(a)",
@@ -1510,11 +1510,11 @@ const swatchesData = [
     plant: "Melyn Mair",
     keywords: "Melyn Mair, Calendula officinalis",
     carousel: [
-      "swatches/bc_swa_0109(a)/0001.webp",
-      "swatches/bc_swa_0109(a)/0002.webp",
-      "swatches/bc_swa_0109(a)/0003.webp",
-      "swatches/bc_swa_0109(a)/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0109(a)/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0109(a)/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0109(a)/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0109(a)/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0109(a)/0006.webp"}
     ]
   },
   {id: "0109(b)",
@@ -1523,11 +1523,11 @@ const swatchesData = [
     plant: "Melyn Mair",
     keywords: "Melyn Mair, Calendula officinalis",
     carousel: [
-      "swatches/bc_swa_0109(b)/0001.webp",
-      "swatches/bc_swa_0109(b)/0002.webp",
-      "swatches/bc_swa_0109(b)/0003.webp",
-      "swatches/bc_swa_0109(b)/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0109(b)/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0109(b)/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0109(b)/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0109(b)/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0109(b)/0006.webp"}
     ]
   },
   {id: "0109(c)",
@@ -1536,11 +1536,11 @@ const swatchesData = [
     plant: "Melyn Mair",
     keywords: "Melyn Mair, Calendula officinalis",
     carousel: [
-      "swatches/bc_swa_0109(c)/0001.webp",
-      "swatches/bc_swa_0109(c)/0002.webp",
-      "swatches/bc_swa_0109(c)/0003.webp",
-      "swatches/bc_swa_0109(c)/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0109(c)/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0109(c)/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0109(c)/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0109(c)/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0109(c)/0006.webp"}
     ]
   },
   
@@ -1550,11 +1550,11 @@ const swatchesData = [
     plant: "Castanwydden",
     keywords: "Castanwydden, Castanea sativa ",
     carousel: [
-      "swatches/bc_swa_0110/0001.webp",
-      "swatches/bc_swa_0110/0002.webp",
-      "swatches/bc_swa_0110/0003.webp",
-      "swatches/bc_swa_0110/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0110/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0110/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0110/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0110/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0110/0006.webp"}
     ]
   },
   {id: "0110(a)",
@@ -1563,11 +1563,11 @@ const swatchesData = [
     plant: "Castanwydden",
     keywords: "Castanwydden, Castanea sativa ",
     carousel: [
-      "swatches/bc_swa_0110(a)/0001.webp",
-      "swatches/bc_swa_0110(a)/0002.webp",
-      "swatches/bc_swa_0110(a)/0003.webp",
-      "swatches/bc_swa_0110(a)/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0110(a)/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0110(a)/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0110(a)/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0110(a)/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0110(a)/0006.webp"}
     ]
   },
    {id: "0110(b)",
@@ -1576,11 +1576,11 @@ const swatchesData = [
     plant: "Castanwydden",
     keywords: "Castanwydden, Castanea sativa ",
     carousel: [
-      "swatches/bc_swa_0110(b)/0001.webp",
-      "swatches/bc_swa_0110(b)/0002.webp",
-      "swatches/bc_swa_0110(b)/0003.webp",
-      "swatches/bc_swa_0110(b)/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0110(b)/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0110(b)/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0110(b)/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0110(b)/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0110(b)/0006.webp"}
     ]
   },
    {id: "0110(c)",
@@ -1589,11 +1589,11 @@ const swatchesData = [
     plant: "Castanwydden",
     keywords: "Castanwydden, Castanea sativa ",
     carousel: [
-      "swatches/bc_swa_0110(c)/0001.webp",
-      "swatches/bc_swa_0110(c)/0002.webp",
-      "swatches/bc_swa_0110(c)/0003.webp",
-      "swatches/bc_swa_0110(c)/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0110(c)/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0110(c)/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0110(c)/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0110(c)/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0110(c)/0006.webp"}
     ]
   },
    {id: "0111(a)",
@@ -1602,11 +1602,11 @@ const swatchesData = [
     plant: "Derwen",
     keywords: "Derwen,Quercus ",
     carousel: [
-      "swatches/bc_swa_0111(a)/0001.webp",
-      "swatches/bc_swa_0111(a)/0002.webp",
-      "swatches/bc_swa_0111(a)/0003.webp",
-      "swatches/bc_swa_0111(a)/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0111(a)/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0111(a)/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0111(a)/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0111(a)/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0111(a)/0006.webp"}
     ]
   },
     {id: "0111(b)",
@@ -1615,11 +1615,11 @@ const swatchesData = [
     plant: "Derwen",
     keywords: "Derwen,Quercus ",
     carousel: [
-      "swatches/bc_swa_0111(b)/0001.webp",
-      "swatches/bc_swa_0111(b)/0002.webp",
-      "swatches/bc_swa_0111(b)/0003.webp",
-      "swatches/bc_swa_0111(b)/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0111(b)/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0111(b)/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0111(b)/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0111(b)/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0111(b)/0006.webp"}
     ]
   },
     {id: "0111(c)",
@@ -1628,11 +1628,11 @@ const swatchesData = [
     plant: "Derwen",
     keywords: "Derwen,Quercus ",
     carousel: [
-      "swatches/bc_swa_0111(c)/0001.webp",
-      "swatches/bc_swa_0111(c)/0002.webp",
-      "swatches/bc_swa_0111(c)/0003.webp",
-      "swatches/bc_swa_0111(c)/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0111(c)/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0111(c)/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0111(c)/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0111(c)/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0111(c)/0006.webp"}
     ]
   },
      {id: "0112",
@@ -1641,11 +1641,11 @@ const swatchesData = [
     plant: "Camri lliwio",
     keywords: "Camri lliwio, Anthemis tinctoria",
     carousel: [
-      "swatches/bc_swa_0112/0001.webp",
-      "swatches/bc_swa_0112/0002.webp",
-      "swatches/bc_swa_0112/0003.webp",
-      "swatches/bc_swa_0112/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0112/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0112/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0112/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0112/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0112/0006.webp"}
     ]
   },
     {id: "0112(a)",
@@ -1654,11 +1654,11 @@ const swatchesData = [
     plant: "Camri lliwio",
     keywords: "Camri lliwio, Anthemis tinctoria",
     carousel: [
-      "swatches/bc_swa_0112(a)/0001.webp",
-      "swatches/bc_swa_0112(a)/0002.webp",
-      "swatches/bc_swa_0112(a)/0003.webp",
-      "swatches/bc_swa_0112(a)/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0112(a)/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0112(a)/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0112(a)/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0112(a)/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0112(a)/0006.webp"}
     ]
   },
      {id: "0112(b)",
@@ -1667,11 +1667,11 @@ const swatchesData = [
     plant: "Camri lliwio",
     keywords: "Camri lliwio, Anthemis tinctoria",
     carousel: [
-      "swatches/bc_swa_0112(b)/0001.webp",
-      "swatches/bc_swa_0112(b)/0002.webp",
-      "swatches/bc_swa_0112(b)/0003.webp",
-      "swatches/bc_swa_0112(b)/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0112(b)/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0112(b)/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0112(b)/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0112(b)/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0112(b)/0006.webp"}
     ]
   },
      {id: "0112(c)",
@@ -1680,11 +1680,11 @@ const swatchesData = [
     plant: "Camri lliwio",
     keywords: "Camri lliwio, Anthemis tinctoria",
     carousel: [
-      "swatches/bc_swa_0112(c)/0001.webp",
-      "swatches/bc_swa_0112(c)/0002.webp",
-      "swatches/bc_swa_0112(c)/0003.webp",
-      "swatches/bc_swa_0112(c)/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0112(c)/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0112(c)/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0112(c)/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0112(c)/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0112(c)/0006.webp"}
     ]
   },
      {id: "0113",
@@ -1693,11 +1693,11 @@ const swatchesData = [
     plant: "Nionyn",
     keywords: "Nionyn, Allium cepa",
     carousel: [
-      "swatches/bc_swa_0113/0001.webp",
-      "swatches/bc_swa_0113/0002.webp",
-      "swatches/bc_swa_0113/0003.webp",
-      "swatches/bc_swa_0113/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0113/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0113/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0113/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0113/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0113/0006.webp"}
     ]
   },
      {id: "0113(a)",
@@ -1706,11 +1706,11 @@ const swatchesData = [
     plant: "Nionyn",
     keywords: "Nionyn, Allium cepa",
     carousel: [
-      "swatches/bc_swa_0113(a)/0001.webp",
-      "swatches/bc_swa_0113(a)/0002.webp",
-      "swatches/bc_swa_0113(a)/0003.webp",
-      "swatches/bc_swa_0113(a)/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0113(a)/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0113(a)/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0113(a)/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0113(a)/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0113(a)/0006.webp"}
     ]
   },
      {id: "0113(b)",
@@ -1719,11 +1719,11 @@ const swatchesData = [
     plant: "Nionyn",
     keywords: "Nionyn, Allium cepa",
     carousel: [
-      "swatches/bc_swa_0113(b)/0001.webp",
-      "swatches/bc_swa_0113(b)/0002.webp",
-      "swatches/bc_swa_0113(b)/0003.webp",
-      "swatches/bc_swa_0113(b)/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0113(b)/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0113(b)/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0113(b)/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0113(b)/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0113(b)/0006.webp"}
     ]
   },
     {id: "0113(c)",
@@ -1732,11 +1732,11 @@ const swatchesData = [
     plant: "Nionyn",
     keywords: "Nionyn, Allium cepa",
     carousel: [
-      "swatches/bc_swa_0113(c)/0001.webp",
-      "swatches/bc_swa_0113(c)/0002.webp",
-      "swatches/bc_swa_0113(c)/0003.webp",
-      "swatches/bc_swa_0113(c)/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0113(c)/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0113(c)/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0113(c)/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0113(c)/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0113(c)/0006.webp"}
     ]
   },
    {id: "0114",
@@ -1745,11 +1745,11 @@ const swatchesData = [
     plant: "Ferfain yr Ariannins",
     keywords: "Ferfain yr Ariannin, Verbena bonariensis",
     carousel: [
-      "swatches/bc_swa_0114/0001.webp",
-      "swatches/bc_swa_0114/0002.webp",
-      "swatches/bc_swa_0114/0003.webp",
-      "swatches/bc_swa_0114/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0114/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0114/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0114/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0114/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0114/0006.webp"}
     ]
   },
      {id: "0114(a)",
@@ -1757,12 +1757,13 @@ const swatchesData = [
     latin: "Verbena bonariensis",
     plant: "Ferfain yr Ariannins",
     keywords: "Ferfain yr Ariannin, Verbena bonariensis",
-    carousel: [
-      "swatches/bc_swa_0114(a)/0001.webp",
-      "swatches/bc_swa_0114(a)/0002.webp",
-      "swatches/bc_swa_0114(a)/0003.webp",
-      "swatches/bc_swa_0114(a)/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+    carousel: [ 
+          {src:"swatches/bc_swa_0114(a)/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0114(a)/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0114(a)/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0114(a)/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0114(a)/0006.webp"}
+      
     ]
   },
      {id: "0114(b)",
@@ -1771,11 +1772,12 @@ const swatchesData = [
     plant: "Ferfain yr Ariannins",
     keywords: "Ferfain yr Ariannin, Verbena bonariensis",
     carousel: [
-      "swatches/bc_swa_0114(b)/0001.webp",
-      "swatches/bc_swa_0114(b)/0002.webp",
-      "swatches/bc_swa_0114(b)/0003.webp",
-      "swatches/bc_swa_0114(b)/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0114(b)/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0114(b)/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0114(b)/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0114(b)/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0114(b)/0006.webp"}
+      
     ]
   },
      {id: "0114(c)",
@@ -1784,11 +1786,12 @@ const swatchesData = [
     plant: "Ferns",
     keywords: "Filix Ferns",
     carousel: [
-      "swatches/bc_swa_0114(c)/0001.webp",
-      "swatches/bc_swa_0114(c)/0002.webp",
-      "swatches/bc_swa_0114(c)/0003.webp",
-      "swatches/bc_swa_0114(c)/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0114(c)/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0114(c)/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0114(c)/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0114(c)/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0114(c)/0006.webp"}
+      
     ]
   },
      {id: "0115",
@@ -1797,11 +1800,12 @@ const swatchesData = [
     plant: "Hesg arian Tsieineaidd",
     keywords: "Hesg arian Tsieineaidd,Miscanthus sinensis",
     carousel: [
-      "swatches/bc_swa_0115/0001.webp",
-      "swatches/bc_swa_0115/0002.webp",
-      "swatches/bc_swa_0115/0003.webp",
-      "swatches/bc_swa_0115/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0115/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0115/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0115/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0115/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0115/0006.webp"}
+      
     ]
   },
    {id: "0115(a)",
@@ -1810,11 +1814,12 @@ const swatchesData = [
     plant: "Hesg arian Tsieineaidd",
     keywords: "Hesg arian Tsieineaidd,Miscanthus sinensis",
     carousel: [
-      "swatches/bc_swa_0115(a)/0001.webp",
-      "swatches/bc_swa_0115(a)/0002.webp",
-      "swatches/bc_swa_0115(a)/0003.webp",
-      "swatches/bc_swa_0115(a)/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0115(a)/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0115(a)/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0115(a)/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0115(a)/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0115(a)/0006.webp"}
+      
     ]
   },
    {id: "0115(b)",
@@ -1823,11 +1828,11 @@ const swatchesData = [
     plant: "Hesg arian Tsieineaidd",
     keywords: "Hesg arian Tsieineaidd,Miscanthus sinensis",
     carousel: [
-      "swatches/bc_swa_0115(b)/0001.webp",
-      "swatches/bc_swa_0115(b)/0002.webp",
-      "swatches/bc_swa_0115(b)/0003.webp",
-      "swatches/bc_swa_0115(b)/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0115(b)/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0115(b)/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0115(b)/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0115(b)/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0115(b)/0006.webp"}
     ]
   },
    {id: "0115(c)",
@@ -1836,11 +1841,11 @@ const swatchesData = [
     plant: "Hesg arian Tsieineaidd",
     keywords: "Hesg arian Tsieineaidd,Miscanthus sinensis",
     carousel: [
-      "swatches/bc_swa_0115(c)/0001.webp",
-      "swatches/bc_swa_0115(c)/0002.webp",
-      "swatches/bc_swa_0115(c)/0003.webp",
-      "swatches/bc_swa_0115(c)/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0115(c)/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0115(c)/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0115(c)/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0115(c)/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0115(c)/0006.webp"}
     ]
   },
   {id: "0116",
@@ -1849,11 +1854,11 @@ const swatchesData = [
     plant: "Canclwm perfoliatum",
     keywords: "Canclwm perfoliatum, Eupatorium perfoliatum",
     carousel: [
-      "swatches/bc_swa_0116/0001.webp",
-      "swatches/bc_swa_0116/0002.webp",
-      "swatches/bc_swa_0116/0003.webp",
-      "swatches/bc_swa_0116/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0116/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0116/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0116/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0116/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0116/0006.webp"}
     ]
   },{id: "0116(a)",
     thumbnail: "swatches/bc_swa_0116(a)/0001.webp",
