@@ -1291,9 +1291,9 @@ const swatchesData = [
   },
      {id: "0102",
     thumbnail: "swatches/bc_swa_0102/0001.webp",
-    latin: "Filix",
-    plant: "Ferns",
-    keywords: "Filix Ferns",
+    latin: "Filipendula ulmaria x Urtica dioica",
+    plant: "Meadowsweet and Nettle",
+    keywords: "Meadowsweet and Nettle, Filipendula ulmaria x Urtica dioica ",
     carousel: [
         {src:"swatches/bc_swa_0102/0001.webp",name: "",material: "linen"},
         {src:"swatches/bc_swa_0102/0002.webp",name: "",material: "cotton"},
