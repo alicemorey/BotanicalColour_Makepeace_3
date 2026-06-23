@@ -909,11 +909,11 @@ const swatchesData = [
     plant: "Malwen",
     keywords: "Malwen, Malva sylvestris",
     carousel: [
-      "swatches/bc_swa_0073/0001.webp",
-      "swatches/bc_swa_0073/0002.webp",
-      "swatches/bc_swa_0073/0003.webp",
-      "swatches/bc_swa_0073/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0073/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0073/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0073/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0073/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0073/0006.webp"}
     ]
   },
    {id: "00074",
@@ -2154,11 +2154,11 @@ const swatchesData = [
     plant: "Yswydden yr Ardd",
     keywords: "Yswydden yr Ardd, Ligustrum ovalifolium",
     carousel: [
-      "swatches/bc_swa_0122/0001.webp",
-      "swatches/bc_swa_0122/0002.webp",
-      "swatches/bc_swa_0122/0003.webp",
-      "swatches/bc_swa_0122/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0122/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0122/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0122/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0122/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0122/0006.webp"}
     ]
   },
   {id: "0122(a)",
@@ -2167,11 +2167,11 @@ const swatchesData = [
     plant: "Yswydden yr Ardd",
     keywords: "Yswydden yr Ardd, Ligustrum ovalifolium",
     carousel: [
-      "swatches/bc_swa_0122(a)/0001.webp",
-      "swatches/bc_swa_0122(a)/0002.webp",
-      "swatches/bc_swa_0122(a)/0003.webp",
-      "swatches/bc_swa_0122(a)/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0122(a)/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0122(a)/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0122(a)/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0122(a)/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0122(a)/0006.webp"}
     ]
   },
   {id: "0122(b)",
@@ -2180,11 +2180,11 @@ const swatchesData = [
     plant: "Yswydden yr Ardd",
     keywords: "Yswydden yr Ardd, Ligustrum ovalifolium",
     carousel: [
-      "swatches/bc_swa_0122(b)/0001.webp",
-      "swatches/bc_swa_0122(b)/0002.webp",
-      "swatches/bc_swa_0122(b)/0003.webp",
-      "swatches/bc_swa_0122(b)/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0122(b)/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0122(b)/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0122(b)/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0122(b)/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0122(b)/0006.webp"}
     ]
   },
   {id: "0122(c)",
@@ -2193,11 +2193,11 @@ const swatchesData = [
     plant: "Yswydden yr Ardd",
     keywords: "Yswydden yr Ardd, Ligustrum ovalifolium",
     carousel: [
-      "swatches/bc_swa_0122(c)/0001.webp",
-      "swatches/bc_swa_0122(c)/0002.webp",
-      "swatches/bc_swa_0122(c)/0003.webp",
-      "swatches/bc_swa_0122(c)/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0122(c)/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0122(c)/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0122(c)/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0122(c)/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0122(c)/0006.webp"}
     ]
   },
   {id: "0123",
@@ -2206,11 +2206,11 @@ const swatchesData = [
     plant: "Letys coch cribog",
     keywords: "Letys coch cribog, Lactuca sativa",
     carousel: [
-      "swatches/bc_swa_0123/0001.webp",
-      "swatches/bc_swa_0123/0002.webp",
-      "swatches/bc_swa_0123/0003.webp",
-      "swatches/bc_swa_0123/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0123/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0123/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0123/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0123/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0123/0006.webp"}
     ]
   },
   {id: "0123(a)",
@@ -2219,11 +2219,11 @@ const swatchesData = [
     plant: "Letys coch cribog",
     keywords: "Letys coch cribog, Lactuca sativa",
     carousel: [
-      "swatches/bc_swa_0123(a)/0001.webp",
-      "swatches/bc_swa_0123(a)/0002.webp",
-      "swatches/bc_swa_0123(a)/0003.webp",
-      "swatches/bc_swa_0123(a)/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0123(a)/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0123(a)/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0123(a)/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0123(a)/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0123(a)/0006.webp"}
     ]
   },
   {id: "0123(b)",
@@ -2232,11 +2232,11 @@ const swatchesData = [
     plant: "Letys coch cribog",
     keywords: "Letys coch cribog, Lactuca sativa",
     carousel: [
-      "swatches/bc_swa_0123(b)/0001.webp",
-      "swatches/bc_swa_0123(b)/0002.webp",
-      "swatches/bc_swa_0123(b)/0003.webp",
-      "swatches/bc_swa_0123(b)/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0123(b)/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0123(b)/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0123(b)/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0123(b)/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0123(b)/0006.webp"}
     ]
   },
     {id: "0123(c)",
@@ -2245,11 +2245,11 @@ const swatchesData = [
     plant: "Letys coch cribog",
     keywords: "Letys coch cribog, Lactuca sativa",
     carousel: [
-      "swatches/bc_swa_0123(c)/0001.webp",
-      "swatches/bc_swa_0123(c)/0002.webp",
-      "swatches/bc_swa_0123(c)/0003.webp",
-      "swatches/bc_swa_0123(c)/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0123(c)/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0123(c)/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0123(c)/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0123(c)/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0123(c)/0006.webp"}
     ]
   },
   {id: "0124",
@@ -2258,11 +2258,11 @@ const swatchesData = [
     plant: "Gwraidd lliwgar ac indigo",
     keywords: "Gwraidd lliwgar ac indigo, Rubia tinctorum, Indigofera tinctoria",
     carousel: [
-      "swatches/bc_swa_0124/0001.webp",
-      "swatches/bc_swa_0124/0002.webp",
-      "swatches/bc_swa_0124/0003.webp",
-      "swatches/bc_swa_0124/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0124/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0124/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0124/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0124/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0124/0006.webp"}
     ]
   },
   {id: "0125",
@@ -2271,11 +2271,11 @@ const swatchesData = [
     plant: "Gwraidd lliwgar",
     keywords: "Gwraidd lliwgar, Rubia tinctorum",
     carousel: [
-      "swatches/bc_swa_0123/0001.webp",
-      "swatches/bc_swa_0123/0002.webp",
-      "swatches/bc_swa_0123/0003.webp",
-      "swatches/bc_swa_0123/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0125/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0125/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0125/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0125/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0125/0006.webp"}
     ]
   },
   {id: "0126",
@@ -2284,11 +2284,11 @@ const swatchesData = [
     plant: "Gwraidd lliwgar ac indigo",
     keywords: "Gwraidd lliwgar ac indigo, Rubia tinctorum, Indigofera tinctoria",
     carousel: [
-      "swatches/bc_swa_0126/0001.webp",
-      "swatches/bc_swa_0126/0002.webp",
-      "swatches/bc_swa_0126/0003.webp",
-      "swatches/bc_swa_0126/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0126/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0126/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0126/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0126/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0126/0006.webp"}
     ]
   },{id: "0127",
     thumbnail: "swatches/bc_swa_0127/0001.webp",
@@ -2296,11 +2296,11 @@ const swatchesData = [
     plant: "Gwraidd lliwgar",
     keywords: "Gwraidd lliwgar, Rubia tinctorum",
     carousel: [
-      "swatches/bc_swa_0127/0001.webp",
-      "swatches/bc_swa_0127/0002.webp",
-      "swatches/bc_swa_0127/0003.webp",
-      "swatches/bc_swa_0127/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0127/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0127/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0127/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0127/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0127/0006.webp"}
     ]
   },{id: "0128",
     thumbnail: "swatches/bc_swa_0128/0001.webp",
@@ -2308,11 +2308,11 @@ const swatchesData = [
     plant: "Gwraidd lliwgar",
     keywords: "Gwraidd lliwgar, Rubia tinctorum",
     carousel: [
-      "swatches/bc_swa_0128/0001.webp",
-      "swatches/bc_swa_0128/0002.webp",
-      "swatches/bc_swa_0128/0003.webp",
-      "swatches/bc_swa_0128/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0128/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0128/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0128/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0128/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0128/0006.webp"}
     ]
   },{id: "0129",
     thumbnail: "swatches/bc_swa_0129/0001.webp",
@@ -2320,11 +2320,11 @@ const swatchesData = [
     plant: "Gwraidd lliwgar",
     keywords: "Gwraidd lliwgar, Rubia tinctorum",
     carousel: [
-      "swatches/bc_swa_0129/0001.webp",
-      "swatches/bc_swa_0129/0002.webp",
-      "swatches/bc_swa_0129/0003.webp",
-      "swatches/bc_swa_0129/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0129/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0129/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0129/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0129/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0129/0006.webp"}
     ]
   },{id: "0130",
     thumbnail: "swatches/bc_swa_0130/0001.webp",
@@ -2332,11 +2332,11 @@ const swatchesData = [
     plant: "Gwraidd lliwgar",
     keywords: "Gwraidd lliwgar, Rubia tinctorum",
     carousel: [
-      "swatches/bc_swa_0130/0001.webp",
-      "swatches/bc_swa_0130/0002.webp",
-      "swatches/bc_swa_0130/0003.webp",
-      "swatches/bc_swa_0130/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0130/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0130/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0130/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0130/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0130/0006.webp"}
     ]
   },{id: "0131",
     thumbnail: "swatches/bc_swa_0131/0001.webp",
@@ -2344,11 +2344,11 @@ const swatchesData = [
     plant: "Gwraidd lliwgar",
     keywords: "Gwraidd lliwgar, Rubia tinctorum",
     carousel: [
-      "swatches/bc_swa_0131/0001.webp",
-      "swatches/bc_swa_0131/0002.webp",
-      "swatches/bc_swa_0131/0003.webp",
-      "swatches/bc_swa_0131/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0131/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0131/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0131/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0131/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0131/0006.webp"}
     ]
   },{id: "0132",
     thumbnail: "swatches/bc_swa_0132/0001.webp",
@@ -2356,11 +2356,11 @@ const swatchesData = [
     plant: "Gwraidd lliwgar ac indigo",
     keywords: "Gwraidd lliwgar ac indigo, Rubia tinctorum, Indigofera tinctoria",
     carousel: [
-      "swatches/bc_swa_0132/0001.webp",
-      "swatches/bc_swa_0132/0002.webp",
-      "swatches/bc_swa_0132/0003.webp",
-      "swatches/bc_swa_0132/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0132/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0132/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0132/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0132/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0132/0006.webp"}
     ]
   },{id: "0133",
     thumbnail: "swatches/bc_swa_0133/0001.webp",
@@ -2368,11 +2368,11 @@ const swatchesData = [
     plant: "Gwraidd lliwgar",
     keywords: "Gwraidd lliwgar, Rubia tinctorum",
     carousel: [
-      "swatches/bc_swa_0133/0001.webp",
-      "swatches/bc_swa_0133/0002.webp",
-      "swatches/bc_swa_0133/0003.webp",
-      "swatches/bc_swa_0133/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0133/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0133/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0133/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0133/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0133/0006.webp"}
     ]
   },{id: "0134",
     thumbnail: "swatches/bc_swa_0134/0002.webp",
@@ -2380,9 +2380,9 @@ const swatchesData = [
     plant: "Indigo",
     keywords: "Persicaria Tinctoria, Indigo",
     carousel: [
-      "swatches/bc_swa_0134/0002.webp",
-      "swatches/bc_swa_0134/0003.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0134/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0134/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0134/0006.webp"}
     ]
   },{id: "0135",
     thumbnail: "swatches/bc_swa_0135/0001.webp",
@@ -2390,11 +2390,11 @@ const swatchesData = [
     plant: "Indigo",
     keywords: "Persicaria Tinctoria, Indigo",
     carousel: [
-      "swatches/bc_swa_0135/0001.webp",
-      "swatches/bc_swa_0135/0002.webp",
-      "swatches/bc_swa_0135/0003.webp",
-      "swatches/bc_swa_0135/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0135/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0135/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0135/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0135/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0135/0006.webp"}
     ]
   },{id: "0136",
     thumbnail: "swatches/bc_swa_0136/0001.webp",
@@ -2402,11 +2402,11 @@ const swatchesData = [
     plant: "Indigo",
     keywords: "Persicaria Tinctoria, Indigo",
     carousel: [
-      "swatches/bc_swa_0136/0001.webp",
-      "swatches/bc_swa_0136/0002.webp",
-      "swatches/bc_swa_0136/0003.webp",
-      "swatches/bc_swa_0136/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0136/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0136/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0136/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0136/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0136/0006.webp"}
     ]
   },
   {id: "0137",
@@ -2415,11 +2415,11 @@ const swatchesData = [
     plant: "Indigo",
     keywords: "Persicaria Tinctoria, Indigo",
     carousel: [
-      "swatches/bc_swa_0137/0001.webp",
-      "swatches/bc_swa_0137/0002.webp",
-      "swatches/bc_swa_0137/0003.webp",
-      "swatches/bc_swa_0137/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0137/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0137/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0137/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0137/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0137/0006.webp"}
     ]
   },{id: "0138",
     thumbnail: "swatches/bc_swa_0138/0001.webp",
@@ -2427,11 +2427,11 @@ const swatchesData = [
     plant: "Indigo",
     keywords: "Persicaria Tinctoria, Indigo",
     carousel: [
-      "swatches/bc_swa_0138/0001.webp",
-      "swatches/bc_swa_0138/0002.webp",
-      "swatches/bc_swa_0138/0003.webp",
-      "swatches/bc_swa_0138/0004.webp",
-      "carousel/samplekey_yarrow_noname.webp"
+          {src:"swatches/bc_swa_0138/0001.webp",name: "",material: "lliain"},
+          {src:"swatches/bc_swa_0138/0002.webp",name: "",material: "cotwm"},
+          {src:"swatches/bc_swa_0138/0003.webp",name: "",material: "sidan"},
+          {src:"swatches/bc_swa_0138/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0138/0006.webp"}
     ]
   },{id: "0139",
     thumbnail: "swatches/bc_swa_0139/0001.webp",
