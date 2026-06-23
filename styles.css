@@ -622,19 +622,83 @@ body {
   margin-bottom: 0;
 }
 
+/* Credits*/
+.credits {
+  border-top: 2px solid var(--deep-forest);
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: var(--muted-terracotta);
+  line-height: 1.6;
+}
 
+.credits h2 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: var(--deep-forest);
+}
+
+.credits p {
+  margin-bottom: 12px;
+}
+
+.credits a {
+  color: var(--deep-forest);
+  text-decoration: underline;
+}
 
 
 
 .site-footer {
+  padding: 40px 20px 25px;
+  margin-top: 60px;
+  border-top: 1px solid var(--deep-forest);
+  background: transparent;
   text-align: center;
-  padding: 20px;
-  
-  color: var(--muted-terracotta);
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
-  border-top: 2px solid var(--deep-forest); /* subtle separation */
-  margin-top: 40px;
+  color: var(--muted-terracotta);
+  font-size: 13px;
+  letter-spacing: 0.2px;
+}
+
+.footer-logos {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.footer-logos img {
+  width: 100%;
+  max-width: 120px;   /* adjust size as needed */
+  height: 60px;       /* all logos same height */
+  object-fit: contain;
+  justify-self: center;
+}
+
+.footer-links {
+  margin: 18px 0 10px;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  font-size: 12px;
+}
+
+.footer-links a {
+  color: var(--deep-forest);
+  text-decoration: none;
+  opacity: 0.8;
+  transition: opacity 0.2s ease, text-decoration 0.2s ease;
+}
+
+.footer-links a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
 }
 
 .amoreywebdesign {
