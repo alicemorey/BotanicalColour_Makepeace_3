@@ -102,8 +102,12 @@ if (customCursor) {
 
   currentCarousel.forEach((item, i) => {
     const wrapper = document.createElement("div");
-    wrapper.className =
-      i === current ? "carousel-item active" : "carousel-item";
+
+let classes = "carousel-item";
+if (i === current) classes += " active";
+if (i === currentCarousel.length - 1) classes += " featured-slide";
+
+wrapper.className = classes;
 
     // handle both formats
     const src = typeof item === "string" ? item : item.src;
@@ -130,9 +134,18 @@ if (customCursor) {
 
     // IMAGE
     const img = document.createElement("img");
-    img.src = src;
-    img.alt = "swatch image";
-    img.className = i === current ? "active" : "";
+      img.src = src;
+      img.alt = "swatch image";
+
+// normal active class
+if (i === current) {
+  img.classList.add("active");
+}
+
+// automatically mark the LAST image in the carousel
+if (i === currentCarousel.length - 1) {
+  img.classList.add("featured-swatch");
+}
 
     wrapper.appendChild(img);
     carouselImages.appendChild(wrapper);

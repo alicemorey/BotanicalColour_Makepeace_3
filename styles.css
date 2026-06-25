@@ -38,7 +38,7 @@ body {
   height: 100%;
   object-fit: cover;
   object-position: 50% 25%; /* moves image up */
-  opacity: 0.15;
+  opacity: 0.08;
   z-index: -1;
 }
 
@@ -389,8 +389,8 @@ body {
 /* carousel images */
 .carousel {
   background: var(--soft-cream);
-  padding: 20px;
-  max-width: 600px;
+  padding: 10px;
+  max-width: 800px;
   text-align: center;
   margin: 0 auto; /* center carousel */
   overflow: hidden; /* prevent extra */
@@ -406,9 +406,17 @@ body {
   cursor: url("cursors/star-favicon.png") 32 32, pointer;
 }
 
+.carousel-item img.featured-swatch.active {
+  width: 100%;
+  height: auto;
+  max-height: 90vh;
+  padding: 0px;
+}
+
 .carousel img.active {
   display: block;
 }
+
 
 .carousel button {
   position: absolute;
@@ -565,6 +573,7 @@ body {
 .about-image img {
   width: 100%;
   height: auto;
+  padding:10px;
   display: block;
   object-fit: cover;
 }
