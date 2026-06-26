@@ -211,20 +211,34 @@ if (i === currentCarousel.length - 1) {
     renderSwatches(swatchesData);
   }
 
-  // Menu toggle (works on all pages if elements present)
+  //Menu Toggle
   if (menuToggle && sidebar) {
-    menuToggle.addEventListener("click", () => {
-      sidebar.classList.toggle("active");
-    });
 
-    // optional: close sidebar if clicking outside
-    document.addEventListener('click', (e) => {
-      if (!sidebar.classList.contains('active')) return;
-      if (!sidebar.contains(e.target) && !menuToggle.contains(e.target)) {
-        sidebar.classList.remove('active');
-      }
+  menuToggle.addEventListener("click", (e) => {
+    e.stopPropagation();
+    sidebar.classList.toggle("active");
+  });
+
+  // close when clicking outside
+  document.addEventListener("click", (e) => {
+    if (!sidebar.classList.contains("active")) return;
+
+    const clickedInside = sidebar.contains(e.target);
+    const clickedButton = menuToggle.contains(e.target);
+
+    if (!clickedInside && !clickedButton) {
+      sidebar.classList.remove("active");
+    }
+  });
+
+  // close when clicking menu link
+  document.querySelectorAll(".menu-item a").forEach(link => {
+    link.addEventListener("click", () => {
+      sidebar.classList.remove("active");
     });
-  }
+  });
+
+}
 
   // Debug helper (uncomment if you want quick console hints)
   // console.log({ gridExists: !!grid, modalExists: !!modal, swatchesLoaded: typeof swatchesData !== 'undefined' });
