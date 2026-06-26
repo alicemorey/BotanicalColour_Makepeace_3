@@ -769,7 +769,6 @@ body {
   text-decoration: underline;
 }
 
-}
 
 .amoreywebdesign {
   text-decoration: none;
@@ -782,6 +781,56 @@ body {
 
 /* Tablets */
 @media (max-width: 768px) {
+
+  /* Make sidebar behave like dropdown panel */
+  .sidebar {
+    height: auto;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 80px 20px 10px;
+    transform: translateX(-100%); /* hidden off-canvas */
+    transition: transform 0.3s ease;
+  }
+
+  /* when active → slide in */
+  .sidebar.active {
+    transform: translateX(0);
+  }
+
+  /* menu becomes vertical list */
+  .menu {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .menu-item {
+    width: 50%;
+  }
+
+  .menu-item a {
+    display: block;
+    width: 50%;
+    font-size: 16px;
+    padding: 10px 0;
+  }
+
+  /* keep hamburger visible */
+  #menuToggle {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    z-index: 2000;
+  }
+
+  /* optional: prevent horizontal header clutter */
+  header {
+    flex-wrap: wrap;
+  }
+}
   .grid {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
