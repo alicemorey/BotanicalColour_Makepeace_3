@@ -20,7 +20,14 @@
     --soft-cream: #F4F1E1;
   }
 
- 
+html,
+body,
+*,
+*::before,
+*::after {
+  cursor: none !important;
+}
+
 main {
     
 }
@@ -157,7 +164,7 @@ header {
   font-size: 2.5rem;
   margin-bottom: 1rem;
   color: var(--muted-terracotta);
-  font-weight: 600;
+  font-weight: 550;
 }
 
 .landing-text {
@@ -165,7 +172,7 @@ header {
   margin-bottom: 2rem;
   font-size: 1rem;
   color: var(--text);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .landing-buttons {
@@ -182,13 +189,13 @@ header {
   background: var(--muted-terracotta);
   color: var(--orange);
   text-decoration: none;
-  cursor: url("cursors/star-favicon.png") 32 32, pointer;
+  cursor: url("cursors/favicon.svg") 32 32, pointer;
   transition: background 0.2s ease, color 0.2s ease;
 }
 
 .lang-btn:hover {
   background: var(--orange);
-  cursor: url("cursors/star-favicon.png") 32 32, pointer;
+  cursor: url("cursors/favicon.svg") 32 32, pointer;
   color: #fff;
 }
 
@@ -204,7 +211,7 @@ header {
   border: 1px solid var(--muted-terracotta);
   border-radius: 4px;
   box-sizing: border-box; 
-  cursor: url("cursors/star-favicon.png") 32 32, pointer;   
+ cursor: url("cursors/favicon.png") 16 16, auto;  
 }
 
 #search::placeholder {
@@ -225,7 +232,7 @@ header {
   color: var(--bg);
   border: none;
   border-radius: 5px;
-  cursor: url("cursors/star-favicon.png") 32 32, pointer;
+  cursor: url("cursors/favicon.svg") 32 32, pointer;
 }
 
 /* When modal is open, hide the menu toggle */
@@ -239,8 +246,8 @@ body.modal-open #menuToggle {
   position: fixed;
   top: 0;
   left: 0;
-  width: 40px;  /* adjust size */
-  height: 40px; /* adjust size */
+  width: 60px;  /* adjust size */
+  height: 60px; /* adjust size */
   pointer-events: none; /* so it doesn’t block clicks */
   transform: translate(-50%, -50%);
   transition: transform 0.08s ease-out; /* smooth movement */
@@ -249,22 +256,22 @@ body.modal-open #menuToggle {
 
 /* Hide the default cursor */
 body {
-  cursor: url("cursors/star-faviconyellow.png");
+  cursor: url("cursors/favicon.svg");
 }
 
 /* Menu items */
 .menu {
   list-style: none;
   margin: 0;
-  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 50px;
+  border-bottom: 2px solid var(--warm-beige);
 }
 
 .menu-item {
-  cursor: url("cursors/star-favicon.png") 32 32, pointer;
+  cursor: url("cursors/favicon.svg") 32 32, pointer;
   color: var(--text);
   font-size: 15px;
   margin: 15px 0;
@@ -273,11 +280,11 @@ body {
 .menu-item a {
   text-decoration: none;
   color: var(--text);
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 500;
   transition: color 0.2s ease;
   font-family: 'Montserrat', sans-serif;
-  cursor: url("cursors/star-favicon.png") 32 32, pointer;
+  cursor: url("cursors/favicon.svg") 32 32, pointer;
 }
 
 
@@ -289,6 +296,7 @@ body {
 #swatchGrid {
   margin-left: 0; 
   transition: margin-left 0.3s ease;
+  padding-top: 50px;
 }
 
   
@@ -298,12 +306,12 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100px;
+  height: 110px;
   background-color: var(--cream);
   z-index: 1500;
   box-sizing: border-box;
-  padding-top: 60px;
-  border-bottom: 1px solid var(--warm-beige);
+  padding-top: 40px;
+  
 }
 
 .sidebar.active {
@@ -323,7 +331,7 @@ body {
 }
 
 .swatch {
-  cursor: url("cursors/star-favicon.png") 32 32, pointer;
+  cursor: url("cursors/favicon.svg") 32 32, pointer;
   overflow: hidden;
 }
 
@@ -376,7 +384,7 @@ body {
   font-size: 28px;
   font-weight: bold;
   color: var(--bg);
-  cursor: url("cursors/star-favicon.png") 32 32, pointer;
+  cursor: url("cursors/favicon.svg") 32 32, pointer;
   transition: transform 0.2s ease, color 0.2s ease;
   z-index: 1200;
 }
@@ -394,7 +402,7 @@ body {
   text-align: center;
   margin: 0 auto; /* center carousel */
   overflow: hidden; /* prevent extra */
-  cursor: url("cursors/star-favicon.png") 32 32, pointer;
+  cursor: url("cursors/favicon.svg") 32 32, pointer;
 }
 
 .carousel img {
@@ -403,7 +411,7 @@ body {
   height: auto;          /* maintain*/
   display: none;
   object-fit: contain;
-  cursor: url("cursors/star-favicon.png") 32 32, pointer;
+  cursor: url("cursors/favicon.svg") 32 32, pointer;
 }
 
 .carousel-item img.featured-swatch.active {
@@ -422,18 +430,19 @@ body {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: var(--cream);
+  /*background-color: var(--cream);*/
+  background: var(--skyop);
   border: none;
   padding: 10px 15px;
   font-size: 24px;
-  border-radius: 50%;
-  opacity: 0.8;
+  border-radius: 80%;
+  /*opacity: 0.9;*/
   transition: opacity 0.2s;
-  cursor: url("cursors/star-favicon.png") 32 32, pointer;
+  cursor: url("cursors/favicon.png") 16 16, auto;
 }
 .carousel button:hover {
   opacity: 1;
-  cursor: url("cursors/star-favicon.png") 32 32, pointer;
+  cursor: url("cursors/favicon.png") 16 16, auto;
 }
 
 #prev {
