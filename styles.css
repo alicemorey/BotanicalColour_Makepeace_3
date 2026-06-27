@@ -59,13 +59,6 @@ body {
   z-index: -1;
 }
 
-/*header {
-  display: flex;
-  padding: 20px;
-  background-color: var(--cream);
-  box-sizing: border-box;
-}*/
-
 header {
   display: flex;
   align-items: center;
@@ -200,8 +193,8 @@ header {
 
 
 #search {
-  max-width: 100%;       /* Maximum width */
-  width: clamp(200px, 40vw, 600px);           /* Shrinks on smaller screens */
+  width: clamp(180px, 50vw, 600px);
+  max-width: 100%;
   padding: 8px 15px;
   font-size: 13px;
   font-family: 'Montserrat', sans-serif;
@@ -209,7 +202,7 @@ header {
   color: var(--orange);
   border: 1px solid var(--muted-terracotta);
   border-radius: 4px;
-  box-sizing: border-box; 
+  box-sizing: border-box;
  cursor: url("cursors/favicon.png") 16 16, auto;  
 }
 
@@ -332,8 +325,8 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
   padding: 20px;
 }
 
@@ -728,7 +721,7 @@ body {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   color: var(--muted-terracotta);
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 0.2px;
 }
 
@@ -769,94 +762,120 @@ body {
   text-decoration: underline;
 }
 
-
-.amoreywebdesign {
-  text-decoration: none;
-  color: var(--muted-terracotta);
-  
-}
-
 /* Responsive media queries */
 
 
 /* Tablets */
 @media (max-width: 768px) {
 
-  /* Make sidebar behave like dropdown panel */
-  .sidebar {
-    height: auto;
-    min-height: 100vh;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 80px 20px 10px;
-    transform: translateX(-100%); /* hidden off-canvas */
-    transition: transform 0.3s ease;
-  }
+  /* Sidebar  */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
 
-  /* when active → slide in */
-  .sidebar.active {
-    transform: translateX(0);
-  }
+  width: 50vw;          
+  max-width: 320px;     
+  height: 40vh;
 
-  /* menu becomes vertical list */
-  .menu {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
-    width: 100%;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 
-  .menu-item {
-    width: 50%;
-  }
+  padding: 60px 20px 20px;
 
-  .menu-item a {
-    display: block;
-    width: 50%;
-    font-size: 16px;
-    padding: 10px 0;
-  }
+  background: var(--cream) ;  
 
-  /* keep hamburger visible */
-  #menuToggle {
-    position: fixed;
-    top: 15px;
-    left: 15px;
-    z-index: 2000;
-  }
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+
+  z-index: 1500;
+}
+
+/* when active → slide in */
+.sidebar.active {
+  transform: translateX(0);
+}
+
+/* menu layout */
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;            
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* menu items */
+.menu-item {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-item a {
+  display: block;
+  width: 100%;
+  font-size: 15px;
+  padding: 6px 10px; 
+  line-height: 1.2;     
+  text-decoration: none;
+}
+
+/* hamburger stays on top */
+#menuToggle {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  z-index: 2001;
+}
 
   /* optional: prevent horizontal header clutter */
   header {
     flex-wrap: wrap;
   }
-}
+
   .grid {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
 
   #search {
-    width: 200px;
+     width: 80%;
+    max-width: 300px;
     }
-
-  .back-button {
-    padding: 6px 10px;
-    font-size: 11px;
-  }
-
   
   .carousel button {
     padding: 8px 12px;
     font-size: 20px;
   }
+   .about {
+    padding: 40px 20px;
+  }
+
+  .about-page {
+    max-width: 100%;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .about-image img {
+    width: 100%;
+    padding: 0;
+  }
 }
+
 
 
 /* Mobile phones */
 @media (max-width: 500px) {
   .grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 15px;
   }
 
@@ -865,13 +884,13 @@ body {
   }
 
   #search {
-    max-width: 90%;  /* Shrink even more on tiny screens */
+    max-width: 70%;  /* Shrink even more on tiny screens */
     
   }
 
   #menuToggle {
     font-size: 26px;
-    padding: 8px 12px;
+    padding: 0;
   }
 
   menu a {
@@ -893,9 +912,6 @@ body {
     font-size: 18px;
   }
 
-  .site-footer p {
-    font-size: 8px ;
-  }
 
 
   #back-toggle {
@@ -926,5 +942,11 @@ body {
   .carousel button {
     padding: 5px 8px;
     font-size: 16px;
+  }
+}
+
+#menuToggle {
+    font-size: 26px;
+    padding: 0;
   }
 }
