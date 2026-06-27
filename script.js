@@ -229,7 +229,7 @@ if (modal) {
         (swatch.plant || "").toLowerCase().includes(term) ||
         (swatch.keywords || "").toLowerCase().includes(term)
       );
-      renderSwatches(filtered);
+      renderSwatches(filtered, true);
     });
   }
 
@@ -237,6 +237,22 @@ if (modal) {
   if (typeof swatchesData !== 'undefined' && Array.isArray(swatchesData) && grid) {
     renderSwatches(swatchesData);
   }
+  function handleScroll() {
+  if (!swatchSource.length) return;
+  if (isLoading) return;
+
+  const scrollY = window.scrollY;
+  const viewport = window.innerHeight;
+  const fullHeight = document.body.offsetHeight;
+
+  if (scrollY + viewport >= fullHeight - 300) {
+    isLoading = true;
+    renderSwatches(swatchSource, false);
+  }
+}
+
+window.addEventListener("scroll", handleScroll);
+
 
   //Menu Toggle
   if (menuToggle && sidebar) {
