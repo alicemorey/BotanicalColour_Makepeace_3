@@ -339,7 +339,10 @@ body {
   width: 100%;
   height: auto;
   display: block;
+  content-visibility: auto;
+  contain-intrinsic-size: 200px;
 }
+
 
 .swatch-title {
   text-align: right;  /* Align the number to the right */
@@ -868,6 +871,8 @@ body {
     width: 100%;
     padding: 0;
   }
+
+  
 }
 
 

@@ -20,6 +20,11 @@ document.addEventListener('DOMContentLoaded', () => {
   let current = null;
   let currentCarousel = [];
 
+    let swatchIndex = 0;
+    const batchSize = 24;
+    let swatchSource = [];
+    let isLoading = false;
+
   // Make PNG follow the mouse
 if (customCursor) {
   document.addEventListener('mousemove', (e) => {
@@ -37,33 +42,46 @@ if (customCursor) {
 }
 
 
-  // Render swatches (only if grid exists)
-  function renderSwatches(data) {
-    if (!grid) return;
+  // Render swatches 
+  function renderSwatches(data, reset = true) {
+  if (!grid) return;
+
+  // reset system when new dataset is passed (search/filter)
+  if (reset) {
     grid.innerHTML = "";
-    data.forEach((swatch, index) => {
-      const div = document.createElement("div");
-      div.className = "swatch";
-      div.dataset.index = index;
-
-      // safe fallback if properties missing
-      const thumb = swatch.thumbnail || "";
-      const plant = swatch.plant || "";
-      const idText = swatch.id || "";
-
-      div.innerHTML = `
-        <img src="${thumb}" alt="${plant} swatch" loading="lazy">
-        
-      `;
-
-      grid.appendChild(div);
-
-      // only add click handler if modal exists
-      if (modal) {
-        div.addEventListener("click", () => openModal(swatch));
-      }
-    });
+    swatchIndex = 0;
+    swatchSource = data;
   }
+
+  const batch = swatchSource.slice(swatchIndex, swatchIndex + batchSize);
+
+  batch.forEach((swatch) => {
+    const div = document.createElement("div");
+    div.className = "swatch";
+
+    const thumb = swatch.thumbnail || "";
+    const plant = swatch.plant || "";
+
+    // 🧩 IMPORTANT: keep full object intact for modal
+    div.innerHTML = `
+      <img 
+        src="${thumb}" 
+        alt="${plant}" 
+        loading="lazy"
+      >
+    `;
+
+    grid.appendChild(div);
+
+    // 🧠 modal click (passes FULL swatch object)
+    if (modal) {
+      div.addEventListener("click", () => openModal(swatch));
+    }
+  });
+
+  swatchIndex += batchSize;
+  isLoading = false;
+}
 
   // Open modal with carousel (only if modal exists)
  function openModal(swatch) {
@@ -151,7 +169,7 @@ if (i === currentCarousel.length - 1) {
     carouselImages.appendChild(wrapper);
   });
 
-  // 🔥 HEADER CONTROL (THIS is the missing piece)
+  // HEADER 
   const currentItem = currentCarousel[current];
 
   const isCleanSlide =
@@ -168,7 +186,7 @@ if (i === currentCarousel.length - 1) {
 }
  
 
-  // Navigation (safe guards)
+  // Navigation 
   if (nextBtn) {
     nextBtn.addEventListener("click", () => {
       if (currentCarousel.length === 0) return;
@@ -188,7 +206,16 @@ if (i === currentCarousel.length - 1) {
   if (closeBtn && modal) {
   closeBtn.addEventListener("click", () => {
     modal.classList.remove("active");
-    document.body.classList.remove("modal-open"); // remove class when modal closes
+    document.body.classList.remove("modal-open");
+  });
+}
+
+if (modal) {
+  modal.addEventListener("click", (e) => {
+    if (e.target === modal) {
+      modal.classList.remove("active");
+      document.body.classList.remove("modal-open");
+    }
   });
 }
 
