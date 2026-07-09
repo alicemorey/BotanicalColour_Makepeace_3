@@ -28,6 +28,13 @@ body,
   cursor: none !important;
 }
 
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 main {
     
 }
@@ -589,9 +596,10 @@ body {
 .about-image img {
   width: 100%;
   height: auto;
-  padding:10px;
+  padding: 10px;
   display: block;
   object-fit: cover;
+  box-sizing: border-box;
 }
 
 .research-link {
@@ -929,7 +937,6 @@ body {
   }
 
 
-
   #back-toggle {
     flex-direction:inherit;
     gap: 5px;
@@ -940,8 +947,22 @@ body {
     font-size: 10px;
   }
 
-   .about {
-    padding: 40px 20px;
+  .about {
+    padding: 30px 18px;
+  }
+
+  .about h1 {
+    font-size: 1.9rem;
+    line-height: 1.2;
+  }
+
+  .about p {
+    font-size: 0.95rem;
+    line-height: 1.65;
+  }
+
+  .about-image img {
+    width: 100%;
   }
 
 }
@@ -969,3 +990,73 @@ body {
     font-size: 26px;
     padding: 0;
   }
+
+
+  /* ------------------------------
+   ABOUT PAGE MOBILE FIX
+------------------------------ */
+
+* {
+  box-sizing: border-box;
+}
+
+.about {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.about-container {
+  width: 100%;
+}
+
+.about-page {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Image stays inside page */
+
+.about-image {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  padding: 10px;
+  display: block;
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+  .about {
+    padding: 40px 20px;
+  }
+
+  .about-container h1 {
+    font-size: 24px;
+    line-height: 1.25;
+    overflow-wrap: break-word;
+  }
+
+  .about-container p {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  .about-page {
+    padding: 0;
+    width: 100%;
+  }
+
+  .about-image img {
+    padding: 0;
+  }
+
+}
