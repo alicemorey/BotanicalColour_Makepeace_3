@@ -758,8 +758,8 @@ body {
 
 .footer-logos img {
   width: 100%;
-  max-width: 120px;   /* adjust size as needed */
-  height: 60px;       /* all logos same height */
+  max-width: 120px;   
+  height: 60px;      
   object-fit: contain;
   justify-self: center;
 }
