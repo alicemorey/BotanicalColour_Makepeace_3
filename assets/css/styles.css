@@ -619,6 +619,8 @@ body {
 /* Intro text */
 .intro {
   font-size: 1.1rem;
+  padding-left: 5px;
+
 }
 
 /* Lists */
@@ -936,6 +938,11 @@ body {
   .back-button{
     padding: 5px 8px;
     font-size: 10px;
+  }
+
+  .about-page {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
 }
