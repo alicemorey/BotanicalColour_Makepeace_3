@@ -570,6 +570,10 @@ body {
   font-size: 20px;
 }
 
+.about-page li {
+  color: var(--deep-forest);
+}
+
 .about-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
