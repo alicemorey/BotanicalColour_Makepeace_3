@@ -4,7 +4,7 @@ const swatchesData = [
     thumbnail: "swatches/bc_swa_0001/IMG_0001_1.webp",
     plant: "yarrow ",
     latin: "achillea millefolium",
-    keywords: "yarrow yellow achillea millefolium field ",
+    keywords: "yarrow, yellow, achillea millefolium, field ",
     carousel: [
       {src: "swatches/bc_swa_0001/IMG_0001_1.webp",name: "",material: "linen"},
       {src: "swatches/bc_swa_0001/IMG_0002_1.webp",name: "",material: "cotton"},
@@ -18,7 +18,7 @@ const swatchesData = [
     thumbnail: "swatches/bc_swa_0002/IMG_0001_2.webp",
     latin: "Hypericum perforatum",
     plant: "St Johns Wort flowers ",
-    keywords: "yarrow yellow achillea millefolium field ",
+    keywords: "yellow, St Johns wort, flowers,golden, hypericum perforatum ",
     carousel: [
       {src:"swatches/bc_swa_0002/IMG_0001_2.webp",name: "",material: "linen"},
       {src:"swatches/bc_swa_0002/IMG_0002_2.webp",name: "",material: "cotton"},
@@ -32,7 +32,7 @@ const swatchesData = [
     thumbnail: "swatches/bc_swa_0003/0001.webp",
     latin: "Solidago virgaurea",
     plant: "Goldenrod",
-    keywords: "goldenrod solidago yellow ",
+    keywords: "goldenrod, solidago virgaurea,  yellow ",
     carousel: [
         {src:"swatches/bc_swa_0003/0001.webp",name: "",material: "linen"},
         {src:"swatches/bc_swa_0003/0002.webp",name: "",material: "cotton"},
@@ -40,12 +40,12 @@ const swatchesData = [
         {src:"swatches/bc_swa_0003/0004.webp",name: "",material: "wool"},
         {src:"swatches/bc_swa_0003/IMG_0005.webp"}
     ]
-  },{
+  }, {
     id:"0009",
     thumbnail: "swatches/bc_swa_0009/0001.webp",
     latin: "Leucanthemum vulgare",
     plant: "Oxeye daisy ",
-    keywords: "Oxeye Daisy Leucanthemum vulgare",
+    keywords: "Oxeye Daisy, yellow, Leucanthemum vulgare",
     carousel: [
         {src:"swatches/bc_swa_0009/0001.webp",name: "",material: "linen"},
         {src:"swatches/bc_swa_0009/0002.webp",name: "",material: "cotton"},
@@ -59,8 +59,7 @@ const swatchesData = [
     thumbnail: "swatches/bc_swa_0010/0001.webp",
     latin: "Leycesteria formosa",
     plant: "Himalayan honeysuckle ",
-    material:"",
-    keywords: "Himalayan Honeysuckle Leycesteria formosa green light-green",
+    keywords: "Himalayan Honeysuckle, Leycesteria formosa, green, light-green",
     carousel: [
         {src:"swatches/bc_swa_0010/0001.webp",name: "",material: "linen"},
         {src:"swatches/bc_swa_0010/0002.webp",name: "",material: "cotton"},
@@ -74,8 +73,7 @@ const swatchesData = [
     thumbnail: "swatches/bc_swa_0011/0001.webp",
     latin: "Buddleja davidii",
     plant: "Buddleia (purple variety)",
-    material:"",
-    keywords: "Purple Buddleia ",
+    keywords: "Purple Buddleia, Buddleja davidii, brown, golden, dark yellow ",
     carousel: [
         {src:"swatches/bc_swa_0011/0001.webp",name: "",material: "linen"},
         {src:"swatches/bc_swa_0011/0002.webp",name: "",material: "cotton"},
@@ -89,8 +87,7 @@ const swatchesData = [
     thumbnail: "swatches/bc_swa_0012/0001.webp",
     latin: "Persicaria campanulata",
     plant: "Lesser Knotweed ",
-    material:"",
-    keywords: "Lesser Knotweed Koenigia campanulata",
+    keywords: "Lesser Knotweed, Koenigia campanulata, pale yellow, light yellow, yellow",
     carousel: [
       {src:"swatches/bc_swa_0012/0001.webp",name: "",material: "linen"},
       {src:"swatches/bc_swa_0012/0002.webp",name: "",material: "cotton"},
@@ -104,8 +101,7 @@ const swatchesData = [
     thumbnail: "swatches/bc_swa_0013/0001.webp",
     latin: "Dipsacus fullonum",
     plant: "Teasle ",
-    material:"",
-    keywords: "Dipsacus fullonum Teasle ",
+    keywords: "Dipsacus fullonum ,Teasle, beige, yellow ",
     carousel: [
       {src:"swatches/bc_swa_0013/0001.webp",name: "",material: "linen"},
       {src:"swatches/bc_swa_0013/0002.webp",name: "",material: "cotton"},
@@ -119,8 +115,7 @@ const swatchesData = [
     thumbnail: "swatches/bc_swa_0014/0001.webp",
     latin: "Laurus nobilis",
     plant: "Bay ",
-    material:"",
-    keywords: "yarrow yellow achillea millefolium field ",
+    keywords: "Bay, Laurus nobilis, light pink, pink ",
     carousel: [
        {src:"swatches/bc_swa_0014/0001.webp",name: "",material: "linen"},
        {src:"swatches/bc_swa_0014/0002.webp",name: "",material: "cotton"},
@@ -134,8 +129,7 @@ const swatchesData = [
     thumbnail: "swatches/bc_swa_0015/0002.webp",
     latin: "Persea americana",
     plant: "Avocado stone",
-    material:"",
-    keywords: "avocado stones, nature fresh forest plant food",
+    keywords: "avocado stones, nature, fresh forest, plant , food, pink, light pink, light brown",
     carousel: [
           {src:"swatches/bc_swa_0015/0002.webp",name: "",material: "linen"},
           {src:"swatches/bc_swa_0015/0001_1.webp",name: "",material: "cotton"},
@@ -150,7 +144,7 @@ const swatchesData = [
     thumbnail: "swatches/bc_swa_0016/0003.webp",
     latin: "Persea americana",
     plant: "Avocado skin",
-    keywords: "avocado skin, Persea americana plant warm climate",
+    keywords: "avocado skin, Persea americana, plant, warm climate, light pink, pink, light brown",
     carousel: [
           {src:"swatches/bc_swa_0016/0003.webp",name: "",material: "silk"},
           {src:"swatches/bc_swa_0016/0001.webp",name: "",material: "linen"},
@@ -165,7 +159,7 @@ const swatchesData = [
     thumbnail: "swatches/bc_swa_0017/0004.webp",
     latin: "Rhamnus cathartica",
     plant: "Buckthorn",
-    keywords: "Rhamnus Buckthorn berries",
+    keywords: "Rhamnus, Buckthorn,  berries, yellow, orange, dark yellow",
     carousel: [
           {src:"swatches/bc_swa_0017/0004.webp",name: "",material: "wool"},
           {src:"swatches/bc_swa_0017/0001.webp",name: "",material: "linen"},
@@ -178,7 +172,7 @@ const swatchesData = [
     thumbnail: "swatches/bc_swa_0018/0001.webp",
     latin: "Origanum majorana",
     plant: "Marjoram",
-    keywords: "Marjoram flowers",
+    keywords: "Marjoram flowers, origanum majorana, light brown",
     carousel: [
           {src:"swatches/bc_swa_0018/0001.webp",name: "",material: "linen"},
           {src:"swatches/bc_swa_0018/0002.webp",name: "",material: "cotton"},
@@ -192,7 +186,7 @@ const swatchesData = [
     thumbnail: "swatches/bc_swa_0019/0003.webp",
     latin: "Ocimum basilicum",
     plant: "Basil",
-    keywords: "basilius Basil",
+    keywords: "basilius Basil, beige, light brown",
     carousel: [
           {src:"swatches/bc_swa_0019/0003.webp",name: "",material: "silk"},
           {src:"swatches/bc_swa_0019/0001.webp",name: "",material: "linen"},
@@ -206,7 +200,7 @@ const swatchesData = [
     thumbnail: "swatches/bc_swa_0020/0001.webp",
     latin: "Calendula officinalis",
     plant: "Calendula",
-    keywords: "Common marigold Calendula officinalis blue purple",
+    keywords: "Common marigold, Calendula, officinalis blue, purple, dark purple, maurve",
     carousel: [
        {src:"swatches/bc_swa_0020/0001.webp",name: "",material: "linen"},
        {src:"swatches/bc_swa_0020/0002.webp",name: "",material: "cotton"},
