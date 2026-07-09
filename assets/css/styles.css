@@ -383,7 +383,7 @@ body {
 #close {
   position: absolute;
   top: 15px;
-  right: 20px;
+  right: 10px;
   font-size: 28px;
   font-weight: bold;
   color: var(--bg);
@@ -399,6 +399,7 @@ body {
 
 /* carousel images */
 .carousel {
+  position: relative;
   background: var(--soft-cream);
   padding: 10px;
   max-width: 800px;
@@ -674,6 +675,11 @@ body {
   margin-top: 3rem;
   padding-top: 2rem;
   border-top: 1px solid var(--warm-beige);
+}
+
+.method li strong, 
+.method li {
+  color: var(--deep-forest) !important;
 }
 
 /* Link */
