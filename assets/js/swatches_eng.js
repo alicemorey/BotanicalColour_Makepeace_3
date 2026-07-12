@@ -2068,7 +2068,6 @@ const swatchesData = [
         {src:"swatches/bc_swa_0120(a)/0001.webp",name: "",material: "linen"},
         {src:"swatches/bc_swa_0120(a)/0002.webp",name: "",material: "cotton"},
         {src:"swatches/bc_swa_0120(a)/0003.webp",name: "",material: "silk"},
-        {src:"swatches/bc_swa_0120(a)/0004.webp",name: "",material: "wool"},
         {src:"swatches/bc_swa_0120(a)/0005.webp"}
     ]
   },
