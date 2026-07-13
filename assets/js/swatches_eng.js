@@ -214,7 +214,7 @@ const swatchesData = [
     thumbnail: "swatches/bc_swa_0021/0001.webp",
     latin: "Leycesteria formosa",
     plant: "Himalayan Honeysuckle",
-    keywords: "Leycesteria formosa Himalayan Honeysuckle",
+    keywords: "Leycesteria formosa, Himalayan Honeysuckle, dark yellow, yellow, golden",
     carousel: [
        {src:"swatches/bc_swa_0021/0001.webp",name: "",material: "linen"},
        {src:"swatches/bc_swa_0021/0002.webp",name: "",material: "cotton"},
@@ -228,7 +228,7 @@ const swatchesData = [
     thumbnail: "swatches/bc_swa_0022/0001.webp",
     latin: "Tanacetum vulgare",
     plant: "Tansy",
-    keywords: "Tanacetum vulgare Tansy",
+    keywords: "Tanacetum vulgare , Tansy, golden, yellow, dark yellow",
     carousel: [
        {src:"swatches/bc_swa_0022/0001.webp",name: "",material: "linen"},
        {src:"swatches/bc_swa_0022/0002.webp",name: "",material: "cotton"},
@@ -242,7 +242,7 @@ const swatchesData = [
     thumbnail: "swatches/bc_swa_0023/0001.webp",
     latin: "Rosa canina",
     plant: "Dogrose rosehip",
-    keywords: "Rosa canina Dogrose rosehip",
+    keywords: "Rosa canina, Dogrose rosehip, pale pink, cream white, pink, rosehip",
     carousel: [
        {src:"swatches/bc_swa_0023/0001.webp",name: "",material: "linen"},
        {src:"swatches/bc_swa_0023/0002.webp",name: "",material: "cotton"},
@@ -254,8 +254,8 @@ const swatchesData = [
   {id: "0024",
     thumbnail: "swatches/bc_swa_0024/0001.webp",
     latin: "Polystichum setiferum",
-    plant: "Soft shield fern Polystichum setiferum",
-    keywords: "Soft shield fern ",
+    plant: "Soft shield fern ",
+    keywords: "Soft shield fern, fern, dark pink ",
     carousel: [
        {src:"swatches/bc_swa_0024/0001.webp",name: "",material: "linen"},
        {src:"swatches/bc_swa_0024/0002.webp",name: "",material: "cotton"},
@@ -268,7 +268,7 @@ const swatchesData = [
     thumbnail: "swatches/bc_swa_0025/0001.webp",
     latin: "Tanacetum vulgare",
     plant: "Tansy",
-    keywords: "Tanacetum vulgare Tansy",
+    keywords: "Tanacetum vulgare, Tansy, light brown, beige, dark yellow",
     carousel: [
        {src:"swatches/bc_swa_0025/0001.webp",name: "",material: "linen"},
        {src:"swatches/bc_swa_0025/0002.webp",name: "",material: "cottom"},
@@ -281,7 +281,7 @@ const swatchesData = [
     thumbnail: "swatches/bc_swa_0026/0001.webp",
     latin: "Symphytum officinale",
     plant: "Comfrey",
-    keywords: "Symphytum officinale Comfrey ",
+    keywords: "Symphytum officinale, Comfrey, dark yellow, golden ",
     carousel: [
        {src:"swatches/bc_swa_0026/0001.webp",name: "",material: "linen"},
        {src:"swatches/bc_swa_0026/0002.webp",name: "",material: "cottom"},
@@ -294,7 +294,7 @@ const swatchesData = [
     thumbnail: "swatches/bc_swa_0027/0001.webp",
     latin: "Impatiens glandulifera",
     plant: "Himalayan balsam",
-    keywords: "Impatiens glandulifera Himalayan balsam",
+    keywords: "Impatiens glandulifera , Himalayan balsam, yellow",
     carousel: [
        {src:"swatches/bc_swa_0027/0001.webp",name: "",material: "linen"},
        {src:"swatches/bc_swa_0027/0002.webp",name: "",material: "cotton"},
@@ -307,7 +307,7 @@ const swatchesData = [
     thumbnail: "swatches/bc_swa_0028/0001.webp",
     latin: "Pteridium aquilinum",
     plant: "Bracken",
-    keywords: "Bracken Pteridium aquilinum",
+    keywords: "Bracken, Pteridium aquilinum, light brown, beige ",
     carousel: [
        {src:"swatches/bc_swa_0028/0001.webp",name: "",material: "line"},
        {src:"swatches/bc_swa_0028/0002.webp",name: "",material: "cotton"},
@@ -320,7 +320,7 @@ const swatchesData = [
     thumbnail: "swatches/bc_swa_0029/0001.webp",
     latin: "Impatiens glandulifera",
     plant: "Himalayan balsam",
-    keywords: "Impatiens glandulifera Himalayan balsam",
+    keywords: "Impatiens glandulifera, Himalayan balsam, beige, light brown",
     carousel: [
       {src:"swatches/bc_swa_0029/0001.webp",name: "",material: "linen"},
        {src:"swatches/bc_swa_0029/0002.webp",name: "",material: "cotton"},
@@ -330,10 +330,10 @@ const swatchesData = [
     ]
   },
   {id: "0030",
-    thumbnail: "swatches/bc_swa_0016/0001.webp",
+    thumbnail: "swatches/bc_swa_0030/0001.webp",
     latin: "Urtica dioica",
-    plant: "Nettle Urtica dioica",
-    keywords: "Nettle",
+    plant: "Nettle ",
+    keywords: "Nettle, Urtica dioica, brown, beige",
     carousel: [
       {src:"swatches/bc_swa_0030/0001.webp",name: "",material: "linen"},
        {src:"swatches/bc_swa_0030/0002.webp",name: "",material: "cotton"},
@@ -346,7 +346,7 @@ const swatchesData = [
     thumbnail: "swatches/bc_swa_0031/0001.webp",
     latin: "Hedera hibernica, Digitalis purpurea",
     plant: "Ivy and Foxgloves",
-    keywords: "Ivy and Foxgloves Hedera hibernica, Digitalis purpurea",
+    keywords: "Ivy and Foxgloves , Hedera hibernica, Digitalis purpurea, cream, yellow",
     carousel: [
       {src:"swatches/bc_swa_0031/0001.webp",name: "",material: "linen"},
        {src:"swatches/bc_swa_0031/0002.webp",name: "",material: "cotton"},
@@ -359,7 +359,7 @@ const swatchesData = [
     thumbnail: "swatches/bc_swa_0032/0001.webp",
     latin: "",
     plant: "Florist waste",
-    keywords: "Florist waste",
+    keywords: "Florist waste, dark yellow",
     carousel: [
      {src:"swatches/bc_swa_0032/0001.webp",name: "",material: "linen"},
        {src:"swatches/bc_swa_0032/0002.webp",name: "",material: "cotton"},
@@ -372,7 +372,7 @@ const swatchesData = [
     thumbnail: "swatches/bc_swa_0033/0001.webp",
     latin: "Crataegus monogyna",
     plant: "Hawthorn",
-    keywords: "Crataegus monogyna Hawthorn",
+    keywords: "Crataegus monogyna, Hawthorn, pink",
     carousel: [
       {src:"swatches/bc_swa_0033/0001.webp",name: "",material: "linen"},
        {src:"swatches/bc_swa_0033/0002.webp",name: "",material: "cotton"},
@@ -387,7 +387,7 @@ const swatchesData = [
     thumbnail: "swatches/bc_swa_0034/0001.webp",
     latin: "Laurus nobilis",
     plant: "Bay",
-    keywords: "Bay Laurus nobilis",
+    keywords: "Bay, Laurus nobilis, light pink ",
     carousel: [
         {src:"swatches/bc_swa_0034/0001.webp",name: "",material: "linen"},
        {src:"swatches/bc_swa_0034/0002.webp",name: "",material: "cotton"},
@@ -400,7 +400,7 @@ const swatchesData = [
     thumbnail: "swatches/bc_swa_0016/0001.webp",
     latin: "Papaver somniferum",
     plant: "Poppy",
-    keywords: "Papaver somniferum Poppy",
+    keywords: "Papaver somniferum, Poppy",
     carousel: [
         {src:"swatches/bc_swa_0035/0001.webp",name: "",material: "linen"},
         {src:"swatches/bc_swa_0035/0002.webp",name: "",material: "cotton"},
@@ -413,7 +413,7 @@ const swatchesData = [
     thumbnail: "swatches/bc_swa_0036/0004.webp",
     latin: "Cornus sanguinea",
     plant: "Dogwood",
-    keywords: "Dogwood Cornus sanguinea",
+    keywords: "Dogwood, Cornus sanguinea, dark yellow, yellow-green ",
     carousel: [
        {src:"swatches/bc_swa_0036/0001.webp",name: "",material: "linen"},
        {src:"swatches/bc_swa_0036/0002.webp",name: "",material: "cotton"},
@@ -426,7 +426,7 @@ const swatchesData = [
     thumbnail: "swatches/bc_swa_0037/0001.webp",
     latin: "Calluna vulgaris",
     plant: "Heather",
-    keywords: "Heather Calluna vulgaris",
+    keywords: "Heather, Calluna vulgaris, yellow",
     carousel: [
         {src:"swatches/bc_swa_0037/0001.webp",name: "",material: "linen"},
        {src:"swatches/bc_swa_0037/0002.webp",name: "",material: "cotton"},
@@ -439,7 +439,7 @@ const swatchesData = [
     thumbnail: "swatches/bc_swa_0038/0001.webp",
     latin: "Isatis tinctoria",
     plant: "Woad",
-    keywords: "Woad Isatis tinctoria",
+    keywords: "Woad, Isatis tinctoria, grey, blue-grey",
     carousel: [
         {src:"swatches/bc_swa_0038/0001.webp",name: "",material: "linen"},
        {src:"swatches/bc_swa_0038/0002.webp",name: "",material: "cotton"},
@@ -452,7 +452,7 @@ const swatchesData = [
     thumbnail: "swatches/bc_swa_0039/0001.webp",
     latin: "Cirsium arvense",
     plant: "Thistles",
-    keywords: "Cirsium arvense Thistles",
+    keywords: "Cirsium arvense, Thistles, light yellow, yellow",
     carousel: [
         {src:"swatches/bc_swa_0039/0001.webp",name: "",material: "linen"},
        {src:"swatches/bc_swa_0039/0002.webp",name: "",material: "cotton"},
