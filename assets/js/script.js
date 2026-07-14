@@ -15,8 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const customCursor = document.querySelector('.custom-cursor');
 
 
-
-
   let current = null;
   let currentCarousel = [];
 

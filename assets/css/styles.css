@@ -158,6 +158,7 @@ header {
   align-items: center;
   text-align: center;
   padding: 2rem;
+  margin-bottom: 80px;
 }
 
 .landing h1 {
@@ -503,7 +504,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding: 60px 20px;
+  padding: 30px 20px;
   min-height: calc(100vh - 80px); /* fills page minus header */
 }
 
@@ -528,6 +529,27 @@ body {
 }
 
 .about-container p:last-child {
+  margin-bottom: 0;
+}
+
+/* Archive introduction text */
+
+.archive-intro {
+  max-width: 800px;
+  margin: 30px auto 20px;
+  padding: 0 20px;
+}
+
+.archive-intro p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  line-height: 1.8;
+  font-weight: 400;
+  color: var(--deep-forest);
+  margin-bottom: 1.2rem;
+}
+
+.archive-intro p:last-child {
   margin-bottom: 0;
 }
 
@@ -601,6 +623,14 @@ body {
   display: block;
   object-fit: cover;
   box-sizing: border-box;
+}
+
+.heritage-image {
+  float: left;
+  width: 180px;
+  max-width: 35%;
+  height: auto;
+  margin: 1rem 1rem 1rem 1.5rem;
 }
 
 .research-link {
@@ -712,7 +742,7 @@ body {
 .credits {
   border-top: 2px solid var(--warm-beige);
   max-width: 800px;
-  margin: 60px auto;
+  margin: 20px auto;
   padding: 20px;
   font-family: 'Montserrat', sans-serif;
   color: var(--muted-terracotta);
@@ -737,7 +767,7 @@ body {
 
 
 .site-footer {
-  padding: 40px 20px 25px;
+  padding: 10px 20px 25px;
   margin-top: 60px;
   border-top: 2px solid var(--warm-beige);
   background: transparent;
@@ -750,17 +780,16 @@ body {
 
 .footer-logos {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem;
   align-items: center;
-  gap: 20px;
   width: 100%;
-  margin-bottom: 20px;
+  margin: 2rem 0;
 }
 
 .footer-logos img {
-  width: 100%;
-  max-width: 120px;   
-  height: 60px;      
+  width: 70%;
+  height: auto;
   object-fit: contain;
   justify-self: center;
 }
@@ -964,6 +993,16 @@ body {
 
   .about-image img {
     width: 100%;
+  }
+
+  .archive-intro {
+    padding: 0 20px;
+    margin-top: 20px;
+  }
+
+  .archive-intro p {
+    font-size: 0.95rem;
+    line-height: 1.7;
   }
 
 }
