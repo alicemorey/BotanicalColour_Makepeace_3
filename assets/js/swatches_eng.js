@@ -1342,7 +1342,6 @@ const swatchesData = [
     keywords: "Dyers polypore, Phaeolus schweinitzii",
     carousel: [
         {src:"swatches/bc_swa_0106/0001.webp",name: "",material: "linen"},
-        {src:"swatches/bc_swa_0106/0002.webp",name: "",material: "cotton"},
         {src:"swatches/bc_swa_0106/0003.webp",name: "",material: "silk"},
         {src:"swatches/bc_swa_0106/0004.webp",name: "",material: "wool"},
         {src:"swatches/bc_swa_0106/0005.webp"}
@@ -1393,7 +1392,6 @@ const swatchesData = [
     plant: "Oak marble galls",
     keywords: "Oak marble galls, Andricus quercuscalicis",
     carousel: [
-        {src:"swatches/bc_swa_0107/0001.webp",name: "",material: "linen"},
         {src:"swatches/bc_swa_0107/0002.webp",name: "",material: "cotton"},
         {src:"swatches/bc_swa_0107/0003.webp",name: "",material: "silk"},
         {src:"swatches/bc_swa_0107/0004.webp",name: "",material: "wool"},
@@ -1462,7 +1460,7 @@ const swatchesData = [
         {src:"swatches/bc_swa_0108(a)/0002.webp",name: "",material: "cotton"},
         {src:"swatches/bc_swa_0108(a)/0003.webp",name: "",material: "silk"},
         {src:"swatches/bc_swa_0108(a)/0004.webp",name: "",material: "wool"},
-        {src:"swatches/bc_swa_00108(a)/0005.webp"}
+        {src:"swatches/bc_swa_0108(a)/0005.webp"}
     ]
   },
   {id: "0108(b)",

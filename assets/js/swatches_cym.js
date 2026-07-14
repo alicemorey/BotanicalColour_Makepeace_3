@@ -1342,7 +1342,6 @@ const swatchesData = [
     keywords: "Tegyll rhwyllog y lliwydd, Phaeolus schweinitzii",
     carousel: [
           {src:"swatches/bc_swa_0106/0001.webp",name: "",material: "lliain"},
-          {src:"swatches/bc_swa_0106/0002.webp",name: "",material: "cotwm"},
           {src:"swatches/bc_swa_0106/0003.webp",name: "",material: "sidan"},
           {src:"swatches/bc_swa_0106/0004.webp",name: "",material: "gwlân"},
           {src:"swatches/bc_swa_0106/0006.webp"}
