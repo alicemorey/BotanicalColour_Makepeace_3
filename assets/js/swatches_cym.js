@@ -41,6 +41,19 @@ const swatchesData = [
         {src:"swatches/bc_swa_0003/IMG_0006.webp"}
     ]
   },{
+    id:"0004",
+    thumbnail: "swatches/bc_swa_0004/0001.webp",
+    latin: "Jacobaea vulgaris",
+    plant: "Creulys",
+    keywords: "Creulys, Jacobaea vulgaris",
+    carousel: [
+        {src:"swatches/bc_swa_0004/0001.webp",name: "",material: "lliain"},
+        {src:"swatches/bc_swa_0004/0002.webp",name: "",material: "cotwm"},
+        {src:"swatches/bc_swa_0004/0003.webp",name: "",material: "sidan"},
+        {src:"swatches/bc_swa_0004/0004.webp",name: "",material: "gwlân"},
+        {src:"swatches/bc_swa_0004/0006.webp"}
+    ]
+  },{
     id:"0009",
     thumbnail: "swatches/bc_swa_0009/0001.webp",
     latin: "Leucanthemum vulgare",
@@ -384,15 +397,15 @@ const swatchesData = [
   },
 
   {id: "00034",
-    thumbnail: "swatches/bc_swa_0034/0001.webp",
+    thumbnail: "swatches/bc_swa_0034/0004.webp",
     latin: "Laurus nobilis",
     plant: "Llawryf",
     keywords: "Llawryf, Laurus nobilis",
     carousel: [
+      {src:"swatches/bc_swa_0034/0004.webp",name: "",material: "wool"},
       {src:"swatches/bc_swa_0034/0001.webp",name: "",material: "linen"},
        {src:"swatches/bc_swa_0034/0002.webp",name: "",material: "cotton"},
        {src:"swatches/bc_swa_0034/0003.webp",name: "",material: "silk"},
-       {src:"swatches/bc_swa_0034/0004.webp",name: "",material: "wool"},
       {src:"swatches/bc_swa_0034/0006.webp"}
     ]
   },
@@ -410,15 +423,15 @@ const swatchesData = [
     ]
   },
   {id: "00036",
-    thumbnail: "swatches/bc_swa_0036/0001.webp",
+    thumbnail: "swatches/bc_swa_0036/0004.webp",
     latin: "Cornus sanguinea.",
     plant: "Cornwydden",
     keywords: "Cornwydden,Cornus sanguinea.",
     carousel: [
+          {src:"swatches/bc_swa_0036/0004.webp",name: "",material: "gwlân"},
           {src:"swatches/bc_swa_0036/0001.webp",name: "",material: "lliain"},
           {src:"swatches/bc_swa_0036/0002.webp",name: "",material: "cotwm"},
           {src:"swatches/bc_swa_0036/0003.webp",name: "",material: "sidan"},
-          {src:"swatches/bc_swa_0036/0004.webp",name: "",material: "gwlân"},
           {src:"swatches/bc_swa_0036/0006.webp"}
     ]
   },
@@ -1151,15 +1164,15 @@ const swatchesData = [
     ]
   },
    {id: "0092",
-    thumbnail: "swatches/bc_swa_0092/0001.webp",
+    thumbnail: "swatches/bc_swa_0092/0004.webp",
     latin: "Malva sylvestris",
     plant: "Malwen",
     keywords: "Malwen, Malva sylvestris",
     carousel: [
+          {src:"swatches/bc_swa_0092/0004.webp",name: "",material: "gwlân"},
           {src:"swatches/bc_swa_0092/0001.webp",name: "",material: "lliain"},
           {src:"swatches/bc_swa_0092/0002.webp",name: "",material: "cotwm"},
-          {src:"swatches/bc_swa_0092/0003.webp",name: "",material: "sidan"},
-          {src:"swatches/bc_swa_0092/0004.webp",name: "",material: "gwlân"},
+          {src:"swatches/bc_swa_0092/0003.webp",name: "",material: "sidan"}, 
           {src:"swatches/bc_swa_0092/0006.webp"}
     ]
   }
@@ -1425,15 +1438,15 @@ const swatchesData = [
     ]
   },
    {id: "0107(c)",
-    thumbnail: "swatches/bc_swa_0107(c)/0001.webp",
+    thumbnail: "swatches/bc_swa_0107(c)/0004.webp",
     latin: "Andricus quercuscalicis",
     plant: "Gallenni marmor derw",
     keywords: "Gallenni marmor derw, Andricus quercuscalicis",
     carousel: [
+          {src:"swatches/bc_swa_0107(c)/0004.webp",name: "",material: "gwlân"},
           {src:"swatches/bc_swa_0107(c)/0001.webp",name: "",material: "lliain"},
           {src:"swatches/bc_swa_0107(c)/0002.webp",name: "",material: "cotwm"},
           {src:"swatches/bc_swa_0107(c)/0003.webp",name: "",material: "sidan"},
-          {src:"swatches/bc_swa_0107(c)/0004.webp",name: "",material: "gwlân"},
           {src:"swatches/bc_swa_0107(c)/0006.webp"}
     ]
   },
@@ -2265,8 +2278,7 @@ const swatchesData = [
           {src:"swatches/bc_swa_0124/0001.webp",name: "",material: "lliain"},
           {src:"swatches/bc_swa_0124/0002.webp",name: "",material: "cotwm"},
           {src:"swatches/bc_swa_0124/0003.webp",name: "",material: "sidan"},
-          {src:"swatches/bc_swa_0124/0004.webp",name: "",material: "gwlân"},
-          {src:"swatches/bc_swa_0124/0006.webp"}
+          {src:"swatches/bc_swa_0124/0005.webp"}
     ]
   },
   {id: "0125",
@@ -2401,15 +2413,15 @@ const swatchesData = [
           {src:"swatches/bc_swa_0135/0006.webp"}
     ]
   },{id: "0136",
-    thumbnail: "swatches/bc_swa_0136/0001.webp",
+    thumbnail: "swatches/bc_swa_0136/0004.webp",
     latin: "Persicaria Tinctoria",
     plant: "Indigo",
     keywords: "Persicaria Tinctoria, Indigo",
     carousel: [
+          {src:"swatches/bc_swa_0136/0004.webp",name: "",material: "gwlân"},
           {src:"swatches/bc_swa_0136/0001.webp",name: "",material: "lliain"},
           {src:"swatches/bc_swa_0136/0002.webp",name: "",material: "cotwm"},
           {src:"swatches/bc_swa_0136/0003.webp",name: "",material: "sidan"},
-          {src:"swatches/bc_swa_0136/0004.webp",name: "",material: "gwlân"},
           {src:"swatches/bc_swa_0136/0006.webp"}
     ]
   },

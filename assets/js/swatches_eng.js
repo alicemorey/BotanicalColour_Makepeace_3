@@ -40,6 +40,19 @@ const swatchesData = [
         {src:"swatches/bc_swa_0003/0004.webp",name: "",material: "wool"},
         {src:"swatches/bc_swa_0003/IMG_0005.webp"}
     ]
+  },{
+    id:"0004",
+    thumbnail: "swatches/bc_swa_0004/0001.webp",
+    latin: "Jacobaea vulgaris",
+    plant: "Ragwort",
+    keywords: "Ragwort, Jacobaea vulgaris",
+    carousel: [
+        {src:"swatches/bc_swa_0004/0001.webp",name: "",material: "lliain"},
+        {src:"swatches/bc_swa_0004/0002.webp",name: "",material: "cotwm"},
+        {src:"swatches/bc_swa_0004/0003.webp",name: "",material: "sidan"},
+        {src:"swatches/bc_swa_0004/0004.webp",name: "",material: "gwlân"},
+        {src:"swatches/bc_swa_0004/0005.webp"}
+    ]
   }, {
     id:"0009",
     thumbnail: "swatches/bc_swa_0009/0001.webp",
@@ -415,10 +428,10 @@ const swatchesData = [
     plant: "Dogwood",
     keywords: "Dogwood, Cornus sanguinea, dark yellow, yellow-green ",
     carousel: [
+      {src:"swatches/bc_swa_0036/0004.webp",name: "",material: "wool"},
        {src:"swatches/bc_swa_0036/0001.webp",name: "",material: "linen"},
        {src:"swatches/bc_swa_0036/0002.webp",name: "",material: "cotton"},
        {src:"swatches/bc_swa_0036/0003.webp",name: "",material: "silk"},
-       {src:"swatches/bc_swa_0036/0004.webp",name: "",material: "wool"},
         {src:"swatches/bc_swa_0036/0005.webp"}
     ]
   },
@@ -519,10 +532,10 @@ const swatchesData = [
     plant: "Plum tree",
     keywords: "Plum tree Prunus domestica",
     carousel: [
+      {src:"swatches/bc_swa_0044/0004.webp",name: "",material: "wool"},
       {src:"swatches/bc_swa_0044/0001.webp",name: "",material: "linen"},
        {src:"swatches/bc_swa_0044/0002.webp",name: "",material: "cotton"},
-       {src:"swatches/bc_swa_0044/0003.webp",name: "",material: "silk"},
-       {src:"swatches/bc_swa_0044/0004.webp",name: "",material: "wool"},
+       {src:"swatches/bc_swa_0044/0003.webp",name: "",material: "silk"},  
       {src:"swatches/bc_swa_0044/0005.webp"}
     ]
   },
@@ -748,14 +761,14 @@ const swatchesData = [
     ]
   },
    {id: "00062",
-    thumbnail: "swatches/bc_swa_0062/0001.webp",
+    thumbnail: "swatches/bc_swa_0062/0003.webp",
     latin: "Sambucus nigra",
     plant: "Elder",
     keywords: "Elder,Sambucus nigra",
     carousel: [
+        {src:"swatches/bc_swa_0062/0003.webp",name: "",material: "silk"},
         {src:"swatches/bc_swa_0062/0001.webp",name: "",material: "linen"},
         {src:"swatches/bc_swa_0062/0002.webp",name: "",material: "cotton"},
-        {src:"swatches/bc_swa_0062/0003.webp",name: "",material: "silk"},
         {src:"swatches/bc_swa_0062/0004.webp",name: "",material: "wool"},
         {src:"swatches/bc_swa_0062/0005.webp"}
     ]
@@ -1073,13 +1086,13 @@ const swatchesData = [
     ]
   },
    {id: "00086",
-    thumbnail: "swatches/bc_swa_0086/0001.webp",
+    thumbnail: "swatches/bc_swa_0086/0002.webp",
     latin: "Hedera helix",
     plant: "Common ivy",
     keywords: "Common ivy, Hedera helix",
     carousel: [
-        {src:"swatches/bc_swa_0086/0001.webp",name: "",material: "linen"},
         {src:"swatches/bc_swa_0086/0002.webp",name: "",material: "cotton"},
+        {src:"swatches/bc_swa_0086/0001.webp",name: "",material: "linen"},
         {src:"swatches/bc_swa_0086/0003.webp",name: "",material: "silk"},
         {src:"swatches/bc_swa_0086/0004.webp",name: "",material: "wool"},
         {src:"swatches/bc_swa_0086/0005.webp"}
@@ -1151,15 +1164,15 @@ const swatchesData = [
     ]
   },
    {id: "0092",
-    thumbnail: "swatches/bc_swa_0092/0001.webp",
+    thumbnail: "swatches/bc_swa_0092/0004.webp",
     latin: "Malva sylvestris",
     plant: "Mallow",
     keywords: "Mallow, Malva sylvestris",
     carousel: [
+        {src:"swatches/bc_swa_0092/0004.webp",name: "",material: "wool"},
         {src:"swatches/bc_swa_0092/0001.webp",name: "",material: "linen"},
         {src:"swatches/bc_swa_0092/0002.webp",name: "",material: "cotton"},
         {src:"swatches/bc_swa_0092/0003.webp",name: "",material: "silk"},
-        {src:"swatches/bc_swa_0092/0004.webp",name: "",material: "wool"},
         {src:"swatches/bc_swa_0092/0005.webp"}
     ]
   }
@@ -1361,15 +1374,15 @@ const swatchesData = [
     ]
   },
      {id: "0106(b)",
-    thumbnail: "swatches/bc_swa_0106(b)/0001.webp",
+    thumbnail: "swatches/bc_swa_0106(b)/0004.webp",
     latin: "Phaeolus schweinitzii",
     plant: "Dyers polypore",
     keywords: "Dyers polypore, Phaeolus schweinitzii",
     carousel: [
+        {src:"swatches/bc_swa_0106(b)/0004.webp",name: "",material: "wool"},
         {src:"swatches/bc_swa_0106(b)/0001.webp",name: "",material: "linen"},
         {src:"swatches/bc_swa_0106(b)/0002.webp",name: "",material: "cotton"},
         {src:"swatches/bc_swa_0106(b)/0003.webp",name: "",material: "silk"},
-        {src:"swatches/bc_swa_0106(b)/0004.webp",name: "",material: "wool"},
         {src:"swatches/bc_swa_0106(b)/0005.webp"}
     ]
   },
@@ -1531,7 +1544,7 @@ const swatchesData = [
   },
   {id: "0109(c)",
     thumbnail: "swatches/bc_swa_0109(c)/0001.webp",
-     atin: "Calendula officinalis",
+    latin: "Calendula officinalis",
     plant: "Calendula",
     keywords: "Calendula, Calendula officinalis ",
     carousel: [
@@ -1792,15 +1805,15 @@ const swatchesData = [
     ]
   },
      {id: "0115",
-    thumbnail: "swatches/bc_swa_0115/0001.webp",
+    thumbnail: "swatches/bc_swa_0115/0004.webp",
     latin: "Miscanthus sinensis",
     plant: "Chinese silver grass",
     keywords: "Chinese silver grass, Miscanthus sinensis",
     carousel: [
+        {src:"swatches/bc_swa_0115/0004.webp",name: "",material: "wool"},
         {src:"swatches/bc_swa_0115/0001.webp",name: "",material: "linen"},
         {src:"swatches/bc_swa_0115/0002.webp",name: "",material: "cotton"},
         {src:"swatches/bc_swa_0115/0003.webp",name: "",material: "silk"},
-        {src:"swatches/bc_swa_0115/0004.webp",name: "",material: "wool"},
         {src:"swatches/bc_swa_0115/0005.webp"}
     ]
   },
@@ -2260,8 +2273,7 @@ const swatchesData = [
         {src:"swatches/bc_swa_0124/0001.webp",name: "",material: "linen"},
         {src:"swatches/bc_swa_0124/0002.webp",name: "",material: "cotton"},
         {src:"swatches/bc_swa_0124/0003.webp",name: "",material: "silk"},
-        {src:"swatches/bc_swa_0124/0004.webp",name: "",material: "wool"},
-        {src:"swatches/bc_swa_0124/0005.webp"}
+        {src:"swatches/bc_swa_0124/0004.webp"}
     ]
   },
   {id: "0125",
@@ -2314,15 +2326,15 @@ const swatchesData = [
         {src:"swatches/bc_swa_0128/0005.webp"}
     ]
   },{id: "0129",
-    thumbnail: "swatches/bc_swa_0129/0001.webp",
+    thumbnail: "swatches/bc_swa_0129/0004.webp",
     latin: "Rubia tinctorum",
     plant: "Madder",
     keywords: "Madder, Rubia tinctorum",
     carousel: [
+        {src:"swatches/bc_swa_0129/0004.webp",name: "",material: "wool"},
         {src:"swatches/bc_swa_0129/0001.webp",name: "",material: "linen"},
         {src:"swatches/bc_swa_0129/0002.webp",name: "",material: "cotton"},
         {src:"swatches/bc_swa_0129/0003.webp",name: "",material: "silk"},
-        {src:"swatches/bc_swa_0129/0004.webp",name: "",material: "wool"},
         {src:"swatches/bc_swa_0129/0005.webp"}
     ]
   },{id: "0130",
