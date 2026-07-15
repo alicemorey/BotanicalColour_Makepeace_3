@@ -1545,9 +1545,9 @@ const swatchesData = [
   
      {id: "0110",
     thumbnail: "swatches/bc_swa_0110/0001.webp",
-    latin: "Filix",
-    plant: "Ferns",
-    keywords: "Filix Ferns",
+    latin: "Castanea sativa",
+    plant: "Chestnuts",
+    keywords: "Chestnut, Castanea sativa",
     carousel: [
         {src:"swatches/bc_swa_0110/0001.webp",name: "",material: "linen"},
         {src:"swatches/bc_swa_0110/0002.webp",name: "",material: "cotton"},
