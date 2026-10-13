@@ -1100,3 +1100,150 @@ body {
   }
 
 }
+
+
+/* ==============================
+   RESOURCES SUBMENU
+============================== */
+
+/* Resources button matches existing navigation links */
+.submenu-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  padding: 0;
+  margin: 0;
+
+  border: none;
+  background: transparent;
+
+  color: var(--text);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+
+  cursor: url("cursors/favicon.svg") 32 32, pointer;
+  transition: color 0.2s ease;
+}
+
+/* Same hover colour as existing links */
+.submenu-toggle:hover {
+  color: var(--muted-terracotta);
+}
+
+/* Small plus sign */
+.submenu-arrow {
+  display: inline-block;
+  font-size: 16px;
+  transition: transform 0.2s ease;
+}
+
+/* Rotate plus when open */
+.submenu-toggle[aria-expanded="true"] .submenu-arrow {
+  transform: rotate(45deg);
+}
+
+/* Submenu positioning on desktop */
+.has-submenu {
+  position: relative;
+}
+
+.submenu {
+  position: absolute;
+  top: calc(100% + 20px);
+  left: 50%;
+  transform: translateX(-50%);
+
+  min-width: 180px;
+  margin: 0;
+  padding: 12px 18px;
+
+  list-style: none;
+  background: var(--cream);
+  border: 1px solid var(--warm-beige);
+
+  z-index: 1600;
+}
+
+/* Submenu links */
+.submenu li {
+  margin: 0;
+  padding: 0;
+}
+
+.submenu li a {
+  display: block;
+  padding: 10px 0;
+
+  color: var(--text);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  white-space: nowrap;
+
+  transition: color 0.2s ease;
+}
+
+.submenu li a:hover {
+  color: var(--muted-terracotta);
+}
+
+/* Ensure hidden submenu stays hidden */
+.submenu[hidden] {
+  display: none !important;
+}
+
+/* ==============================
+   MOBILE SUBMENU
+============================== */
+
+@media (max-width: 768px) {
+
+  .submenu-toggle {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 6px 10px;
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .has-submenu {
+    width: 100%;
+  }
+
+  .submenu {
+    position: static;
+    transform: none;
+
+    width: 100%;
+    min-width: 0;
+
+    padding: 4px 0 4px 14px;
+    margin: 0;
+
+    border: none;
+    background: transparent;
+  }
+
+  .submenu li a {
+    padding: 7px 10px;
+    font-size: 14px;
+    white-space: normal;
+  }
+
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+#how-to-dye,
+#archive,
+#blog {
+  scroll-margin-top: 110px;
+}

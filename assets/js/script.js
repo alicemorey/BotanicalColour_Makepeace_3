@@ -271,6 +271,35 @@ window.addEventListener("scroll", handleScroll);
       sidebar.classList.remove("active");
     }
   });
+ 
+ 
+// Resources submenu
+const resourcesToggle = document.getElementById("resourcesToggle");
+const resourcesSubmenu = document.getElementById("resourcesSubmenu");
+
+if (resourcesToggle && resourcesSubmenu) {
+
+  // Open and close the submenu
+  resourcesToggle.addEventListener("click", (e) => {
+    e.stopPropagation();
+
+    const isOpen =
+      resourcesToggle.getAttribute("aria-expanded") === "true";
+
+    resourcesToggle.setAttribute("aria-expanded", String(!isOpen));
+    resourcesSubmenu.hidden = isOpen;
+  });
+
+  // Close the submenu when a link is clicked
+  resourcesSubmenu.querySelectorAll("a").forEach(link => {
+    link.addEventListener("click", () => {
+      resourcesToggle.setAttribute("aria-expanded", "false");
+      resourcesSubmenu.hidden = true;
+    });
+  });
+}
+
+
 
   // close when clicking menu link
   document.querySelectorAll(".menu-item a").forEach(link => {
