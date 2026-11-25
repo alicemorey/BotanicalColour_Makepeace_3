@@ -3,55 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Botanical Colour, Plant-Based Dyes & Natural Colour Archive</title>
-  <meta name="description" content="An archive exploring botanical colour, plant-based dyes, natural pigments, and material processes. Archif sy’n archwilio lliw botanegol, llifynnau seiliedig ar blanhigion, a phrosesau deunyddiau.">
-  <meta name="keywords" content="botanical colour, natural dye, plant dyes, colour palettes, colour inspiration, swatches, colour combinations, Redpath Colour, Pembrokeshire, Makepeace">
+  <title>Sut i Liwio | Lliw Botanegol – Redpath Colour</title>
+  <meta name="description" content="Canllaw ymarferol i liwio naturiol: offer, paratoi ffibr, mordantu, lliwio, addasyddion a chofnodi canlyniadau.">
+  <meta name="keywords" content="lliw botanegol, lliwio naturiol, lliwiau planhigion, mordantu, WOF, Redpath Colour">
   <meta name="author" content="Redpath Colour">
-  <link rel="canonical" href="https://redpathcolour.com/sutiliwio/">
+  <link rel="canonical" href="https://redpathcolour.com/adnoddau.html">
   <meta name="robots" content="index, follow">
 
   <!-- Open Graph / Social Sharing -->
-  <meta property="og:title" content="Botanical Colour,  Redpath Colour">
-  <meta property="og:description" content="An archive exploring botanical colour, plant-based dyes, and material processes.">
+  <meta property="og:title" content="Sut i Liwio | Redpath Colour">
+  <meta property="og:description" content="Canllaw i liw botanegol, lliwiau planhigion a phrosesau deunyddiau.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://redpathcolour.com/sutiliwio/">
-
+  <meta property="og:url" content="https://redpathcolour.com/adnoddau.html">
 
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="/cursors/favicon.svg">
 
   <!-- Styles -->
   <link rel="stylesheet" href="/assets/css/styles.min.css">
+  <link rel="stylesheet" href="/assets/css/how-to-dye-guide.css">
 
   <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
-<img src="images/Yarrow.png" class="bg-image" alt="">
-
 <body class="index-page">
-  
+  <img src="images/Yarrow.png" class="bg-image" alt="">
 
-<header>
-  <!-- Left side: menu toggle -->
-  <div class="header-left">
-    <button id="menuToggle">&#9776;</button>
-  </div>
-
-  <!--
-   <div class="header-left">
-    <div id="back-toggle">
-      <a href= "english.html" class="back-button">BACK</a>
+  <header class="site-header">
+    <div class="header-left">
+      <button id="menuToggle" aria-label="Open navigation menu">
+  &#9776;
+</button>
     </div>
-  </div>-->
-</header>
-
+  </header>
 
   <!-- Sidebar menu -->
   <nav class="sidebar" id="sidebar">
     <ul class="menu">
-      <li  class="menu-item"><a data-key="home" href="index.html">Cymraeg/English</a></li>
-      <li  class="menu-item" ><a href="cymraeg.html">Samplau lliw/Ryseitiau</a></li>
-      <li  class="menu-item"><a data-key="about" href="aboutcym.html">Ynghylch</a></li>
+      <li  class="menu-item"><a data-key="home" href="index.html">English/Cymraeg</a></li>
+      <li  class="menu-item" ><a data-key="swatches" href="cymraeg.html">Samplau lliw</a></li>
+      <li  class="menu-item"><a data-key="about" href="aboutcym.html">Amdanom</a></li>
       <li class="menu-item has-submenu">
           <button
             class="submenu-toggle"
@@ -65,235 +56,159 @@
           </button>
 
         <ul class="submenu" id="resourcesSubmenu" hidden> 
-        <li><a href="adnoddau.html">Sut i Lliwio</a></li>
-        <li><a href="adnoddau.html">Archive</a></li>
-        <li><a href="adnoddau.html">Blog</a></li>
+       <li><a href="adnoddau.html#how-to-dye">Sut i Liwio</a></li>
+        <li><a href="adnoddau.html#wof">WOF</a></li>
+        <li><a href="adnoddau.html#mordanting">Mordantau</a></li>
+        <li><a href="adnoddau.html#dyeing">Lliwio</a></li>
+        <li><a href="adnoddau.html#modifiers">Addasyddion</a></li>
+        <li><a href="adnoddau.html#a-note-about-colour">Nodyn am Liw</a></li>
         </ul></li>
-      <li  class="menu-item"><a data-key="about" href="ymchwilcym.html">Traethawd Sain a Chyhoeddiad</a></li>
-
-      <!--<li  class="menu-item"><a data-key="about" href="contact.html">Contact</a></li>-->
+      <li  class="menu-item"><a data-key="about" href="ymchwilcym.html">Ymchwil a Chyhoeddiadau</a></li>
     </ul>
   </nav>
 
-  <main class="about">
-    <section class="about-container">
-    <section class="about-page">
-  <h1 class="title">Sut i Lliwio</h1>
-  <p class="intro">
-    Mae’r ryseitiau drwy’r wefan hon ar gael i chi eu defnyddio. Rydym yn eich gwahodd i’w dilyn yn fanwl neu i’w trin fel man cychwyn — chwiliwch am blanhigion yn eich tirwedd eich hun, addaswch i’ch tymor lleol, a gwnewch y broses yn un eich hun.
-  </p>
-  <p class="intro">
-    Darllenwch y canlynol cyn i chi ddechrau.
-  </p>
+  <main class="guide-shell" id="how-to-dye">
+    <article class="guide-document">
+      <section class="guide-sheet guide-opening" id="introduction">
+        <h1>Sut i Liwio</h1>
+        <div class="image-placeholder image-opening" role="img" aria-label="Darlun o liwio botanegol"><img src="images/01.png" alt=""></div>
+        <div class="two-columns opening-columns">
+          <div>
+            <p>Cafodd y ryseitiau hyn eu creu gan wirfoddolwyr yn ystod y prosiect Lliw Botanegol: Dull Redpath, gan ddefnyddio planhigion lleol a phlanhigion wedi’u hel o’r gwyllt.</p>
+            <p>Rydym wedi dewis chwe rysáit sy’n arbennig o addas i blant 8 oed a hŷn. Maent yn defnyddio planhigion sydd fel arfer yn hawdd dod o hyd iddynt ac sy’n tyfu’n helaeth.</p>
+            <p>Gallwch ddilyn y ryseitiau’n union, neu eu defnyddio fel man cychwyn. Rhowch gynnig ar blanhigion sy’n tyfu yn eich ardal, addaswch y ryseitiau i’r tymor, a gweld pa liwiau y gallwch eu darganfod.</p>
+            <p>Mae lliwio naturiol yn weithgaredd gwych i’r ystafell ddosbarth. Mae’n dod â gwyddoniaeth, mathemateg, llythrennedd, celf a chynefin at ei gilydd. Gall plant bwyso deunyddiau, mesur meintiau, arsylwi newidiadau mewn lliw a thymheredd, cofnodi canlyniadau a rhagfynegi beth allai ddigwydd nesaf.</p>
+          </div>
+          <div>
+            <p>Os yw’n bosibl, helwch blanhigion lliwio yn lleol ac anogwch y plant i sylwi ar yr hyn sy’n tyfu o’u cwmpas. Gall hyn eu helpu i gysylltu’r gweithgaredd â’r dirwedd a byd natur. Darllenwch y Canllaw Hel Planhigion yn Foesegol ac yn Ddiogel cyn casglu unrhyw blanhigion.</p>
+            <p>Mae sawl cam i liwio naturiol, felly mae’n hawdd rhannu’r broses yn sesiynau dosbarth ar wahân.</p>
+            <p>Meddyliwch amdani fel pobi cacen: paratowch eich cynhwysion, dilynwch y camau yn eu trefn, a chadwch nodiadau am yr hyn rydych wedi’i wneud.</p>
+            <p>Gallwch lawrlwytho’r Cerdyn Hel Planhigion a’r Cerdyn Rysáit i gofnodi o ble y daeth eich planhigion ac i greu a chofnodi eich ryseitiau lliwio naturiol eich hun.</p>
+          </div>
+        </div>
+      </section>
 
-  <section class="safety-notice">
-    <h2>Rhybudd Diogelwch</h2>
-    <p>
-      Mae lliwio naturiol yn arfer gwerth chweil, ond mae angen gofal. Mae llawer o blanhigion
-      — gan gynnwys rhai bwytadwy — yn wenwynig pan gânt eu gwresogi neu eu trin mewn symiau mawr.
-      Er enghraifft, mae dail rhubarb yn rhyddhau asid ocsalig pan gânt eu berwi. Gwiriwch wenwyndra unrhyw blanhigyn cyn ei ddefnyddio.
-    </p>
+      <section class="guide-sheet" id="before-you-begin">
+        <div class="image-placeholder image-wide" role="img" aria-label="Ffotograff yn dangos diogelwch wrth liwio naturiol"><img src="images/02.png" alt=""></div>
+        <h2>Cyn Dechrau</h2>
+        <p class="lead">Mae lliwio naturiol yn cynnwys planhigion, gwres a thamaid bach o gemegion. Mae rhai planhigion yn wenwynig, a gall rhai deunyddiau lliwio lidio’r croen neu’r llygaid.</p>
+        <p class="lead emphasis">Peidiwch byth â defnyddio planhigyn i liwio dim ond am ei fod yn fwytadwy.</p>
+        <p>Gwiriwch bob amser a yw planhigyn yn wenwynig cyn ei ddefnyddio. Gall rhai planhigion sy’n ddiogel i’w bwyta fod yn niweidiol wrth eu gwresogi neu eu defnyddio mewn symiau mawr. Er enghraifft, mae dail riwbob yn cynnwys asid ocsalig ac ni ddylid eu berwi i liwio.</p>
+        <h3>Diogelwch</h3>
+        <div class="two-columns safety-columns">
+          <ul>
+            <li>Dylai oedolyn oruchwylio pob gweithgaredd lliwio sy’n cynnwys gwres neu gemegion.</li>
+            <li>Gwisgwch fenig wrth drin mordantau, addasyddion a baddonau lliw.</li>
+            <li>Gweithiwch mewn lle sydd wedi’i awyru’n dda. Mae gweithio yn yr awyr agored yn ddelfrydol.</li>
+            <li>Peidiwch byth â defnyddio offer cegin i liwio. Cadwch botiau, llwyau, cloriannau ac offer eraill ar gyfer lliwio yn unig.</li>
+            <li>Peidiwch â bwyta nac yfed yn yr ardal liwio.</li>
+          </ul>
+          <ul>
+            <li>Cadwch fwyd, anifeiliaid anwes ac anifeiliaid eraill i ffwrdd o’r ardal liwio.</li>
+            <li>Peidiwch ag anadlu powdrau, stêm nac anwedd.</li>
+            <li>Byddwch yn ofalus o amgylch dŵr poeth ac offer poeth.</li>
+            <li>Labelwch yr holl offer lliwio’n glir fel na chaiff ei ddefnyddio ar ddamwain i baratoi bwyd.</li>
+            <li>Dilynwch gyfarwyddiadau diogelwch y gwneuthurwr ar gyfer unrhyw fordant neu addasydd a brynir.</li>
+          </ul>
+        </div>
+        <aside class="teacher-note"><strong>Nodyn i’r athro:</strong> Gyda disgyblion iau, gall oedolion fesur mordantau ac addasyddion powdr. Gall y plant bwyso ffibr, mesur dŵr, troi baddonau lliw dan oruchwyliaeth a chofnodi arsylwadau.</aside>
+        <p class="disclaimer">Rydych yn gwneud pob gweithgaredd ar eich menter eich hun. Gwnewch ymchwil drylwyr i’r deunyddiau a dilynwch arferion gwaith diogel bob amser. Nid yw’r prosiect yn derbyn cyfrifoldeb am anaf, colled na difrod sy’n codi o ddefnyddio’r wybodaeth hon.</p>
+      </section>
 
-    <ul>
-  <li>Pot dur di-staen (heb adweithio)</li>
-  <li>Llwy hir-handl (ar gyfer lliwio yn unig)</li>
-  <li>Thermomedr</li>
-  <li>Ffynhonnell gwres</li>
-  <li>Menig rwber</li>
-  <li>Tiwb mawr ar gyfer socian</li>
-</ul>
+      <section class="guide-sheet" id="equipment">
+        <h2>Beth Fydd Ei Angen Arnoch</h2>
+        <div class="image-placeholder image-equipment" role="img" aria-label="Darlun o offer lliwio naturiol"><img src="images/03.png" alt=""></div>
+        <h3>Offer sylfaenol</h3>
+        <div class="two-columns equipment-list">
+          <ul><li>Pot lliwio dur gwrthstaen neu enamel</li><li>Llwy â choes hir — ar gyfer lliwio yn unig</li><li>Thermomedr</li><li>Ffynhonnell wres</li><li>Menig rwber neu nitril</li><li>Cynhwysydd mawr neu dwb ar gyfer socian</li></ul>
+          <ul><li>Cloriannau</li><li>Jwg mesur</li><li>Jariau gwydr neu gynwysyddion sy’n gwrthsefyll gwres ar gyfer hydoddi mordantau</li><li>Gefel</li><li>Labeli a phen marcio</li><li>Llyfr nodiadau neu daflen gofnodi lliwio</li></ul>
+        </div>
+        <h3>Ar gyfer arbrofi â lliw</h3>
+        <ul><li><strong>Stribedi profi pH</strong> — defnyddiol i ymchwilio i sut gall hydoddiannau asidig ac alcalïaidd effeithio ar liw.</li><li><strong>Cynwysyddion neu jariau bach</strong> — defnyddiol i brofi gwahanol addasyddion ochr yn ochr.</li><li><strong>Llwyau te</strong> — ar gyfer ychwanegu symiau bach o addasydd.</li></ul>
+        <p>Gellir defnyddio potiau alwminiwm a chopr ar gyfer arbrofion hefyd. Gall metelau gwahanol effeithio ar liwiau naturiol, felly gallant greu lliwiau gwahanol. Ond i gael canlyniadau cyson, rydym yn argymell dur gwrthstaen neu enamel.</p>
+      </section>
 
-<p>
-  Gellir defnyddio potiau alwminiwm a chopr hefyd yn arbrofol ac yn aml maent yn newid canlyniadau lliw mewn ffyrdd diddorol.
-</p>
-  <section>
-  <h2>Deall Mordantau</h2>
+      <section class="guide-sheet" id="wof">
+        <h2>Deall WOF</h2>
+        <p>Byddwch yn gweld WOF drwy’r ryseitiau hyn.</p>
+        <p>Mae WOF yn golygu Pwysau’r Ffibr (Weight of Fibre). Mae’n ffordd syml o gyfrifo faint o blanhigyn, mordant neu gynhwysyn arall sydd ei angen o’i gymharu â phwysau’r ffibr sy’n cael ei liwio. Yn gyntaf, pwyswch y ffibr pan fydd yn hollol sych.</p>
+        <h3>Y cyfrifiad</h3>
+        <div class="formula">Swm sydd ei angen = pwysau sych y ffibr × canran ÷ 100</div>
+        <h3>Er enghraifft</h3>
+        <p>Os yw eich ffibr sych yn pwyso 100 g a bod y rysáit yn gofyn am 10% WOF:</p>
+        <p class="calculation">100 g × 10 ÷ 100 = 10 g</p>
+        <p>Felly, byddech yn defnyddio 10 g o’r cynhwysyn.</p><p>Os yw eich ffibr yn pwyso 250 g:</p>
+        <p class="calculation">250 g × 10 ÷ 100 = 25 g</p>
+        <h3>Eich tro chi</h3>
+        <div class="table-wrap"><table><thead><tr><th>Ffibr sych</th><th>WOF</th><th>Swm sydd ei angen</th></tr></thead><tbody><tr><td>50 g</td><td>10%</td><td>5 g</td></tr><tr><td>100 g</td><td>10%</td><td>10 g</td></tr><tr><td>250 g</td><td>10%</td><td>25 g</td></tr></tbody></table></div>
+        <aside class="teacher-note"><strong>Nodyn i’r athro:</strong> Mae WOF yn gyfle da i gyflwyno canrannau, lluosi, rhannu a rhesymu cyfrannol. Gofynnwch i’r disgyblion gyfrifo’r swm sydd ei angen cyn dechrau’r rysáit.</aside>
+        <p class="important"><strong>Pwysig:</strong> Pwyswch y ffibr pan fydd yn sych bob amser. Gall ffibr gwlyb ddal llawer o ddŵr. Bydd hyn yn rhoi mesuriad llawer trymach ac felly’n anghywir.</p>
+      </section>
 
-  <p>
-    Mae mordant yn sylwedd sy’n clymu llifyn i ffibr, gan greu lliwiau sy’n para.
-    Heb fwrdeinio, bydd y rhan fwyaf o liwiau naturiol yn pylu’n gyflym.
-  </p>
+      <section class="guide-sheet" id="four-stages">
+        <h2>Pedwar Cam Lliwio Naturiol</h2>
+        <p>Mae’r rhan fwyaf o’r ryseitiau yn yr adnodd hwn yn dilyn pedwar cam sylfaenol:</p>
+        <div class="stage-grid"><div class="stage"><span>01</span><h3>Sgwrio</h3><p>golchi’r ffibr</p></div><div class="stage"><span>02</span><h3>Mordantu</h3><p>paratoi’r ffibr i dderbyn y lliw</p></div><div class="stage"><span>03</span><h3>Lliwio</h3><p>ychwanegu lliw</p></div><div class="stage"><span>04</span><h3>Rinsio a sychu</h3><p>golchi a datgelu’r lliw terfynol</p></div></div>
+        <p>Rhwng y camau, cadwch y ffibr yn wlyb os yw’n bosibl. Os yw wedi sychu, sociwch ef mewn dŵr glân am o leiaf awr cyn parhau. Mae hyn yn helpu’r ffibrau i wlychu’n llwyr ac yn helpu’r driniaeth nesaf i’w cyrraedd yn gyfartal.</p>
+        <div class="method-layout"><div><h3>1. Sgwrio: Paratoi’r Ffibr</h3><p>Cyn lliwio, rhaid glanhau’r ffibrau’n drylwyr. Mae sgwrio’n cael gwared ar olew, baw, llwch a haenau gorffen a allai fod wedi’u hychwanegu wrth weithgynhyrchu. Mae ffibr glân yn helpu’r lliw i gyrraedd y ffibrau’n gyfartal.</p><h4>Bydd angen</h4><ul><li>Ffibr sych</li><li>Dŵr</li><li>Lludw soda</li><li>Pot lliwio</li></ul></div>
+          <div><h4>Dull</h4><ol><li>Pwyswch eich ffibr sych a chofnodwch y pwysau.</li><li>Rhowch y ffibr mewn cynhwysydd mawr a’i orchuddio â dŵr.</li><li>Gadewch iddo socian am o leiaf 1 awr.</li><li>Llenwch bot lliwio â digon o ddŵr i’r ffibr symud yn rhydd.</li><li>Ychwanegwch tua 1 llwy de o ludw soda am bob litr o ddŵr.</li><li>Trowch nes iddo hydoddi.</li><li>Ychwanegwch y ffibr gwlyb.</li><li>Cynheswch y baddon yn araf i tua 85°C.</li><li>Cadwch ef ar y tymheredd hwn am 1 awr.</li><li>Symudwch y ffibr yn ysgafn ac yn rheolaidd. Agorwch blygiadau a swigod yn ofalus.</li><li>Diffoddwch y gwres a gadewch i’r ffibr oeri.</li><li>Rinsiwch yn drylwyr mewn dŵr glân.</li><li>Gall y ffibr gael ei sychu nawr neu fynd yn syth i’r cam mordantu.</li></ol></div></div>
+        <aside class="teacher-note"><strong>Nodyn i’r athro:</strong> Gofynnwch i’r disgyblion pam mae angen glanhau’r ffibr cyn ei liwio. Gallwch gymharu darn o ffabrig wedi’i sgwrio â darn heb ei sgwrio, a gweld a ydynt yn amsugno dŵr yn wahanol.</aside>
+      </section>
 
-  <p>
-    Drwy gydol y prosiect hwn fe ddefnyddiom sylffad potasiwm alwminiwm (alwm)
-    fel ein mordant — halen mwynol sy’n digwydd yn naturiol, sy’n ddiogel yn y
-    symiau bach a ddefnyddir mewn lliwio â llaw, ac sydd i’w gael mewn cynhyrchion
-    bob dydd o ddiaroglydd i gadwolion bwyd.
-  </p>
+      <section class="guide-sheet" id="mordanting">
+        <h2>2. Mordantu</h2>
+        <p>Sylwedd yw mordant sy’n helpu cyfansoddion lliw naturiol i lynu wrth ffibrau. Gall hefyd newid y lliw a gynhyrchir.</p>
+        <p>Rydym yn defnyddio sylffad potasiwm alwminiwm (alwm) fel ein prif fordant. Rydym yn dilyn dull Margaret Redpath, sy’n defnyddio llai o ddeunydd: 10% WOF.</p>
+        <p>Gellir mordantu ffibrau protein fel gwlân a sidan yn uniongyrchol ag alwm. Mae angen triniaeth tannin ychwanegol ar ffibrau cellwlos o blanhigion, fel cotwm a lliain, cyn y baddon alwm.</p>
+        <h3>Beth yw ffibr?</h3>
+        <div class="two-columns fibre-types"><div><div class="image-placeholder fibre-image" role="img"><img src="images/04_.png" alt="Darlun o ffibrau cellwlos"><span>Ffibrau cellwlos</span></div><h4>Ffibrau cellwlos</h4><p>Daw ffibrau cellwlos o blanhigion.</p><p>Mae enghreifftiau’n cynnwys:</p><ul><li>Cotwm</li><li>Lliain</li><li>Cywarch</li><li>Llin</li><li>Ramie</li><li>Fiscos bambŵ a ffibrau cellwlos wedi’u hadfywio eraill</li></ul></div><div><h4>Ffibrau protein</h4><p>Daw ffibrau protein o anifeiliaid.</p><p>Mae enghreifftiau’n cynnwys:</p><ul><li>Gwlân</li><li>Sidan</li><li>Cashmir</li><li>Alpaca</li><li>Mohêr</li></ul></div></div>
+        <aside class="teacher-note"><strong>Nodyn i’r athro:</strong> Mae hwn yn gyfle da i gyflwyno’r syniad bod deunyddiau gwahanol wedi’u gwneud o sylweddau gwahanol. Gofynnwch i’r disgyblion feddwl am ddeunyddiau eraill sy’n dod o blanhigion neu anifeiliaid.</aside>
+      </section>
 
-  <p>
-    Rydym yn dilyn dull effaith is Margaret Redpath, gan ddefnyddio 10% WOF
-    (pwysau’r ffibr) — is na llawer o ryseitiau safonol ac yn ysgafnach ar ddyfrffyrdd.
-  </p>
+      <section class="guide-sheet" id="tannin">
+        <div class="split-feature"><div><h2>Pam Mae Angen Tannin ar Ffibrau Cellwlos?</h2><p>Nid yw alwm yn glynu wrth ffibrau cellwlos mor effeithiol ag y mae’n glynu wrth ffibrau protein. Felly, gyda ffibrau cellwlos, rydym yn defnyddio tannin yn gyntaf.</p><p>Mae moleciwlau tannin yn glynu wrth y ffibr cellwlos. Yna gall yr alwm ryngweithio â’r tannin. Mae hyn yn creu arwyneb sy’n derbyn llawer o liwiau naturiol yn well.</p><p>Meddyliwch am y tannin fel pont rhwng y ffibr planhigyn a’r mordant.</p><p>Yn yr adnodd hwn, rydym yn defnyddio tannin afal derw, os yw ar gael o ffynhonnell gyfrifol.</p></div><div class="image-placeholder split-photo" role="img" aria-label="Ffotograff yn dangos mordantu ffibr cellwlos"><img src="images/05.png" alt=""></div></div>
+        <h3>Mordantu Ffibrau Cellwlos</h3><h3>Cam 1: Tannin</h3>
+        <div class="method-layout"><div><h4>Bydd angen</h4><ul><li>Cotwm neu liain wedi’i sgwrio</li><li>Tannin afal derw</li><li>Dŵr</li><li>Pot lliwio</li><li>Jar wydr</li><li>Cloriannau</li></ul><p class="recipe-note">Rydym yn defnyddio tannin afal derw ar 7% WOF.</p></div><div><h4>Dull</h4><ol><li>Gwnewch yn siŵr bod eich ffibr wedi’i sgwrio’n drylwyr.</li><li>Os yw wedi sychu, sociwch ef mewn dŵr glân am o leiaf 1 awr.</li><li>Pwyswch dannin afal derw ar 7% WOF.</li><li>Rhowch y tannin mewn jar wydr.</li><li>Ychwanegwch ychydig o ddŵr cynnes a’i droi nes ei fod wedi gwasgaru’n dda.</li><li>Llenwch bot lliwio â digon o ddŵr i’r ffibr symud yn rhydd.</li><li>Ychwanegwch y cymysgedd tannin a’i droi.</li><li>Ychwanegwch y ffibr gwlyb.</li><li>Cynheswch yn ysgafn i tua 85°C.</li><li>Cadwch ef ar y tymheredd hwn am tua 90 munud, gan symud y ffibr yn rheolaidd.</li><li>Diffoddwch y gwres a gadewch i’r ffibr oeri.</li><li>Rinsiwch y ffibr yn ysgafn unwaith mewn dŵr glân. Peidiwch â rinsio gormod ar y cam hwn. Rydym am gadw’r tannin ynghlwm wrth y ffibr. Gall y ffibr gael ei sychu nawr neu fynd yn syth i’r baddon alwm.</li></ol></div></div>
+      </section>
 
-  <p>
-    Mae ffibrau protein (gwlân a sidan) yn amsugno mordant yn uniongyrchol ac yn
-    gofyn am faddon alwm yn unig. Mae ffibrau cellwlos (cotwm a lliain) yn gofyn am
-    broses dau gam: rhag-driniaeth tannin (rydym yn defnyddio tannin bustl derw,
-    wedi’i gyrchu’n lleol lle bo’n bosibl) ac yna’r baddon alwm.
-  </p>
+      <section class="guide-sheet" id="alum">
+        <div class="image-placeholder image-alum" role="img" aria-label="Darlun o’r cam mordantu ag alwm"><img src="images/06.png" alt=""></div>
+        <h2>Cam 2: Alwm</h2><p>Rydym yn defnyddio sylffad potasiwm alwminiwm (alwm) ar 10% WOF, gan ddilyn dull Margaret Redpath sy’n defnyddio llai o ddeunydd.</p>
+        <div class="method-single"><h3>Dull</h3><ol><li>Pwyswch alwm ar 10% WOF.</li><li>Llenwch bot lliwio â digon o ddŵr i’r ffibr symud yn rhydd.</li><li>Rhowch yr alwm mewn jar wydr.</li><li>Ychwanegwch ychydig o ddŵr poeth a’i droi i hydoddi cymaint â phosibl.</li><li>Ychwanegwch y cymysgedd at y pot lliwio a’i droi.</li><li>Ychwanegwch y ffibr gwlyb.</li><li>Cynheswch y baddon i tua 85°C.</li><li>Diffoddwch y gwres.</li><li>Gorchuddiwch y pot i gadw’r gwres i mewn.</li><li>Gadewch y ffibr yn y baddon am tua 90 munud. Symudwch ef yn ysgafn o bryd i’w gilydd.</li><li>Tynnwch y ffibr allan a gadewch iddo oeri.</li><li>Rinsiwch yn ysgafn mewn dŵr glân.</li><li>Gall y ffibr gael ei liwio nawr neu ei hongian i sychu.</li></ol></div>
+        <aside class="teacher-note"><strong>Nodyn i’r athro:</strong> Gofynnwch i’r disgyblion ragfynegi beth fydd yn digwydd os caiff dau ddarn union yr un fath o ffabrig eu lliwio — un wedi’i fordantu ac un heb ei fordantu. Cofnodwch y canlyniadau a’u cymharu ar ôl i’r ffabrig sychu.</aside>
+      </section>
 
-  <p>
-    Gellir prynu sylffad potasiwm alwminiwm a thanin bustl derw ar-lein.
-  </p>
+      <section class="guide-sheet" id="wool-silk"><h2>Mordantu Gwlân a Sidan</h2><p>Mae gwlân a sidan yn ffibrau protein a gellir eu mordantu’n uniongyrchol ag alwm.</p><div class="method-single"><h3>Dull</h3><ol><li>Sgwriwch y ffibr.</li><li>Gadewch iddo oeri.</li><li>Os yw’r ffibr wedi sychu, sociwch ef mewn dŵr glân am o leiaf 1 awr.</li><li>Cyfrifwch alwm ar 10% WOF.</li><li>Hydoddwch yr alwm mewn ychydig o ddŵr poeth.</li><li>Ychwanegwch yr hydoddiant at bot lliwio sydd â digon o ddŵr i’r ffibr symud yn rhydd.</li><li>Ychwanegwch y ffibr gwlyb.</li><li>Cynheswch i tua 85°C.</li><li>Gadewch am tua 90 munud, gan symud y ffibr yn ysgafn o bryd i’w gilydd.</li><li>Tynnwch y ffibr allan a’i rinsio’n ysgafn.</li><li>Mae’r ffibr yn barod i’w liwio.</li></ol></div><p class="important"><strong>Pwysig:</strong> Gall gwlân ffeltio os yw’r tymheredd yn newid yn sydyn neu os caiff ei drin yn arw. Symudwch ef yn ysgafn ac osgoi ei gynhesu neu ei oeri’n gyflym.</p></section>
 
-</section>
+      <section class="guide-sheet" id="dyeing"><h2>Lliwio</h2><p>Nawr daw’r rhan gyffrous: ychwanegu lliw. Mae sawl ffordd o dynnu lliw o blanhigion. Mae’r ryseitiau yn yr adnodd hwn yn defnyddio dau ddull syml.</p><div class="image-placeholder image-dyeing" role="img" aria-label="Ffotograff o liwio naturiol"><img src="images/07.png" alt=""></div><h3>Dull 1: Tynnu Lliw â Gwres</h3><p>Mae hwn yn ddull syml ar gyfer llawer o blanhigion ffres neu sych.</p><div class="method-single"><h4>Dull</h4><ol><li>Pwyswch eich ffibr sych a chofnodwch y pwysau.</li><li>Paratowch y planhigyn yn ôl y rysáit unigol.</li><li>Rhowch y planhigyn mewn pot lliwio.</li><li>Ychwanegwch ddigon o ddŵr i’r ffibr symud yn rhydd.</li><li>Cynheswch yn ysgafn i tua 80–90°C.</li><li>Gadewch i’r planhigyn ryddhau ei liw am tua 60–90 munud.</li><li>Hidlwch y planhigyn allan os yw’r rysáit yn gofyn am hynny.</li><li>Ychwanegwch eich ffibr gwlyb sydd wedi’i fordantu.</li><li>Cadwch y baddon lliw yn boeth, ond peidiwch â’i ferwi’n gryf.</li><li>Symudwch y ffibr yn ysgafn ac yn rheolaidd fel bod y lliw’n lledaenu’n gyfartal.</li><li>Parhewch nes bod y ffibr wedi cyrraedd y lliw rydych ei eisiau.</li><li>Tynnwch y ffibr allan a gadewch iddo oeri.</li><li>Rinsiwch yn ysgafn mewn dŵr glân.</li><li>Hongiwch i sychu.</li></ol></div><aside class="teacher-note"><strong>Nodyn i’r athro:</strong> Arbrawf yw lliwio naturiol, nid proses sy’n cyfateb lliw yn union. Gall y lliw terfynol newid oherwydd y planhigyn, y tymor, y pridd, y tywydd, y dŵr, y ffibr, y mordant a hyd yr amser lliwio. Anogwch y plant i gofnodi’r newidynnau hyn.</aside></section>
 
-<section class="safety-notice">
-  <h2>Dulliau Lliwio</h2>
-  <p>
-  Drwy’r prosiect hwn, buom yn gweithio gydag amrywiaeth o dechnegau lliwio naturiol
-  yn dibynnu ar ddeunydd planhigion, tymor, a’r canlyniad dymunol. Isod mae pedwar
-  prif ddull y gallwch eu defnyddio gartref.
-</p>
+      <section class="guide-sheet" id="modifying"><h2>Dull 2: Ail-liwio a Newid Lliw</h2><p>Un o’r pethau mwyaf cyffrous am liwiau naturiol yw bod modd newid y lliw weithiau ar ôl lliwio.</p><p>Addasu yw’r enw ar hyn.</p><p>Mae addasydd yn newid yr amgylchedd cemegol o amgylch y lliw. Mae rhai cyfansoddion lliw naturiol yn ymateb i newidiadau mewn pH — sef mesur pa mor asidig neu alcalïaidd yw hydoddiant. Mae addasyddion eraill, fel haearn, yn adweithio’n uniongyrchol â’r cyfansoddion lliw. Mae hyn yn golygu y gall yr un planhigyn greu sawl lliw gwahanol weithiau.</p><h3>Meddyliwch amdano fel hyn</h3><div class="ph-scale" aria-label="Graddfa o asidig i alcalïaidd"><span>Asidig</span><span>→</span><span>Niwtral</span><span>→</span><span>Alcalïaidd</span></div><p>Mae lliwiau gwahanol yn ymateb yn wahanol i’r raddfa hon.</p><ul><li>Mae addasyddion asidig yn gostwng y pH.</li><li>Mae addasyddion alcalïaidd yn codi’r pH.</li><li>Mae addasyddion haearn yn rhyngweithio â’r lliw. Gallant wneud lliwiau’n dywyllach, yn llai llachar neu’n fwy tawel.</li></ul><p>Nid yw pob planhigyn yn newid lliw yn yr un ffordd. Prin y mae rhai lliwiau’n newid, ond gall eraill newid yn fawr.</p><aside class="teacher-note"><strong>Nodyn i’r athro:</strong> Mae hwn yn gyfle gwych i gyflwyno pH. Gall y plant ragfynegi beth fydd yn digwydd i’r lliw cyn ychwanegu addasydd, ac yna gymharu’r rhagfynegiad â’r canlyniad.</aside></section>
 
-<div class="method">
-  <h3>1. Echdynnu Lliw Poeth (Deunydd Planhigion Ffres)</h3>
+      <section class="guide-sheet" id="modifiers"><h2>Addasyddion Cyffredin</h2><div class="modifier-block"><div><h3>Asidig: Asid Sitrig</h3><p>Gall addasydd asidig wneud rhai lliwiau naturiol yn fwy llachar neu eu newid, yn enwedig lliwiau sy’n sensitif i pH. Asid ar ffurf powdr yw asid sitrig, a rhaid ei drin yn ofalus.</p><p class="important"><strong>Pwysig:</strong> Bydd cryfder yr hydoddiant a’r amser yn dibynnu ar y lliw. Dechreuwch bob amser gyda hydoddiant gwan a darn prawf bach.</p></div><div><h4>Dull</h4><ol><li>Gwnewch hydoddiant gwan o asid sitrig mewn dŵr cynnes.</li><li>Rhowch eich ffibr wedi’i liwio a’i rinsio yn yr hydoddiant.</li><li>Gadewch am ychydig funudau.</li><li>Gwyliwch yn ofalus am newidiadau lliw.</li><li>Tynnwch y ffibr allan pan fydd wedi cyrraedd y lliw rydych ei eisiau.</li><li>Rinsiwch yn drylwyr mewn dŵr glân.</li><li>Sychwch a chofnodwch eich canlyniad.</li></ol></div></div><div class="modifier-block"><div><h3>Alcalïaidd: Lludw Soda</h3><p>Sylwedd alcalïaidd yw lludw soda. Gall codi’r pH newid rhai lliwiau naturiol. Yn dibynnu ar y lliw, gallant edrych yn ddyfnach, yn llai llachar, yn gynhesach neu’n fwy melyn neu wyrdd.</p><p>Gan fod lliwiau gwahanol yn ymateb yn wahanol, nid oes un canlyniad lliw sy’n wir bob tro.</p></div><div><h4>Dull</h4><ol><li>Hydoddwch ychydig o ludw soda mewn dŵr cynnes.</li><li>Rhowch eich ffibr wedi’i liwio a’i rinsio yn yr hydoddiant.</li><li>Gadewch am ychydig funudau.</li><li>Gwyliwch y lliw yn ofalus.</li><li>Tynnwch y ffibr allan pan fydd wedi cyrraedd y lliw rydych ei eisiau.</li><li>Rinsiwch yn drylwyr mewn dŵr glân.</li><li>Sychwch a chofnodwch eich canlyniad.</li></ol></div></div><aside class="teacher-note"><strong>Nodyn i’r athro:</strong> Rhowch ddau sampl union yr un fath wedi’u lliwio ochr yn ochr. Ychwanegwch addasydd asidig at un ac addasydd alcalïaidd at y llall. Beth sy’n digwydd? Pa un newidiodd fwyaf?</aside></section>
 
-  <p>
-  Dyma’r dull mwyaf uniongyrchol, a ddefnyddir ar gyfer llawer o blanhigion
-  ffres tymhorol.
-</p>
+      <section class="guide-sheet" id="iron"><div class="split-feature"><div><h2>Haearn: Addasydd Lliw Cryf</h2><p>Mae haearn yn wahanol i addasyddion asidig ac alcalïaidd. Gall adweithio â chyfansoddion lliw naturiol ac mae’n aml yn tywyllu neu’n “tawelu” lliwiau. Gall greu gwyrddion, llwydion, browniau a lliwiau siarcol dyfnach. Mae haearn hefyd yn adweithio’n gryf â thanninau.</p><p>Gall haearn fod yn llawer cryfach nag addasyddion eraill, a gall niweidio ffibrau os defnyddir gormod ohono. Felly, defnyddiwch hydoddiant gwan iawn ac am gyfnod byr.</p></div><div class="image-placeholder split-photo" role="img" aria-label="Ffotograff yn dangos addasu lliw â haearn"><img src="images/08.png" alt=""></div></div><h3>Diogelwch</h3><p>Mae sylffad haearn yn niweidiol os caiff ei lyncu a gall lidio’r croen a’r llygaid. Mewn gweithgareddau dosbarth, dylai oedolyn baratoi’r hydoddiant a goruchwylio ei ddefnydd. Gwisgwch fenig ac amddiffyniad llygaid, osgowch gyswllt â’r croen a’r llygaid, a chadwch y powdr a’r hydoddiant oddi wrth blant.</p><p class="important"><strong>Peidiwch byth â llyncu deunyddiau lliwio haearn na defnyddio offer lliwio i baratoi bwyd.</strong></p><div class="method-single"><h3>Dull</h3><ol><li>Paratowch addasydd haearn gwan iawn yn unol â chyfarwyddiadau’r gwneuthurwr.</li><li>Tynnwch y ffibr wedi’i liwio allan o’i faddon lliw.</li><li>Rhowch ef yn y baddon haearn.</li><li>Gwyliwch y lliw yn ofalus — gall newidiadau ddigwydd yn gyflym.</li><li>Tynnwch y ffibr allan ar ôl cyfnod byr.</li><li>Rinsiwch yn drylwyr.</li><li>Sychwch a chofnodwch y canlyniad.</li></ol></div><p class="important"><strong>Pwysig:</strong> Peidiwch â gadael ffibrau mewn hydoddiannau haearn cryf am gyfnodau hir. Gall haearn wanhau ffibrau, yn enwedig pan gaiff ei ddefnyddio mewn crynodiadau uchel.</p></section>
 
-<p>
-  Caiff deunydd planhigion ffres ei gasglu a’i ddefnyddio ar unwaith. Caiff
-  y ffibr ei wlychu’n drylwyr am tua awr cyn ei liwio er mwyn sicrhau
-  amsugno cyfartal.
-</p>
+      <section class="guide-sheet" id="record-results"><h2>Cofnodwch Eich Canlyniadau</h2><p class="lead">Arbrawf yw lliwio naturiol.</p><p>Cofnododd Margaret a David Redpath eu darganfyddiadau, eu harsylwadau a’u ryseitiau yn fanwl. Drwy gadw cofnodion gofalus, gallent adeiladu eu gwybodaeth dros amser a deall sut roedd planhigion, ffibrau a phrosesau gwahanol yn effeithio ar y lliwiau.</p><p>Ceisiwch gofnodi cymaint ag y gallwch wrth weithio. Bydd eich nodiadau’n eich helpu i gymharu canlyniadau, gweld patrymau a dysgu o’ch arbrofion.</p><div class="two-columns results-columns"><div><h3>Ar gyfer pob baddon lliw, cofnodwch:</h3><ul><li>Y planhigyn a ddefnyddiwyd</li><li>O ble y daeth</li><li>Y dyddiad casglu</li><li>A oedd yn ffres neu’n sych</li><li>Faint o blanhigyn a ddefnyddiwyd</li><li>Pwysau’r ffibr</li><li>Math o ffibr</li><li>Y mordant a ddefnyddiwyd</li><li>Swm y mordant</li><li>Tymheredd</li><li>Hyd yr amser lliwio</li><li>Yr addasydd a ddefnyddiwyd</li><li>Y lliw terfynol</li><li>Unrhyw beth annisgwyl</li></ul></div><div><div class="image-placeholder record-image" role="img"><img src="images/09.png" alt="Darlun o gofnodi canlyniadau lliwio naturiol"></div><p>Gallwch hefyd atodi eich sampl ffibr i’r cerdyn rysáit a rhoi enw i’ch lliw.</p><h3>Beth Wnaethoch Chi ei Ddarganfod?</h3><p>Ceisiwch ofyn:</p><ul><li>Beth newidiodd?</li><li>Beth arhosodd yr un fath?</li><li>Beth, yn eich barn chi, achosodd y gwahaniaeth?</li><li>Beth fyddech chi’n ei newid y tro nesaf?</li></ul></div></div><p class="closing-thought">Dyma pryd mae lliwio naturiol yn dod yn fwy na chreu lliw yn unig — mae’n dod yn ffordd o ymchwilio i fyd natur.</p></section>
 
-<p>
-  Ychwanegir y deunydd planhigion at faddon lliw a’i gynhesu’n ysgafn
-  (fel arfer tua 80–90°C) am 60–90 munud, gan ganiatáu i’r lliw ryddhau’n
-  araf i’r dŵr. Yna ychwanegir y ffibr a’i gadw ar y tymheredd hwn nes
-  cyrraedd dyfnder lliw dymunol.
-</p>
-
-<p>
-  Ar ôl gorffen, caiff y ffibrau eu rinsio’n drylwyr a’u hongian i sychu.
-</p>
-
-</div>
-
-<div class="method">
-  <h3>2. Ail-liwio a Newid Lliw gyda Defnyddio Addaswyr</h3>
-
-  <p>
-    Defnyddir addaswyr i newid neu ddyfnhau lliw ar ôl lliwio, gan ddatgelu
-    arlliwiau cudd o fewn lliwiau planhigion.
-  </p>
-
-  <p>
-    Ar ôl lliwio a rinsio, gellir trochi ffibrau mewn baddonau addasu megis:
-  </p>
-
-  <ul>
-    <li>
-      <strong>Haearn fferrus (dŵr haearn)</strong> — yn aml yn tywyllu ac yn
-      tawelu lliwiau, gan eu symud tuag at arlliwiau llwyd, olewydd a
-      lliwiau dyfnach.
-    </li>
-
-    <li>
-      <strong>Asid sitrig neu finegr</strong> — gallant fywiogi neu newid
-      ychydig ar liwiau sy’n sensitif i asidedd.
-    </li>
-
-    <li>
-      <strong>Soda lludw (baddon alcalïaidd)</strong> — gall symud lliwiau
-      tuag at arlliwiau cynhesach, mwy euraidd neu newid eu cymeriad yn
-      dibynnu ar ffynhonnell y lliw.
-    </li>
-  </ul>
-
-  <p>
-    Fel arfer, caiff y ffibrau eu trochi am gyfnod byr (o ychydig funudau
-    hyd at 10–15 munud, yn dibynnu ar yr effaith a ddymunir), yna eu rinsio
-    a’u sychu.
-  </p>
-
-  <p>
-    Mae’n well defnyddio addasu’n araf ac yn ofalus — gall newidiadau lliw
-    fod yn syth ac yn drawiadol.
-  </p>
-
-</div>
-
-<div class="method">
-  <h3>3. Baddon Indigo wedi’i Eplesu (Deunydd Planhigion Ffres)</h3>
-
-  <p>
-    Mae’r dull hwn yn defnyddio planhigion ffres sy’n cynnwys indigo i greu
-    baddon eplesu naturiol.
-  </p>
-
-  <p>
-    Caiff y deunydd planhigion ei falu neu ei feddalu mewn dŵr cynnes a’i
-    adael mewn cynhwysydd wedi’i selio am sawl diwrnod. Wrth i’r eplesu
-    ddatblygu, daw’r baddon yn weithredol ac mae’r pigment yn cael ei ryddhau
-    a’i drawsnewid yn liw hydawdd.
-  </p>
-
-  <p>
-    Cyn ei ddefnyddio, caiff y baddon ei droi neu ei symud yn ysgafn er mwyn
-    ei actifadu. Mae’r ffibrau’n cael eu gwlychu’n llwyr ymlaen llaw ac yna
-    eu trochi mewn cyfres o drochiadau byr, ailadroddus (fel arfer tri
-    throchiad o 5 munud), gan ganiatáu i ocsigen ddatblygu’r lliw rhwng pob
-    trochiad.
-  </p>
-
-  <p>
-    Yna caiff y ffibrau eu rinsio a’u hongian i sychu. Mae’r lliw yn parhau
-    i ddyfnhau wrth iddo ocsideiddio.
-  </p>
-
-</div>
-
-<div class="method">
-  <h3>4. Baddon Indigo Ffrwctos (Indigo Powdr)</h3>
-
-  <p>
-    Mae’r dull hwn yn defnyddio indigo powdr wedi’i baratoi ymlaen llaw,
-    ynghyd â system leihau i wneud y lliw yn hydawdd.
-  </p>
-
-  <p>
-    Crëir baddon gan ddefnyddio powdr indigo ac asiant lleihau (system sy’n
-    seiliedig ar siwgr fel ffrwctos yn aml, gyda chydran alcalïaidd). Caiff
-    y cymysgedd ei gynhesu’n ysgafn a’i adael nes bod yr hylif yn troi’n
-    lliw melyn-wyrdd clir, yn aml gyda haen weladwy ar yr wyneb.
-  </p>
-
-  <p>
-    Pan fydd yn barod, caiff y ffibrau eu gwlychu’n llwyr a’u trochi’n fyr
-    (tua 2 funud bob trochiad), yna eu tynnu allan i ocsideiddio yn yr aer
-    cyn ailadrodd y broses os dymunir lliw dyfnach.
-  </p>
-
-  <p>
-    Yna caiff y ffibrau eu rinsio a’u hongian i sychu.
-  </p>
-</div>
-  </section>
-
-</section>
-    </section>
+      <section class="guide-sheet" id="a-note-about-colour"><div class="image-placeholder image-colour-note" role="img" aria-label="Darlun o liw botanegol"><img src="images/10.png" alt=""></div><h2>Nodyn am Liw</h2><p class="lead">Anaml iawn y mae lliwio naturiol yn creu’r un lliw yn union ddwywaith.</p><p>Gall y pethau hyn effeithio ar y lliw:</p><ul class="colour-factors"><li>Rhywogaeth y planhigyn</li><li>Lle tyfodd y planhigyn</li><li>Y pridd a’r tywydd</li><li>Yr adeg o’r flwyddyn y cafodd ei gasglu</li><li>A oedd yn ffres neu’n sych</li><li>Faint o blanhigyn a ddefnyddiwyd</li><li>Math o ffibr</li><li>Y mordant</li><li>Y tymheredd</li><li>Hyd yr amser yn y baddon lliw</li><li>Y dŵr a ddefnyddiwyd</li><li>pH y baddon lliw</li></ul><p>Mae’r amrywiaeth hon yn rhan o’r broses.</p><p class="large-statement">Nid oes lliw “anghywir”.</p><p>Yn hytrach, cofnodwch beth ddigwyddodd a gofynnwch pam.</p><p>Rydym wedi cynnwys chwe rysáit lliwio sy’n hawdd eu hail-greu gan ddefnyddio deunyddiau planhigion sy’n helaeth ac yn hawdd eu cael. Mae’r rhain yn cynnwys planhigion lleol o’r DU yn ogystal â deunyddiau sy’n weddillion bwyd, fel croen afocado a chroen nionyn.</p><p>Nid yw rhai o’r planhigion a ddefnyddir ar gyfer lliwio yn fwytadwy, a gallant achosi llid neu effeithiau niweidiol eraill os cânt eu trin yn anghywir. Darllenwch ein Canllaw Casglu Bwyd Gwyllt yn Foesegol ac yn Ddiogel cyn casglu neu drin unrhyw ddeunydd planhigion, a dilynwch yr arweiniad ar adnabod, casglu’n gyfrifol a thrin yn ddiogel.</p><p><em>Ysgrifennwyd gan Abi Makepeace. Darluniau a dyluniad gan Aurelia Lange; ffotograffau a gynhyrchwyd fel rhan o Botanical Colour: The Redpath Way. Gwnaed Botanical Colour: The Redpath Way yn bosibl gyda chyllid gan Gronfa Treftadaeth y Loteri Genedlaethol.</em></p></section>
+    </article>
   </main>
 
   <script src="/assets/js/script.min.js"></script>
-    <script src="translations.js"></script>
     <img src="cursors/favicon.svg" class="custom-cursor" alt="cursor">
+  </body>
 
-</body>
-<footer class="site-footer">
+  <footer class="site-footer">
 
- <nav class="footer-links">
+
+<nav class="footer-links">
     <a href="privacycym.html">Privacy Policy</a>
     <a href="cookiescym.html">Cookies</a>
     <a href="contact.html">Contact</a>
 
   </nav>
 
- <p>© <a class="research-link" href="https://www.makepeacestudio.com/bca">Makepeace Studio CIC 2026</a></p>
+  <p>© <a class="research-link" href="https://www.makepeacestudio.com/bca">Makepeace Studio CIC 2026</a></p>
 
 </footer>
 
